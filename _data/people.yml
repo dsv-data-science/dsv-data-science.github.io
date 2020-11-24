@@ -1,3 +1,7 @@
+Einstein:
+    display_name: "Albert Einstein"
+    role: faculty
+    webpage: http://en.wikipedia.org/wiki/Professor_X
 
 prof-a:
     display_name: "Prof A"

@@ -1,3 +1,11 @@
 _site
+.sass-cache
+.jekyll-metadata
+.jekyll-cache/
+.DS_store
+.ruby-version
+Gemfile.lock
+.tweet-cache/
+
 _includes/pubs.html
 /test-deploy.sh

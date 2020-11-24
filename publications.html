@@ -1,9 +1,39 @@
 ---
 layout: default
 title: Publications
+
+years: [2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013,
+       1956, 1950, 1935, 1905]
 ---
 <p>
-    <a href="{{ site.base }}/bib/pubs.bib">Download BibTeX.</a>
+    <a href="{{ site.base }}/bib/papers.bib">Download BibTeX.</a>
 </p>
 
-{% include pubs.html %}
+<div class="publications">
+    <table class="table">
+        <tbody>
+            {% for y in page.years %}
+                <!-- Show only the years that have papers -->
+                {% capture count_year %}{% bibliography_count -q @*[year={{y}}]* %}{% endcapture %}
+                {% if count_year != "0" %}
+                    <tr>
+                        <td>
+                            <span class="date">
+                                <h3 class="year">{{y}}</h2>
+                            </span>
+                        </td>
+                        <td>
+                            <b> Total: {{count_year}} </b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        </td>
+                        <!-- Each publication generates a row -->
+                        {% bibliography -q @*[year={{y}}]* %}
+                    </tr>
+                {% endif %}
+            {% endfor %}
+        </tbody>
+    </table>
+</div>

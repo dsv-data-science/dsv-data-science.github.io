@@ -51,3 +51,53 @@ navigation:
     link: /publications.html
   - title: Code
     link: /code.html
+
+
+# -----------------------------------------------------------------------------
+# Jekyll settings
+# -----------------------------------------------------------------------------
+
+## Markdown and syntax highlight
+# markdown: kramdown
+# highlighter: rouge
+# highlight_theme: github  # https://github.com/jwarby/jekyll-pygments-themes
+# kramdown:
+#   input: GFM
+#   syntax_highlighter_opts:
+#     css_class: 'highlight'
+#     span:
+#       line_numbers: false
+#     block:
+#       line_numbers: false
+#       start_line: 1
+
+# Plug-ins
+plugins:
+  - jekyll-email-protect
+  # - jekyll-github-metadata
+  - jekyll-paginate-v2
+  - jekyll/scholar
+  - jemoji
+  # - bootstrap
+  # - material-sass
+
+# -----------------------------------------------------------------------------
+# Jekyll Scholar
+# -----------------------------------------------------------------------------
+
+scholar:
+
+  last_name: Einstein
+
+  style: apa
+  locale: en
+
+  source: /bib/
+  bibliography: papers.bib
+  bibliography_template: bib_entry
+
+  group_by: none
+  sort_by: year,month
+  order: descending
+
+  query: "@*"
