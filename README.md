@@ -30,7 +30,7 @@ The original template was modified as follows:
 [Bootstrap]: http://getbootstrap.com/
 
 
-## Setup
+## Setup and Deployment
 
 1. Install the dependencies. You will need [Ruby][], then install Jekyll and bundler
    -  ` gem install jekyll bundler`
@@ -108,4 +108,4 @@ To set up deployments, edit the Makefile and look for the lines where `HOST` and
 
 To upload a new version of the site via rsync over ssh, type `make deploy`. A web hook does this automatically when you push to GitHub. Be aware that the Makefile is configured to have rsync delete stray files from the destination directory.
 
-[Jekyll]: http://jekyllrb.com/
+[Jekyll]: http://jekyllrb.com/]
