@@ -101,7 +101,6 @@ People are listed in a [YAML][] file in `_data/people.yml`. You can list the nam
 
 [YAML]: https://en.wikipedia.org/wiki/YAML
 
-
 ## Deploying to Your Sever
 
 *For Mac/Linux:*
