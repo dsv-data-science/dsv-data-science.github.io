@@ -42,7 +42,7 @@ The original template was modified as follows:
 6. Keep adding content. See below for instructions for each of the various sections.
 7. To start your local server
    - `bundle exec jekyll serve`
-8. To deploy your website to GitHub pages in the `master` branch
+8. To deploy your website to GitHub pages in the `master` branch (*this command needs to be executed in bashGit terminal*)
    - `./bin/deploy --user`
 9. Finally, your website should be allocated in the folder `_src` and automatically committed to the repository.
 
