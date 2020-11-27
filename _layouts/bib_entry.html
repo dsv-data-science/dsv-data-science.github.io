@@ -66,12 +66,15 @@
 		{% endif %}
 		<span class="links">
 			{% if entry.abstract %}
-				[<a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0);" onclick="$('#abstract_{{entry.key}}').slideToggle('fast');return false;">abstract</a>]
+				<!-- [<a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0);" onclick="$('#abstract_{{entry.key}}').slideToggle('fast');return false;">abstract</a>] -->
 			{% endif %}
 		</span>
 		{% if entry.abstract %}
 		<div id="abstract_{{entry.key}}" class="abstract hidden">
 		{{ entry.abstract }}
+		</div>
+		<div class="abstract hidden">
+			<!-- <p>{{ entry.abstract }}</p> -->
 		</div>
 		{% endif %}
 	</td>
