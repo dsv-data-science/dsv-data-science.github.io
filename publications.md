@@ -2,7 +2,7 @@
 layout: default
 title: Publications
 
-years: [2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013,
+years: [2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013,
        1956, 1950, 1935, 1905]
 ---
 <p>
@@ -18,12 +18,14 @@ years: [2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013,
                 {% if count_year != "0" %}
                     <tr>
                         <td>
-                            <span class="date">
-                                <h3 class="year">{{y}}</h2>
-                            </span>
+                            <!-- <span class="date"> -->
+                                <h2 class="year">{{y}}</h2>
+                            <!-- </span> -->
                         </td>
                         <td>
-                            <b> Total: {{count_year}} </b>
+                            <span class="totalpubs">
+                                <b> Total: {{count_year}} </b>
+                            </span>
                         </td>
                     </tr>
                     <tr>

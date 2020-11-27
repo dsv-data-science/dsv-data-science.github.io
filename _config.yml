@@ -1,7 +1,7 @@
-name: Awesome Research Group
-url: http://awesome.example.edu
+name: Data Science Research Group
+url: https://dsv.su.se/en/research/research-areas/datascience
 
-exclude: [bibble, README.md, Makefile, screenshot.png]
+exclude: [README.md, Makefile, screenshot.png]
 
 # colorize code snippets with the pygments module
 highlighter: pygments
@@ -12,20 +12,20 @@ permalink: /blog/:year/:month/:day/:title.html
 # Sections on the "people" page.
 roles:
   - key: faculty
-    name: Faculty
+    name: Senior Researchers
   - key: staff
     name: Staff
-  - key: postdoc
-    name: Researchers
-  - key: grad
-    name: Graduate Students
+  - key: researcher
+    name: Research Assistants
+  - key: phd
+    name: PhD Students
   - key: ugrad
     name: Undergraduate Students
-  - key: ugrad-alum
-    name: Past Undergraduate Students
+  - key: affiliated
+    name: Affiliated Researchers
   - key: collab
-    name: Collaborators
-  - key: alum
+    name: External Collaborators
+  - key: alumni
     name: Alumni
 
 # Number of news stories on the front page.
@@ -33,6 +33,14 @@ front_page_news: 8
 
 # Base pathname for links.
 base: ''
+
+# Setup main page
+logo: img/dsdsv_logo_white_nobg.png #img/dsdsv_logo_white_bg.png
+department_name: Department of Computer and Systems Sciences
+department_url: https://dsv.su.se/
+university_name: Stockholm University
+university_url: https://su.se/
+
 
 # make pages for the _projects folder
 collections:
@@ -49,8 +57,8 @@ navigation:
     link: /research.html
   - title: Publications
     link: /publications.html
-  - title: Code
-    link: /code.html
+  #- title: Code
+  #  link: /code.html
 
 
 # -----------------------------------------------------------------------------
@@ -78,8 +86,6 @@ plugins:
   - jekyll-paginate-v2
   - jekyll/scholar
   - jemoji
-  # - bootstrap
-  # - material-sass
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
@@ -87,7 +93,7 @@ plugins:
 
 scholar:
 
-  last_name: Einstein
+  # last_name: Quintero
 
   style: apa
   locale: en
@@ -96,8 +102,8 @@ scholar:
   bibliography: papers.bib
   bibliography_template: bib_entry
 
-  group_by: none
-  sort_by: year,month
-  order: descending
+  # group_by: none
+  # sort_by: year,month
+  # order: descending
 
-  query: "@*"
+  # query: "@*"

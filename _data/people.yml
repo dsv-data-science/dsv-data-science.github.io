@@ -1,165 +1,185 @@
-Einstein:
-    display_name: "Albert Einstein"
-    role: faculty
-    webpage: http://en.wikipedia.org/wiki/Professor_X
+# SENIOR RESEARCHERS (faculty)
 
-prof-a:
-    display_name: "Prof A"
+Papapetrou:
+    display_name: "Panagiotis Papapetrou"
+    webpage: "http://people.dsv.su.se/~panagiotis/"
     role: faculty
-
-prof-b:
-    display_name: "Prof B"
-    role: faculty
-
-prof-c:
-    display_name: "Prof C"
-    role: faculty
-
-profx:
-    display_name: "Professor X"
-    webpage: "http://en.wikipedia.org/wiki/Professor_X"
-    github: profx
-    role: faculty
-    image: /img/people/prof-x.png
+    image: /img/people/panagiotis_papapetrou-266x300.jpg
     bio: Professor
 
-scott:
-    display_name: "Scott Summers"
-    webpage: "http://en.wikipedia.org/wiki/Cyclops_(comics)"
-    role: staff
-    image: /img/people/scott.png
-    bio: aka Cyclops
+Asker:
+    display_name: "Lars Asker"
+    webpage: "http://people.dsv.su.se/~asker/"
+    role: faculty
+    bio: Associate Professor
 
-wolverine:
-    display_name: "Wolverine"
-    webpage: "http://en.wikipedia.org/wiki/Wolverine_%28comics%29"
-    github: wolverine
-    role: postdoc
+Lindgren:
+    display_name: "Tony Lindgren"
+    webpage: "https://people.dsv.su.se/~tony/"
+    role: faculty
+    bio: Associate Professor
 
-storm:
-    display_name: "Storm"
-    webpage: "http://en.wikipedia.org/wiki/Storm_%28Marvel_Comics%29"
-    role: grad
-    image: /img/people/storm.png
+Samsten:
+    display_name: "Isak Samsten"
+    webpage: "https://people.dsv.su.se/~isak-kar/"
+    github: profx
+    role: faculty
+    bio: Senior Lecturer
 
-grad-a:
-    display_name: "Grad A"
-    role: grad
+Hollmen:
+    display_name: "Jaakko Hollmen"
+    webpage: "https://users.ics.aalto.fi/jhollmen/"
+    role: faculty
+    bio: Senior Lecturer
 
-grad-b:
-    display_name: "Graduate Student B With Long Name"
-    role: grad
+Magnusson:
+    display_name: "Sindri Magnússon"
+    role: faculty
+    bio: Senior Lecturer
 
-grad-c:
-    display_name: "Grad C"
-    role: grad
+Pavlopoulos:
+    display_name: "Ioannis Pavlopoulos"
+    role: faculty
+    bio: Senior Lecturer (fixed-term)
 
-grad-d:
-    display_name: "Grad D"
-    role: grad
+# PhD Students (phd)
 
-grad-e:
-    display_name: "Grad E"
-    role: grad
+Kuratomi:
+    display_name: "Alejandro Kuratomi"
+    role: phd
+    bio: Interpretable and Explainable ML
 
-grad-f:
-    display_name: "Grad F"
-    role: grad
+Chaliane:
+    display_name: "Guilherme Chaliane Jr"
+    role: phd
+    bio: (Spotify)
 
-grad-g:
-    display_name: "Grad G"
-    role: grad
+Rebane:
+    display_name: "Jonathan Rebane"
+    role: phd
+    bio: Medical Data Science
 
-grad-h:
-    display_name: "Grad H"
-    role: grad
+Quintero:
+    display_name: "Luis Quintero"
+    role: phd
+    webpage: "https://luiseduve.github.io/"
+    image: /img/people/lq.jpg
+    bio: Data Science for Virtual Reality
 
-grad-i:
-    display_name: "Grad I"
-    role: grad
+Bampa:
+    display_name: "Maria Bampa"
+    role: phd
+    bio: Medical Data Science
 
-alum-a:
-    display_name: "Alum A"
-    role: alum
-    bio: "Ph.D., 2013. Now at Microsoft Research."
+Movin:
+    display_name: "Maria Movin"
+    role: phd
+    bio: (Spotify)
 
-alum-b:
-    display_name: "Alum B With Way Longer Name"
-    role: alum
+Lee:
+    display_name: "Zed Lee"
+    role: phd
+    bio: Core Data Science Research
 
-alum-c:
-    display_name: "Alum C"
-    role: alum
-    webpage: "https://www.google.com"
+Wang:
+    display_name: "Zhendong Wang"
+    role: phd
+    bio: Interpretable and Explainable ML
 
-alum-d:
-    display_name: "Alum D"
-    role: alum
+# RESEARCH ASSISTANTS (researcher)
 
-alum-e:
-    display_name: "Alum E"
-    role: alum
+Kougia:
+    display_name: "Vasiliki Kougia"
+    role: researcher
+    bio: Natural Language Processing
 
-alum-f:
-    display_name: "Alum F"
-    role: alum
+# AFFILIATED RESEARCHERS (affiliated)
 
-alum-g:
-    display_name: "Alum G"
-    role: alum
+Johansson:
+    display_name: "Ulf Johansson"
+    role: affiliated
+    bio: Professor, Jönköping Univ.
 
-alum-h:
-    display_name: "Alum H"
-    role: alum
+Homem:
+    display_name: "Irvin Homem"
+    role: affiliated
+    bio: PhD, DSV
 
-alum-i:
-    display_name: "Alum I"
-    role: alum
+Zhao:
+    display_name: "Jing Zhao"
+    role: affiliated
+    bio: PhD, DSV
 
-collab-a:
-    display_name: "Collaborator A"
+# EXTERNAL COLLABORATORS (collab)
+
+Gionis:
+    display_name: "Aristides Gionis"
     role: collab
+    bio: Professor, KTH
+    webpage: "https://users.ics.aalto.fi/gionis/"
 
-collab-b:
-    display_name: "Collaborator B With Long Name"
+Rojas:
+    display_name: "Cristian Rojas"
     role: collab
+    bio: Assoc. Professor, KTH
+    webpage: "https://www.kth.se/profile/crro"
 
-collab-c:
-    display_name: "Collaborator C"
+Boström:
+    display_name: "Henrik Boström"
     role: collab
+    bio: Professor, KTH
+    webpage: "http://henke.blogs.dsv.su.se/"
 
-collab-d:
-    display_name: "Collaborator D"
+Spiliopoulou:
+    display_name: "Myra Spiliopoulou"
     role: collab
+    bio: Professor, Univ. Magdeburg
+    webpage: "http://www.kmd.ovgu.de/Team/Academic+Staff/Myra+Spiliopoulou.html"
 
-collab-e:
-    display_name: "Collaborator E"
+Greenstein:
+    display_name: "Stanley Greenstein"
     role: collab
+    bio: Senior Lecturer, Dept. of Law, SU
+    webpage: "https://www.su.se/english/profiles/stgr7735-1.184962"
 
-ugrad-a:
-    display_name: "Ugrad A"
-    role: ugrad
+# ALUMNI (alumni)
 
-ugrad-b:
-    display_name: "Ugrad Student B With Long Name"
-    role: ugrad
+Gurung:
+    display_name: "Ram Gurung"
+    role: alumni
+    bio: "Ph.D. (2020)- Now at SEB"
 
-ugrad-c:
-    display_name: "Ugrad C"
-    role: ugrad
+Homem:
+    display_name: "Irvin Homem"
+    role: alumni
+    bio: "Ph.D. (2018)- Now at IBM"
 
-ugrad-d:
-    display_name: "Ugrad D"
-    role: ugrad
+Samsten:
+    display_name: "Isak Samsten"
+    role: alumni
+    bio: "Ph.D. (2017)- Now at Stockholm Univ."
 
-ugrad-e:
-    display_name: "Ugrad E"
-    role: ugrad
+Zhao:
+    display_name: "Jing Zhao"
+    role: alumni
+    bio: "Ph.D. (2017)- Now at [24]7.ai"
 
-ugrad-alum-a:
-    display_name: "Past Ugrad A"
-    role: ugrad-alum
+Zacarias:
+    display_name: "Orlando Zacarias"
+    role: alumni
+    bio: "Ph.D. (2015)- Now at Eduardo Mondlane Un."
 
-ugrad-alum-b:
-    display_name: "Past Ugrad Student B With Long Name"
-    role: ugrad-alum
+Löfström:
+    display_name: "Tuve Löfström"
+    role: alumni
+    bio: "Ph.D. (2015)- Now at Jönköping Univ."
+
+Dudas:
+    display_name: "Catarina Dudas"
+    role: alumni
+    bio: "Ph.D. (2014)- Now at Volvo Car Group"
+
+Karunaratne:
+    display_name: "Thashmee Karunaratne"
+    role: alumni
+    bio: "Ph.D. (2014)- Now at Stockholm Univ."
