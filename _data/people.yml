@@ -36,6 +36,11 @@ Magnusson:
     display_name: "Sindri Magnússon"
     role: faculty
     bio: Senior Lecturer
+    
+Samsten:
+    display_name: "Isak Samsten"
+    role: faculty
+    bio: Senior Lecturer
 
 Pavlopoulos:
     display_name: "Ioannis Pavlopoulos"
@@ -153,11 +158,6 @@ Homem:
     display_name: "Irvin Homem"
     role: alumni
     bio: "Ph.D. (2018)- Now at IBM"
-
-Samsten:
-    display_name: "Isak Samsten"
-    role: alumni
-    bio: "Ph.D. (2017)- Now at Stockholm Univ."
 
 Zhao:
     display_name: "Jing Zhao"
