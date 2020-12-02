@@ -22,7 +22,7 @@ Lindgren:
 Samsten:
     display_name: "Isak Samsten"
     webpage: "https://people.dsv.su.se/~isak-kar/"
-    github: profx
+    github: isaksamsten
     role: faculty
     bio: Senior Lecturer
 
@@ -95,22 +95,13 @@ Kougia:
 
 # AFFILIATED RESEARCHERS (affiliated)
 
-Johansson:
-    display_name: "Ulf Johansson"
-    role: affiliated
-    bio: Professor, Jönköping Univ.
-
-Homem:
-    display_name: "Irvin Homem"
-    role: affiliated
-    bio: PhD, DSV
-
-Zhao:
-    display_name: "Jing Zhao"
-    role: affiliated
-    bio: PhD, DSV
 
 # EXTERNAL COLLABORATORS (collab)
+
+Johansson:
+    display_name: "Ulf Johansson"
+    role: collab
+    bio: Professor, Jönköping Univ.
 
 Gionis:
     display_name: "Aristides Gionis"
@@ -141,6 +132,11 @@ Greenstein:
     role: collab
     bio: Senior Lecturer, Dept. of Law, SU
     webpage: "https://www.su.se/english/profiles/stgr7735-1.184962"
+
+Mochaourab:
+    display_name: "Rami Mouchaourab"
+    role: collab
+    bio: Researcher, RISE
 
 # ALUMNI (alumni)
 

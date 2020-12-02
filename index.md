@@ -11,10 +11,10 @@ role-tables:
   - roles: [phd]
     width: 6
     image: true
-- - roles: [researcher, affiliated, collab]
+- - roles: [researcher, collab]
     width: 6
     image: false
-  - roles: [ugrad, alumni]
+  - roles: [alumni, ugrad]
     width: 6
     image: false
 

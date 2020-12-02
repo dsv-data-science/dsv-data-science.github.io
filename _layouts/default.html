@@ -31,7 +31,10 @@
                         {% assign itemshorturl = item.link | replace:'.html','' %}
 
                         {% assign maybe-active = '' %}
-                        {% if item.title == 'Research' and page.layout == 'project' %}
+                        {% if item.title == 'Research' and page.layout == 'area' %}
+                            {% assign maybe-active = 'active' %}
+                        {% endif %}
+                        {% if item.title == 'Projects' and page.layout == 'project' %}
                             {% assign maybe-active = 'active' %}
                         {% endif %}
                         {% if itemshorturl == shorturl or is-research %}

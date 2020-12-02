@@ -1,20 +1,15 @@
 ---
-title: A Project
+title: A Research Area
 
 description: |
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut hendrerit blandit
-  varius. Pellentesque habitant morbi tristique senectus et netus et malesuada
-  fames ac turpis egestas.
+  Description research areaa
 
 people:
-  - storm
-  - profx
-  - grad-b
-  - scott
-  - wolverine
+  - Papapetrou
+  - Samsten
 
-layout: project
-last-updated: 2015-05-05
+layout: area
+last-updated: 2020-10-26
 ---
 
 Proin massa augue, eleifend non ultricies eget, feugiat ut nisl. Fusce at
@@ -32,13 +27,3 @@ elit varius mollis et ultrices tortor. Aliquam id dolor cursus, sagittis arcu
 tincidunt, scelerisque nisi. Morbi scelerisque feugiat mi in faucibus. Maecenas
 suscipit aliquet est et efficitur. Nullam sed purus nec nulla placerat ultrices
 ac at ipsum. Mauris a imperdiet eros.
-
-Aenean malesuada tellus nulla, ut ultrices purus dictum et. Nunc non eleifend
-nulla, ut luctus nulla. Nulla et accumsan odio. Fusce libero nisl, rutrum ac
-risus sit amet, interdum feugiat eros. Morbi semper scelerisque magna vel
-malesuada. Curabitur in blandit orci. Cras eu tincidunt odio. Sed consectetur
-nunc purus, id pharetra felis fermentum vitae. Sed rhoncus lacus lacus. Aenean a
-ante et quam viverra pharetra interdum id ligula. Vestibulum lobortis ipsum ac
-risus sagittis, non dapibus metus finibus. Quisque efficitur felis sed felis
-luctus, non egestas ex dapibus. Sed pharetra gravida augue, id posuere nunc
-fringilla eget.

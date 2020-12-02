@@ -5,9 +5,14 @@ title: Publications
 years: [2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013,
        1956, 1950, 1935, 1905]
 ---
-<p>
-    <a href="{{ site.base }}/bib/papers.bib">Download BibTeX.</a>
-</p>
+
+
+<br>
+
+**To see the complete list of publications please click** [this link](https://dsv.su.se/en/research/research-areas/datascience/results){:target="blank"}.
+
+
+<!-- <a href="{{ site.base }}/bib/papers.bib" download>Download BibTeX.</a> -->
 
 <div class="publications">
     <table class="table">
