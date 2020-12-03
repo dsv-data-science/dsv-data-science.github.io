@@ -50,7 +50,6 @@ The original template was modified as follows:
 [Fork]: https://github.com/uwsampa/research-group-web/fork
 
 
-
 ## Publication List
 
 The list of publications is in `bib/papers.bib`. These are compiled and grouped per year. Each co-author that is part of the group (edit in `_data/people.yml`) will have a link that point to their website (if specified).
