@@ -51,44 +51,51 @@ Pavlopoulos:
 Kuratomi:
     display_name: "Alejandro Kuratomi"
     role: phd
-    bio: Interpretable and Explainable ML
+    bio: Interpretable temporal models
 
 Chaliane:
     display_name: "Guilherme Chaliane Jr"
     role: phd
-    bio: (Spotify)
+    bio: Reinforcement learning for user modeling (Spotify)
 
 Rebane:
     display_name: "Jonathan Rebane"
     role: phd
-    bio: Medical Data Science
+    bio: Explainable machine learning for healthcare
 
 Quintero:
     display_name: "Luis Quintero"
     role: phd
     webpage: "https://luiseduve.github.io/"
     image: /img/people/lq.jpg
-    bio: Softcre documentation expert in Virtual Reality
+    bio: Temporal models for immersive technology applications
 
 Bampa:
     display_name: "Maria Bampa"
     role: phd
-    bio: Medical Data Science
+    bio: Learning from complex medical data sources
 
 Movin:
     display_name: "Maria Movin"
     role: phd
-    bio: (Spotify)
+    bio: Explainable machine learning (Spotify)
 
 Lee:
     display_name: "Zed Lee"
     role: phd
-    bio: Hardcore Data Science Research
+    bio: Temporal data mining
 
 Wang:
     display_name: "Zhendong Wang"
     role: phd
-    bio: Interpretable and Explainable ML
+    bio: Explainable machine learning
+
+# RESEARCH ASSISTANTS (researcher)
+
+Kougia:
+    display_name: "Vasiliki Kougia"
+    role: researcher
+    bio: Natural language processing
 
 # RESEARCH ASSISTANTS (researcher)
 

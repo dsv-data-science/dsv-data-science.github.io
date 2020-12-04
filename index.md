@@ -22,17 +22,33 @@ role-tables:
 
 <div class="jumbotron">
     <p>
-        The <b>Data Science Research Group</b> is part of the <i>Department of Computer and Systems Sciences at Stockholm University</i>, more information found in <a href="https://dsv.su.se/en/research/research-areas/datascience/description"><b>this link</b></a>. The group focuses on:
-        <ul>
-            <li><strong>core data science research: </strong>including the development of methods, techniques and tools within the areas of machine learning, sequential and temporal data mining, interpretable and explainable machine learning, ensemble learning, and natural language processing.</li>
-            <li><strong>core data science application areas:</strong> including learning from electronic health records, integrated vehicle health management, network traffic prediction, clinical text mining, and virtual reality.</li>
-        </ul>
+        The <b>Data Science Research Group</b> at the <a href="https://dsv.su.se/en/research/research-areas/datascience/description">Department of Computer and Systems Sciences (DSV) of Stockholm University</a> focuses on core data science resarch as well as on application areas where data science can assist in providing useful insights towards decision making. The group focuses on the formulation of <strong>novel data science problems</strong> and the development of <strong>methods and frameworks</strong> for achieving scalable solutions in core application areas within social sciences and humanities, such as <strong>healthcare</strong>, <strong>law</strong>, <strong>telecommunications</strong>, <strong>finance</strong>, and the <strong>automotive industry</strong>.
     </p>
 </div>
     
 <section>
     <h2>Research</h2>
-    <div class="card-columns">
+   <p> Our core research areas are within machine learning and data mining, with emphasis on 
+   <ul>
+   <li>sequential and temporal data mining</li>
+   <li>interpretable and explainable machine learning</li>
+   <li>reinforcement learning</li>
+   <li>optimization</li>
+   <li>and natural language processing.</li>
+   </ul>
+   </p>
+<p>   Our main application areas include:
+   <ul>
+   <li>including learning from electronic health records</li>
+   <li>integrated vehicle health management</li>
+   <li>clinical text mining</li>
+   <li>virtual reality and immersive technologies</li>
+   </ul>
+   </p>
+
+<p>  A selection of our ongoing projects can be found below. For a list of all ongoing and completed projects of our group you can refer to our projects page. 
+
+<div class="card-columns">
         {% comment %}
         Sort the projects by date, putting those without dates last
         {% endcomment %}
