@@ -100,11 +100,17 @@ People are listed in a [YAML][] file in `_data/people.yml`. You can list the nam
 
 [YAML]: https://en.wikipedia.org/wiki/YAML
 
-## Deploying to Your Sever
+## Deploying to server
 
-*For Mac/Linux:*
-To set up deployments, edit the Makefile and look for the lines where `HOST` and `DIR` are defined. Change these to the host where your HTML files should be copied to.
+So far only Panos and Luis have access to copy files to the server
 
-To upload a new version of the site via rsync over ssh, type `make deploy`. A web hook does this automatically when you push to GitHub. Be aware that the Makefile is configured to have rsync delete stray files from the destination directory.
+```
+git checkout master
+scp -r * <su_username>@mimas.dsv.su.se:/www/datascience
+git checkout source
+```
+
+**DO NOT USE THIS -->** To set up deployments, edit the Makefile and look for the lines where `HOST` and `DIR` are defined. Change these to the host where your HTML files should be copied to.
+
 
 [Jekyll]: http://jekyllrb.com/]
