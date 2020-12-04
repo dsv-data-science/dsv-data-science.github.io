@@ -117,21 +117,3 @@ To create a project, just create a markdown file in the `_projects` folder. Here
 People are listed in a [YAML][] file in `_data/people.yml`. You can list the name, link, bio, and role of each person. Roles (e.g., "Faculty", "Staff", and "Students") are defined in `_config.yml`.
 
 [YAML]: https://en.wikipedia.org/wiki/YAML
-<<<<<<< HEAD
-=======
-
-## Deploying to server
-
-So far only Panos and Luis have access to copy files to the server
-
-```
-git checkout master
-scp -r * <su_username>@mimas.dsv.su.se:/www/datascience
-git checkout source
-```
-
-**DO NOT USE THIS -->** To set up deployments, edit the Makefile and look for the lines where `HOST` and `DIR` are defined. Change these to the host where your HTML files should be copied to.
-
-
-[Jekyll]: http://jekyllrb.com/]
->>>>>>> ff8e902ca02a848a823c2b1cbd89d34557cd6c0c
