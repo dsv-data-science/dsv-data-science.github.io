@@ -47,6 +47,7 @@ role-tables:
    </p>
 
 <p>  A selection of our ongoing projects can be found below. For a list of all ongoing and completed projects of our group you can refer to our projects page. 
+</p>
 
 <div class="card-columns">
         {% comment %}
@@ -60,6 +61,7 @@ role-tables:
             {% endif %}
         {% endfor %}
     </div>
+
 </section>
 
 

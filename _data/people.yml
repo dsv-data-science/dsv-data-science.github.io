@@ -1,50 +1,46 @@
 # SENIOR RESEARCHERS (faculty)
 
 Papapetrou:
-    display_name: "Panagiotis Papapetrou"
+    display_name: "Panagiotis Papapetrou, Professor"
     webpage: "http://people.dsv.su.se/~panagiotis/"
     role: faculty
     image: /img/people/panagiotis_papapetrou-266x300.jpg
-    bio: Professor
+    bio: Time sseries, explainability, healthcare applications
 
 Asker:
-    display_name: "Lars Asker"
+    display_name: "Lars Asker, Associate Professor"
     webpage: "http://people.dsv.su.se/~asker/"
     role: faculty
-    bio: Associate Professor
+    bio: Repsentation learning, healthcare applications
 
 Lindgren:
-    display_name: "Tony Lindgren"
+    display_name: "Tony Lindgren, Associate Professor"
     webpage: "https://people.dsv.su.se/~tony/"
     role: faculty
-    bio: Associate Professor
+    bio: Explainable models, predictive maintanance
 
 Samsten:
-    display_name: "Isak Samsten"
+    display_name: "Isak Samsten, Senior Lecturer"
     webpage: "https://people.dsv.su.se/~isak-kar/"
     github: isaksamsten
     role: faculty
-    bio: Senior Lecturer
-
-Karlsson:
-    display_name: "Isak Samsten"
-    webpage: "https://people.dsv.su.se/~isak-kar/"
+    bio: Explainable models, finance
 
 Hollmen:
-    display_name: "Jaakko Hollmen"
+    display_name: "Jaakko Hollmen, Senior Lecturer"
     webpage: "https://users.ics.aalto.fi/jhollmen/"
     role: faculty
-    bio: Senior Lecturer
+    bio: Probabilistic models, environmental data
 
 Magnusson:
-    display_name: "Sindri Magnússon"
+    display_name: "Sindri Magnússon, Senior Lecturer"
     role: faculty
-    bio: Senior Lecturer
+    bio: Optimization, reinforcement learning
 
 Pavlopoulos:
-    display_name: "Ioannis Pavlopoulos"
+    display_name: "Ioannis Pavlopoulos, Senior Lecturer (fixed term)"
     role: faculty
-    bio: Senior Lecturer (fixed-term)
+    bio: Natural Language Processing
 
 # PhD Students (phd)
 
