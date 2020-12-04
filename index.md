@@ -22,13 +22,13 @@ role-tables:
 
 <div class="jumbotron">
     <p>
-        The <b>Data Science Research Group</b> at the <a href="https://dsv.su.se/en/research/research-areas/datascience/description">Department of Computer and Systems Sciences (DSV) of Stockholm University</a> focuses on core data science resarch as well as on application areas where data science can assist in providing useful insights towards decision making. The group focuses on the formulation of <strong>novel data science problems</strong> and the development of <strong>methods and frameworks</strong> for achieving scalable solutions in core application areas within social sciences and humanities, such as <strong>healthcare</strong>, <strong>law</strong>, <strong>telecommunications</strong>, <strong>finance</strong>, and the <strong>automotive industry</strong>.
+        The <b>Data Science Research Group</b> at the <a href="https://dsv.su.se/en/research/research-areas/datascience/description">Department of Computer and Systems Sciences (DSV) of Stockholm University</a> focuses on core data science resarch as well as on application areas where data science can assist in providing useful insights towards decision making. The group focuses on the formulation of <strong>novel data science problems</strong> and the development of <strong>algorithmic methods</strong> and <strong>methodological pipelines</strong> for achieving scalable solutions in core application areas within <strong>social sciences</strong> and <strong>humanities</strong>.
     </p>
 </div>
     
 <section>
     <h2>Research</h2>
-   <p> Our core research areas are within machine learning and data mining, with emphasis on 
+   <p> The core research profile of the group is within machine learning and data mining, with emphasis on 
    <ul>
    <li>sequential and temporal data mining</li>
    <li>interpretable and explainable machine learning</li>
@@ -37,12 +37,15 @@ role-tables:
    <li>and natural language processing.</li>
    </ul>
    </p>
-<p>   Our main application areas include:
+<p>  The main application areas this group is focusing on include:
    <ul>
-   <li>including learning from electronic health records</li>
-   <li>integrated vehicle health management</li>
+   <li>healthcare and wellbeing</li>
+   <li>integrated vehicle health management and predictive maintanance</li>
+   <li>public health policies and epidemiological models</li>
+   <li>finance</li>
    <li>clinical text mining</li>
    <li>virtual reality and immersive technologies</li>
+   <li>environmental sustainabiity</li>
    </ul>
    </p>
 

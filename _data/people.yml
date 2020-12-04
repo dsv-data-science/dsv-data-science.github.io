@@ -5,101 +5,96 @@ Papapetrou:
     webpage: "http://people.dsv.su.se/~panagiotis/"
     role: faculty
     image: /img/people/panagiotis_papapetrou-266x300.jpg
-    bio: Time sseries, explainability, healthcare applications
+    bio: time sseries, explainability, healthcare applications
 
 Asker:
     display_name: "Lars Asker, Associate Professor"
     webpage: "http://people.dsv.su.se/~asker/"
     role: faculty
-    bio: Repsentation learning, healthcare applications
+    bio: repsentation learning, healthcare applications
 
 Lindgren:
     display_name: "Tony Lindgren, Associate Professor"
     webpage: "https://people.dsv.su.se/~tony/"
     role: faculty
-    bio: Explainable models, predictive maintanance
+    bio: explainable models, predictive maintanance
 
 Samsten:
     display_name: "Isak Samsten, Senior Lecturer"
     webpage: "https://people.dsv.su.se/~isak-kar/"
     github: isaksamsten
     role: faculty
-    bio: Explainable models, finance
+    bio: explainable models, finance
 
 Hollmen:
     display_name: "Jaakko Hollmen, Senior Lecturer"
     webpage: "https://users.ics.aalto.fi/jhollmen/"
     role: faculty
-    bio: Probabilistic models, environmental data
+    bio: probabilistic models, environmental sustainability
 
 Magnusson:
     display_name: "Sindri Magnússon, Senior Lecturer"
+    webpage: "https://www.kth.se/profile/sindrim?l=en"
     role: faculty
-    bio: Optimization, reinforcement learning
+    bio: optimization, reinforcement learning
 
 Pavlopoulos:
     display_name: "Ioannis Pavlopoulos, Senior Lecturer (fixed term)"
     webpage: "https://www.su.se/english/profiles/iopa3492-1.453830"
     role: faculty
-    bio: Natural Language Processing
+    bio: natural language processing
 
 # PhD Students (phd)
 
 Kuratomi:
     display_name: "Alejandro Kuratomi"
     role: phd
-    bio: Interpretable temporal models
+    bio: interpretable temporal models
 
 Chaliane:
     display_name: "Guilherme Chaliane Jr"
     role: phd
-    bio: Reinforcement learning for user modeling (Spotify)
+    bio: learning dynamic in multi-agent environments  (Spotify)
 
 Rebane:
     display_name: "Jonathan Rebane"
     role: phd
-    bio: Explainable machine learning for healthcare
+    bio: explainable temporal models for healthcare applications
 
 Quintero:
     display_name: "Luis Quintero"
     role: phd
     webpage: "https://luiseduve.github.io/"
     image: /img/people/lq.jpg
-    bio: Temporal models for immersive technology applications
+    bio: temporal models for immersive technology applications
 
 Bampa:
     display_name: "Maria Bampa"
     role: phd
-    bio: Learning from complex medical data sources
+    bio: learning from complex medical data sources
 
 Movin:
     display_name: "Maria Movin"
     role: phd
-    bio: Explainable machine learning (Spotify)
+    bio: multi-objective learning for modeling user preferences (Spotify)
 
 Lee:
     display_name: "Zed Lee"
     role: phd
-    bio: Temporal data mining
+    bio: mining temporal abstractions from complex data sources
 
 Wang:
     display_name: "Zhendong Wang"
     role: phd
-    bio: Explainable machine learning
+    bio: explainable and intrerpretable models for healthcare
 
 # RESEARCH ASSISTANTS (researcher)
 
 Kougia:
     display_name: "Vasiliki Kougia"
     role: researcher
-    bio: Natural language processing
+    bio: natural language processing
 
-# RESEARCH ASSISTANTS (researcher)
-
-Kougia:
-    display_name: "Vasiliki Kougia"
-    role: researcher
-    bio: Natural Language Processing
 
 # AFFILIATED RESEARCHERS (affiliated)
 
