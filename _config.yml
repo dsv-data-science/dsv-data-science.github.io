@@ -56,11 +56,11 @@ navigation:
   - title: People
     link: /#people
   - title: Research
-    link: /research
+    link: /research.html
   - title: Projects
-    link: /projects
+    link: /projects.html
   - title: Publications
-    link: /publications
+    link: /publications.html
   #- title: Code
   #  link: /code.html
 

@@ -5,7 +5,8 @@ title: Research Areas
 
 <br>
 
-## **1. Core data science research**
+*GitHub repository of the group <https://github.com/dsv-data-science>*
+
 
 ### Searching and mining sequential and temporal data
 
@@ -24,10 +25,6 @@ Another focus of our research within data science is on methods for generating i
 
 Particular focus is given on natural language processing with emphasis on efficient and resource lean methods for text summarization, classification, and word burst detection. Particular emphasis is given on clinical text mining by applying language technology, such as semantic analysis, to extract accurate and relevant information from very large clinical text sets. The latter is performed in close collaboration with the clinical text mining group.
 
-<br>
-
-## **2. Applied data science research**
-
 ### Learning from Electronic Health Records (EHR)
 
 The key aim is to develop and employ machine learning methods for providing efficient and effective decision support for healthcare and pharmaceutical research. The research group is currently focusing on two concrete problems: (1) learning temporal models for predicting and preventing adverse events in healthcare, such as Adverse Drug Events (ADEs) and (2) understanding heart failure and modeling heart failure patient treatment trajectories.  For the purposes of these two projects, our group has established strong collaboration with Stockholm County Council, Karolinska University Hospital, and Karolinska Institute.
@@ -44,7 +41,7 @@ The main aim is to employ efficient and effective techniques for monitoring cell
 
 ![ntp](/img/areas/netw-traf-pred.png)
 
-<!-- 
+
 <div class="card-columns">
     {% comment %}
     Sort the projects by date, putting those without dates last
@@ -54,4 +51,4 @@ The main aim is to employ efficient and effective techniques for monitoring cell
     {% for p in projects_by_date %}
         {% include researcharea-card.html project=p %}
     {% endfor %}
-</div> -->
+</div>

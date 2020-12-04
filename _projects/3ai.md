@@ -12,7 +12,7 @@ last-updated: 2020-01-23
 ---
 
 **Project leader**:
-- Jan Svanberg, Senior Lecturer
+- Jan Svanberg, Associate Professor
 
 **Researchers**
 - Isak Samsten, Senior Lecturer

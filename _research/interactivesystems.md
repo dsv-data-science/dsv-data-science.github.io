@@ -9,8 +9,15 @@ people:
   - Samsten
 
 layout: area
+image: /img/areas/elec-hea-rec.jpg
 last-updated: 2020-10-26
 ---
+
+<br>
+
+![img](/img/areas/elec-hea-rec.jpg)
+
+## Description
 
 Proin massa augue, eleifend non ultricies eget, feugiat ut nisl. Fusce at
 aliquet justo, id elementum lacus. Praesent eleifend tempus molestie. Nunc
@@ -27,3 +34,11 @@ elit varius mollis et ultrices tortor. Aliquam id dolor cursus, sagittis arcu
 tincidunt, scelerisque nisi. Morbi scelerisque feugiat mi in faucibus. Maecenas
 suscipit aliquet est et efficitur. Nullam sed purus nec nulla placerat ultrices
 ac at ipsum. Mauris a imperdiet eros.
+
+## Links to codes or algorithms
+
+$$ \sum{x^2} $$
+
+## Related Projects
+
+- [Project 1](../_projects/extremum.md)
