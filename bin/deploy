@@ -1,13 +1,15 @@
 #!/usr/bin/env bash
 
 # Run this script to deploy the app to Github Pages
+# Use: --user to deploy from branch `master` to `gh-pages`
+#      by default it moves from `source` to `master`
 
 # Parse cmd arguments
 
-SRC_BRANCH="master"
-DEPLOY_BRANCH="gh-pages"
+SRC_BRANCH="source"
+DEPLOY_BRANCH="master"
 
-USAGE_MSG="usage: deploy [-h|--help] [-u|--user] [-s|--src SRC_BRANCH] [-d|--deploy DEPLOY_BRANCH]"
+USAGE_MSG="usage: deploy [-h|--help] [-u|--user] [-s|--src SRC_BRANCH] [-d|--deploy DEPLOY_BRANCH] [--dsvuser]"
 
 while [[ $# > 0 ]]; do
     key="$1"
@@ -18,8 +20,8 @@ while [[ $# > 0 ]]; do
         exit 0
         ;;
         -u|--user)
-        SRC_BRANCH="source"
-        DEPLOY_BRANCH="master"
+        SRC_BRANCH="master"
+        DEPLOY_BRANCH="gh-pages"
         shift
         ;;
         -s|--src)
@@ -28,6 +30,11 @@ while [[ $# > 0 ]]; do
         ;;
         -d|--deploy)
         DEPLOY_BRANCH="$2"
+        shift
+        ;;
+        --dsvuser)
+        DSVUSER="$2"
+        echo "Trying to rsync with DSV using username: $DSVUSER"
         shift
         ;;
         *)
@@ -76,6 +83,8 @@ then
   git branch -D $DEPLOY_BRANCH
 fi
 git checkout -b $DEPLOY_BRANCH
+
+echo "Building website with Jekyll, please wait..."
 
 # Build site
 bundle exec jekyll build

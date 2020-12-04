@@ -1,54 +1,72 @@
 
-# Research Group website template
+# Data Science Group - website
 
-**Credits**
+**Credits:** This project is based on the [repository](orig_repo) provided by the University of Washington. The website of the original creators can be accessed [here][sampa].
 
-This project is based on the [repository](orig_repo) provided by the University of Washington. The website of the original creators can be accessed [here][sampa].
-
-This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License][license].
+**License:** This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License][license].
 
 [orig_repo]: https://github.com/uwsampa/research-group-web
 [sampa]: http://sampa.cs.washington.edu/
 [license]: https://creativecommons.org/licenses/by-nc/4.0/
 
-**Changes**
-
-The original template was modified as follows:
-- Enable `.bib`  compilation from Jekyll using [jekyll-scholar](https://github.com/inukshuk/jekyll-scholar) instead of requiring python package bibble.
-- A deploy file was generated to upload it to GitHub pages, even though some jekyll-scholar is not compatible with GitHub. The deploy file is based on [another Jekyll template](https://github.com/alshedivat/al-folio/blob/master/bin/deploy)
-
+--- 
 
 ## Features
 
-* Thanks to [Jekyll][], content is just text files. So even faculty should be able to figure it out.
-* Publications list generated from BibTeX.
-* Personnel list. Organize your professors, students, staff, and alumni.
+* The website is based on Ruby and [Jekyll][]. Where the content is just text files edited using [Markdown language](markdown).
+* The publications list is generated from the BibTeX file located in `bin/papers.bib`, using [jekyll-scholar](https://github.com/inukshuk/jekyll-scholar).
+* Personnel list. Organize your professors, students, staff, and alumni are modified from `_data/people.yml`.
 * Combined news stream and blog posts.
 * Easily extensible navigation bar.
 * Responsive (mobile-ready) design based on [Bootstrap][].
 
+[markdown]: https://www.markdownguide.org/basic-syntax/
 [Bootstrap]: http://getbootstrap.com/
 
+## To contribute to the website from your computer
 
-## Setup and Deployment
-
-1. Install the dependencies. You will need [Ruby][], then install Jekyll and bundler
+1. Install [Ruby][] in your computer according to your operating system.
+2. Then, install Jekyll and bundler through:
    -  ` gem install jekyll bundler`
-2. [Fork][] this repository on GitHub.
-3. Clone the fork to your own machine: 
-   - `git clone git@github.com:yourgroup/research-group-web.git`
-4. Check that you use the `source` branch of the repo while development purposes. `master` is used for deployment of the static website and avoid CI/CD in GitHub (which does not support compilation of `.bib`).
-5. Customize. Start with the `_config.yml` file, where you enter the name of the site and its URL.
-6. Keep adding content. See below for instructions for each of the various sections.
-7. To start your local server
+4. Clone the fork to your own machine: 
+   - `git clone https://github.com/dsv-data-science/dsv-data-science.github.io.git`
+5. Access in the terminal to the folder `cd dsv-data-science.github.io`
+6. Install the rest of the gems using: `bundle install`
+7. Check that you use the `source` branch of the repo while development purposes. `master` is used for deployment of the static website and avoid CI/CD in GitHub (which does not support compilation of `.bib`).
+
+
+[Jekyll]: http://jekyllrb.com/]
+[Ruby]: https://www.ruby-lang.org/en/downloads/
+
+## To edit or contribute to the website
+
+1. Keep adding content. See below for instructions for each of the various sections. Create `_posts`, `_projects`, or research areas under `_research`
+2. To start your local server to check how it would look like when deployed to the server.
    - `bundle exec jekyll serve`
-8. To deploy your website to GitHub pages in the `master` branch (*this command needs to be executed in bashGit terminal*)
-   - `./bin/deploy --user`
-9. Finally, your website should be allocated in the folder `_src` and automatically committed to the repository.
+3. The terminal will show an IP where the website is hosted. Usually `127.0.0.1:4000`
+4. Finally, the website with the files to be pushed are in the folder `_src`.
 
-[Ruby]: https://www.ruby-lang.org/en/
-[Fork]: https://github.com/uwsampa/research-group-web/fork
+**Note:** Remember to `git pull` before start editing and `git push` whenever your changes are done.
 
+## Deploying to DSV Sever
+
+After testing your local server, any contributor can update the website `dsv-data-science.github.io` by running the bash command `./bin/deploy`.
+
+To deploy the website in the DSV server `datascience.dsv.su.se` please contact Panos (to request access to the server) or Luis Quintero (he will update the website with changes).
+
+*Connection to the server:* 
+- `HOST: mimas[dot]dsv[d]su[d]se`
+- `ssh <HOST>`
+- `PATH: /www/datascience`
+- `cd <PATH>` and delete all files web files: `rm -r *`
+- Copy the website files through SCP:
+  - `scp -r _src/* [username]@mimas[dot]dsv[d]su[d]se:/www/datascience`
+
+## Work to do
+- Use `rsync` instead of `scp` and add commands to bash in `./bin/deploy`.
+- Modify the projects and research templates with a table of contents on the right side of the page.
+
+# Features details
 
 ## Publication List
 
@@ -99,18 +117,3 @@ To create a project, just create a markdown file in the `_projects` folder. Here
 People are listed in a [YAML][] file in `_data/people.yml`. You can list the name, link, bio, and role of each person. Roles (e.g., "Faculty", "Staff", and "Students") are defined in `_config.yml`.
 
 [YAML]: https://en.wikipedia.org/wiki/YAML
-
-## Deploying to server
-
-So far only Panos and Luis have access to copy files to the server
-
-```
-git checkout master
-scp -r * <su_username>@mimas.dsv.su.se:/www/datascience
-git checkout source
-```
-
-**DO NOT USE THIS -->** To set up deployments, edit the Makefile and look for the lines where `HOST` and `DIR` are defined. Change these to the host where your HTML files should be copied to.
-
-
-[Jekyll]: http://jekyllrb.com/]

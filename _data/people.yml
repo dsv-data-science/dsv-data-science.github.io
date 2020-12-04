@@ -26,6 +26,10 @@ Samsten:
     role: faculty
     bio: Senior Lecturer
 
+Karlsson:
+    display_name: "Isak Samsten"
+    webpage: "https://people.dsv.su.se/~isak-kar/"
+
 Hollmen:
     display_name: "Jaakko Hollmen"
     webpage: "https://users.ics.aalto.fi/jhollmen/"
