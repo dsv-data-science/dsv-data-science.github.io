@@ -10,7 +10,7 @@ people:
 
 layout: area
 image: 
-last-updated: 2020-10-26
+last-updated: 2020-10-10
 ---
 
 <br>

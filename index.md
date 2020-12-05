@@ -27,7 +27,7 @@ role-tables:
 </div>
     
 <section>
-    <h2>Research</h2>
+    <h2>Research</h2>    
    <p> The core research profile of the group is within machine learning and data mining, with emphasis on 
    <ul>
    <li>sequential and temporal data mining</li>

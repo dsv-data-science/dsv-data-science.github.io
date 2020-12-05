@@ -1,8 +1,8 @@
 ---
 title: Learning from Electronic Health Records
 
-description: |
-  Description research areaa
+description: | 
+    The key aim is to develop and employ machine learning methods for providing efficient and effective decision support for healthcare and pharmaceutical research. 
 
 people:
   - Papapetrou
@@ -12,7 +12,7 @@ people:
 
 layout: area
 image: /img/areas/elec-hea-rec.jpg
-last-updated: 2020-10-26
+last-updated: 2020-10-25
 ---
 
 <br>

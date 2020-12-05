@@ -2,15 +2,15 @@
 title: Integrated vehicle management
 
 description: |
-  Description research areaa
+    The aim is to facilitate integrated vehicle health monitoring (IVHM) of heavy trucks. 
 
 people:
-  - Papapetrou
-  - Samsten
+  - Lindgren
+  - Kuratomi
 
 layout: area
 image: 
-last-updated: 2020-10-26
+last-updated: 2020-10-25
 ---
 
 <br>

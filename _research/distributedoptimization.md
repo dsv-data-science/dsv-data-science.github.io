@@ -1,23 +1,22 @@
 ---
-title:  Immersive technologies and virtual reality
+title: Distributed Optimization
 
 description: |
   Description research areaa
 
 people:
-  - Quintero
-
+  - Magnusson
 
 layout: area
-image:
-last-updated: 2020-10-20
+image: 
+last-updated: 2020-10-25
 ---
 
 <br>
 
 ## Description
 
-...
+---
 
 ## Results
 
