@@ -24,7 +24,7 @@ Samsten:
     webpage: "https://people.dsv.su.se/~isak-kar/"
     github: isaksamsten
     role: faculty
-    bio: explainable models, finance
+    bio: explainable models, time series, fintech
 
 Hollmen:
     display_name: "Jaakko Hollmen, Senior Lecturer"
@@ -49,7 +49,7 @@ Pavlopoulos:
 Kuratomi:
     display_name: "Alejandro Kuratomi"
     role: phd
-    bio: interpretable temporal models
+    bio: interpretable models with statistical guarantees
 
 Chaliane:
     display_name: "Guilherme Chaliane Jr"
@@ -66,7 +66,7 @@ Quintero:
     role: phd
     webpage: "https://luiseduve.github.io/"
     image: /img/people/lq.jpg
-    bio: temporal models for immersive technology applications
+    bio: machine learning for immersive technology applications
 
 Bampa:
     display_name: "Maria Bampa"
@@ -86,7 +86,7 @@ Lee:
 Wang:
     display_name: "Zhendong Wang"
     role: phd
-    bio: explainable and intrerpretable models for healthcare
+    bio: explainable sequential models
 
 # RESEARCH ASSISTANTS (researcher)
 
