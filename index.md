@@ -34,7 +34,7 @@ role-tables:
    <li>interpretable and explainable machine learning</li>
    <li>natural language processing</li>
    <li>reinforcement learning</li>
-   <li>optimization</li>
+   <li>distributed optimization</li>
    <li>probabilistic modeling</li>
    </ul>
    </p>
