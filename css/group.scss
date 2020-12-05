@@ -46,8 +46,8 @@ a > .fa {
 /* Jumbotron */
 .jumbotron {
     text-align: justify;
-    padding-top: 1.5em;
-    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.2em;
     font-size: 125%
 }
 
@@ -90,6 +90,23 @@ section {
     margin-bottom: 2em;
 }
 
+#mainframe {
+  width: 100%;
+  float: left;
+}
+#mainframe .maincol {
+  width: 70%;
+  float: left;
+  margin-right: 5%;  
+}
+
+#mainframe .rightcol {
+  width: 25%;
+  float: left;  
+}
+
+
+
 .profile {
     object-fit: cover; // makes sure it's cropped
 }
@@ -105,7 +122,6 @@ section {
 }
 
 .card {
-
     .profile {
         height: 40px;
         width: 40px;

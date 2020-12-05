@@ -2,6 +2,12 @@
 layout: default
 title: Ongoing Projects
 ---
+<div class="jumbotron">
+    <p>
+    Our group is involved in several nationally funded projects involving collaborators from academic institutions as well as public authorities (e.g., the Swedish Health Agency), hospitals, as well as industrial collorators.
+    </p>
+</div>    
+
 <br>
 <div class="card-columns">
     {% comment %}
@@ -18,6 +24,11 @@ title: Ongoing Projects
 
 <br>
 # Completed Projects
+<div class="jumbotron">
+    <p>
+    The group has successfully completed several national and international projects in the broader area of data science and its applications. 
+    </p>
+</div> 
 
 <div class="card-columns">
     {% comment %}
