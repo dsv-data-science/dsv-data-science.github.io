@@ -1,10 +1,23 @@
 ---
 layout: default
-title: Research Projects
+title: Ongoing Projects
 ---
-
+<br>
+<div class="card-columns">
+    {% comment %}
+    Sort the projects by date, putting those without dates last
+    {% endcomment %}
+    {% assign projects_by_date = site.projects | sort: 'last-updated', 'first' %}
+    {% assign projects_by_date = projects_by_date | reverse %}
+    {% for p in projects_by_date %}
+        {% if p.status != "inactive" %}
+            {% include project-card.html project=p %}
+        {% endif %}
+    {% endfor %}
+</div>
 
 <br>
+# Completed Projects
 
 <div class="card-columns">
     {% comment %}
@@ -13,12 +26,15 @@ title: Research Projects
     {% assign projects_by_date = site.projects | sort: 'last-updated', 'first' %}
     {% assign projects_by_date = projects_by_date | reverse %}
     {% for p in projects_by_date %}
-        {% include project-card.html project=p %}
+        {% if p.status == "inactive" %}
+            {% include project-card.html project=p %}
+        {% endif %}
     {% endfor %}
 </div>
 
 <br>
 
+{% comment %}
 # Project Details
 
 |Acronym/Title|Funding Source| Period| Budget|
@@ -35,4 +51,4 @@ title: Research Projects
 | **IRIS**: Forecasted individual maintenance support based on systematic knowledge of component states in inhomogeneous fleets of vehicles | Vinnova |  | 2012 - 2017 | - |
 | **DADEL**: High-performance data mining for drug effect detection | SSF | 2012 - 2016 | 19M SEK |
 
-
+{% endcomment %}
