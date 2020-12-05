@@ -17,7 +17,6 @@ role-tables:
     width: 6
     image: false
 ---
-
 <div id="people">
     {% for role-table in page.role-tables %}
         <section class="people row justify-content-between">

@@ -46,8 +46,8 @@ a > .fa {
 /* Jumbotron */
 .jumbotron {
     text-align: justify;
-    padding-top: 0.5em;
-    padding-bottom: 0.2em;
+    padding-top: 1%;
+    padding-bottom: 1%;
     font-size: 125%
 }
 
@@ -103,9 +103,11 @@ section {
 #mainframe .rightcol {
   width: 25%;
   float: left;  
-  border: 2px double rgb(160, 160, 161);
+  border: 2px groove rgb(160, 160, 160);
   padding: 15px;
   border-radius: 5px;
+  margin-top: 10px;
+  background-color: rgb(250,250,250);
 }
 
 
