@@ -3,10 +3,19 @@ layout: default
 title: Research Profile
 ---
 
-<br>
+<div class="card-columns">
+    {% comment %}
+    Sort the projects by date, putting those without dates last
+    {% endcomment %}
+    {% assign projects_by_date = site.research | sort: 'last-updated', 'first' %}
+    {% assign projects_by_date = projects_by_date | reverse %}
+    {% for p in projects_by_date %}
+        {% include researcharea-card.html project=p %}
+    {% endfor %}
+</div>
+{% comment %}
 
 *GitHub repository of the group <https://github.com/dsv-data-science>*
-
 
 ### Searching and mining sequential and temporal data
 
@@ -41,14 +50,5 @@ The aim is to facilitate integrated vehicle health monitoring (IVHM) of heavy tr
 
 ![ntp](....)
 
+{% endcomment %}
 
-<div class="card-columns">
-    {% comment %}
-    Sort the projects by date, putting those without dates last
-    {% endcomment %}
-    {% assign projects_by_date = site.research | sort: 'last-updated', 'first' %}
-    {% assign projects_by_date = projects_by_date | reverse %}
-    {% for p in projects_by_date %}
-        {% include researcharea-card.html project=p %}
-    {% endfor %}
-</div>

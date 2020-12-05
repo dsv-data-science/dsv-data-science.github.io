@@ -1,0 +1,28 @@
+---
+title: Searching and mining sequential and temporal data
+
+description: |
+  Description research areaa
+
+people:
+  - Papapetrou
+  - Samsten
+
+layout: area
+image: /img/areas/sequential-temporal-data.png
+last-updated: 2020-10-26
+---
+
+<br>
+
+## Description
+
+One of our focus areas is searching and mining rich and complex data sources, with emphasis on sequential and temporal data, histogram data, text, and graphs.  In particular, we are interested in (1) learning predictive models, such as ensemble models, for classification of complex temporal data sources, such as univariate and multivariate time series, event sequences, sequences of temporal intervals, and graphs, (2) building efficient indexing structures and searching techniques for complex data sources, (3) time series prediction and event burst detection using statistical methods and deep learning, and (4) subgroup and rule discovery in transactional and sequential data.
+
+## Results
+
+$$ \sum{x^2} $$
+
+## Related Projects
+
+- [Project 1](../_projects/extremum.md)
