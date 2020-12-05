@@ -14,7 +14,7 @@ role-tables:
 - - roles: [researcher, collab]
     width: 6
     image: false
-  - roles: [alumni, ugrad]
+  - roles: [alumni]
     width: 6
     image: false
 
@@ -32,18 +32,17 @@ role-tables:
    <ul>
    <li>sequential and temporal data mining</li>
    <li>interpretable and explainable machine learning</li>
+   <li>natural language processing</li>
    <li>reinforcement learning</li>
    <li>optimization</li>
-   <li>and natural language processing.</li>
+   <li>probabilistic modeling</li>
    </ul>
    </p>
-<p>  The main application areas this group is focusing on include:
+<p>  The main application areas of the group include:
    <ul>
    <li>healthcare and wellbeing</li>
    <li>integrated vehicle health management and predictive maintanance</li>
-   <li>public health policies and epidemiological models</li>
-   <li>finance</li>
-   <li>clinical text mining</li>
+   <li>public health policies for epidemics</li>
    <li>virtual reality and immersive technologies</li>
    <li>environmental sustainabiity</li>
    </ul>
