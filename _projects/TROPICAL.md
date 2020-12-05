@@ -3,7 +3,8 @@ title: TROPICAL
 status: inactive
 
 description: |
-  Network traffic control and prediction using artificial intelligence
+  Network traffic control and prediction using artificial intelligence  <br>
+  <b>Huawei Flagship Call: 2019</b>
 
 people:
   - Papapetrou

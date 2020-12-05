@@ -1,9 +1,10 @@
 ---
-title: EXTREME
+title: EXTREME - Pilot
 status: inactive
 
 description: |
-  First stage of EXTREMUM.
+ Explainable and Ethical Machine Learning for Knowledge Discovery from Medical Data Sources<br>
+ <b>Digital Futures: 2019-2020</b>
 
 people:
   - Papapetrou

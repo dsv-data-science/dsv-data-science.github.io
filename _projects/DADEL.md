@@ -3,7 +3,8 @@ title: DADEL
 status: inactive
 
 description: |
-  High-performance data mining for drug effect detection
+  High-performance data mining for drug effect detection  <br>
+  <b>Swedish Foundation for Strategic Research: 2012-2016</b>
 
 people:
   - Boström

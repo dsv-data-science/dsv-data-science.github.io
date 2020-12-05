@@ -3,7 +3,8 @@ title: TEMPOMiner
 status: active
 
 description: |
-  Temporal Data Mining for Detecting Adverse Events in Healthcare
+  Temporal Data Mining for Detecting Adverse Events in Healthcare<br>
+  <b>Swedish Research Council: 2017-2020</b>
 
 people:
   - Papapetrou

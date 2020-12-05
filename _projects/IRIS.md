@@ -3,7 +3,8 @@ title: IRIS
 status: inactive
 
 description: |
-  Forecasted individual maintenance support based on systematic knowledge of component states in inhomogeneous fleets of vehicles
+  Forecasted individual maintenance support based on systematic knowledge of component states in inhomogeneous fleets of vehicles <br>
+  <b>Vinnova: 2012-2016</b>
 
 people:
   - Lindgren
@@ -25,7 +26,7 @@ last-updated: 2017-12-07
 - Scania Vehicle Service Information
 - Linköping University, Department of Computer Science and Engineering (ISY) department vehicle
 
-**Project period:** 2017-10-01 to 2018-08-30
+**Project period:** 2012-10-01 to 2017-08-30
 
 **Funding:** Vinnova and Scania
 

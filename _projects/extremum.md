@@ -2,7 +2,8 @@
 title: EXTREMUM
 
 description: |
-  Explainable and Ethical Machine Learning for Knowledge Discovery from Medical Data Sources
+  Explainable and Ethical Machine Learning for Knowledge Discovery from Medical Data Sources<br>
+  <b>Digital Futures: 2020-2023</b>
 
 people:
   - Papapetrou
@@ -34,7 +35,7 @@ last-updated: 2020-11-15
 
 **Project period:** 2020-01-01 to 2023-12-31
 
-**Funding:** Digital Futures
+**Funding source:** Digital Futures
 
 **Budget:** 8.4M SEK
 

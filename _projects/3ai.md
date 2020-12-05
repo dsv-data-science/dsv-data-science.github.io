@@ -2,7 +2,8 @@
 title: 3AI
 
 description: |
-  Automated Auditing using Artificial Intelligence
+  Automated Auditing using Artificial Intelligence<br>
+  <b>Swedish Research Council: 2020-2021</b>
 
 people:
   - Samsten

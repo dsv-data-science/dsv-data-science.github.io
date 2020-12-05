@@ -3,7 +3,8 @@ title: CODA
 status: inactive
 
 description: |
-  Predictive Models with Interpretability and Concept Drift Analytics
+  Predictive Models with Interpretability and Concept Drift Analytics  <br>
+  <b>Vinnova: 2017-2020</b>
 
 people:
   - Lindgren

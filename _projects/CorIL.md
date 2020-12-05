@@ -3,7 +3,8 @@ title: CorIL
 status: inactive
 
 description: |
-  Analyzing registry data to improve treatment of heart failure patients
+  Analyzing registry data to improve treatment of heart failure patients <br>
+  <b>Region Stockholm/Stockholm University: 2017-2019</b>
 
 people:
   - Asker
