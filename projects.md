@@ -4,7 +4,8 @@ title: Ongoing Projects
 ---
 <br>
 <div class="jumbotron">
-    Our group is involved in several national projects in the area of data science with applications to healthcare, law, public health policies for pandemics, and finance. Our current project collaborators include other academic/research institutions (e.g., KTH, RISE), public authorities (e.g., the Swedish Health Agency), healthcare providers (Karolinska Hospital, Karolinska Institute, Danderyds Hospital), as well as industrial peers.
+<p>
+    Our group is involved in several national projects in the area of data science with applications to healthcare, law, public health policies for pandemics, and finance. Our current project collaborators include other academic/research institutions (e.g., KTH, RISE), public authorities (e.g., the Swedish Health Agency), healthcare providers (Karolinska Hospital, Karolinska Institute, Danderyds Hospital), as well as industrial peers. </p>
 </div>    
 
 <div class="card-columns">

@@ -4,7 +4,9 @@ title: Research Profile
 ---
 <br>
 <div class="jumbotron">
+<p>
     The <b>core research profile</b> of the group is within machine learning and data mining, with emphasis on sequential and temporal data mining, interpretable and explainable machine learning, natural language processing, reinforcement learning, distributed optimization, and probabilistic modeling. The <b>main application areas</b> of the group include healthcare and wellbeing, ntegrated vehicle health management and predictive maintanance, public health policies for epidemics, virtual reality and immersive technologies, environmental sustainabiity.
+    </p>
 </div>    
 <div class="card-columns">
     {% comment %}
