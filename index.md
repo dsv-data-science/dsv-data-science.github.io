@@ -81,7 +81,7 @@ role-tables:
     </div>
 </div>
 
-
+{% comment %}
 <div id="people">
     <h2>People</h2>
     {% for role-table in page.role-tables %}
@@ -96,3 +96,4 @@ role-tables:
         </section>
     {% endfor %}
 </div>
+{% endcomment %}
