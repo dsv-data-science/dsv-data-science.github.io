@@ -10,7 +10,6 @@ people:
   - Bampa
 
 layout: project
-image: ""
 last-updated: 2020-11-14
 ---
 
