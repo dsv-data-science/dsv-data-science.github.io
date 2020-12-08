@@ -26,8 +26,6 @@ last-updated: 2019-06-20
 
 **Budget:** 3.4M SEK
 
-<!-- [![EXTREMUM](http://img.youtube.com/vi/2Bp0-3XsUWk/0.jpg)](https://youtu.be/2Bp0-3XsUWk "EXTREMUM" ){:target="_blank"} -->
-
 <br>
 
 ### Description

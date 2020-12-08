@@ -30,8 +30,6 @@ last-updated: 2017-12-13
 
 **Budget:** Approx 18.2M SEK
 
-<!-- [![EXTREMUM](http://img.youtube.com/vi/2Bp0-3XsUWk/0.jpg)](https://youtu.be/2Bp0-3XsUWk "EXTREMUM" ){:target="_blank"} -->
-
 <br>
 
 ### Description

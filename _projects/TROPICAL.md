@@ -25,10 +25,13 @@ last-updated: 2019-06-19
 
 **Budget:** 100K USD
 
-<!-- [![EXTREMUM](http://img.youtube.com/vi/2Bp0-3XsUWk/0.jpg)](https://youtu.be/2Bp0-3XsUWk "EXTREMUM" ){:target="_blank"} -->
-
 <br>
 
 ### Description
+This project is a pilot study on the applicability of temporal machine learning methods, such as time series prediction and LSTM recurrent neural networks for network traffic identification and estimation. Moreover, it will evaluate the performance of random forests for temporal data series corresponding to network traffic for the task of network traffic identification. Finally, these techniques will then be incorporated to dynamically configure the DRX parameters in a simplified network model, hence providing substantial trade-offs between power reduction and network latency.
 
-The main objective of this project is to apply machine learning methods for network traffic prediction.
+### Implementation
+
+The main implementation steps include:
+ * Time series prediction
+ * Dynamic configuration of DRX

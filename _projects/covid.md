@@ -29,14 +29,14 @@ last-updated: 2020-11-14
 
 **Budget:** 1M SEK
 
-
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/2Bp0-3XsUWk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 <br>
 
 ### Description
-
-
+<p>Epidemics of infectious diseases are triggered by factors such as changes in the ecology of the host population, genetic changes in a well-established virus, or a novel pathogen. The result is that host immunity towards the pathogen is reduced below the endemic equilibrium leading to exceeding the transmission threshold of the pathogen. One such example is Covid-19. This project is a collaborative effort between the Public Health Agency of Sweden, Folkhälsomyndigheten (FOHM) and Stockholm University (SU) for formulating new strategies for effective spread prevention and mitigation of pandemics, with emphasis on Covid-19. Our goal is to develop novel methods and tools by coupling epidemic compartmental models with deep reinforcement learning for optimally adaptive epidemic control policies. 
+</p>
 <br>
 
+{% comment %}
 ### Implementation
+
+{% endcomment %}
