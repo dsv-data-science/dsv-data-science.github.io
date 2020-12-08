@@ -2,7 +2,6 @@
 title: Searching and mining sequential and temporal data
 highlight: priority
 description: |
- One of our focus areas is searching and mining rich and complex data sources, with emphasis on sequential and temporal data, histogram data, text, and graphs. 
 
 people:
   - Papapetrou

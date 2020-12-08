@@ -1,8 +1,7 @@
 ---
-title: Natural Language Processing
+title: Natural language processing
 
 description: |
-  Description research areaa
 
 people:
   - Pavlopoulos

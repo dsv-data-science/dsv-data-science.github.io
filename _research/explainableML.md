@@ -2,7 +2,6 @@
 title: Interpretable and explainable models
 highlight: priority
 description: |
-    We focus on methods for generating interpretable and explainable models, e.g., counterfactual explanations, locally explainable models, and rule learning.
 
 people:
   - Papapetrou

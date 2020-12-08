@@ -1,9 +1,8 @@
 ---
-title: Learning from Electronic Health Records
+title: Learning from electronic health records
 highlight: priority
 
 description: | 
-    The key aim is to develop and employ machine learning methods for providing efficient and effective decision support for healthcare and pharmaceutical research. 
 
 people:
   - Papapetrou

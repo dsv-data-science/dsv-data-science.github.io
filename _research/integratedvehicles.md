@@ -2,7 +2,6 @@
 title: Integrated vehicle management
 
 description: |
-    The aim is to facilitate integrated vehicle health monitoring (IVHM) of heavy trucks. 
 
 people:
   - Lindgren

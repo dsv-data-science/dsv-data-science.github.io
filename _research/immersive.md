@@ -2,7 +2,6 @@
 title:  Immersive technologies and virtual reality
 
 description: |
-  Description research areaa
 
 people:
   - Quintero

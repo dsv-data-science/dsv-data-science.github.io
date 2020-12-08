@@ -1,8 +1,8 @@
 ---
-title: Distributed Optimization
+title: Distributed optimization and reinforcement learning
 
 description: |
-  Description research areaa
+
 
 people:
   - Magnusson
