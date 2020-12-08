@@ -7,20 +7,15 @@
 	</td>
 
 	<td class="publication">
-		<span class="venuetype">
-			<i>[{{ entry.type }}]</i>
-		</span>
 		<span class="pubtitle">
 			{% if entry.url %}
-			<img src="img/pdficon_small.png" width="16"
-				height="16" alt="PDF" />
 			<a href="{{ entry.url |escape }}">{{ entry.title }}</a>
 			{% else %}
 			{{ entry.title }}
 			{% endif %}
 		</span>
-		<br>
-		<span class="authors">
+		<br />
+		<span class="authors" style="font-size:90%">
 			{% for author in entry.author_array %}
 			  {% if forloop.length == 1 %}
 				{% if author.last == site.scholar.last_name %}
@@ -53,17 +48,24 @@
 			  {% endif %}
 			{% endfor %}
 		</span>
-		
-		{% if entry.journal %}
-			<span class="venue">
-			<br><i>{{ entry.journal }}</i> 
-			</span>.
-		{% endif %}
+		<br/>
+		<span style="font-size:90%">
+		{% if entry.type == "article" %}
+        <em>{{entry.journal}}</em>,
+      {% elsif entry.type == "inproceedings" %}
+        <em>In {{entry.booktitle}}</em>,
+      {% endif %}
+      {% if entry.year %}
+        {{entry.year}}
+				{% endif %}
+		</span>
+
+
 		{% if entry.note %}	
 			<span class="note">
 			<br><b>{{ entry.note|escape }}.</b>
 			</span>
-		{% endif %}
+			{% endif %}
 		<span class="links">
 			{% if entry.abstract %}
 				<!-- [<a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0);" onclick="$('#abstract_{{entry.key}}').slideToggle('fast');return false;">abstract</a>] -->
