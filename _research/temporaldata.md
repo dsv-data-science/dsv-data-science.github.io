@@ -29,5 +29,5 @@ One of our focus areas is searching and mining rich and complex data sources, wi
 
 ## Related Projects
 
-- [EXTREMUM](../_projects/extremum.md)
-- [3AI](../_projects/3ai.md)
+- [EXTREMUM](../projects/extremum.html)
+- [3AI](../projects/3ai.html)
