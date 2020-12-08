@@ -13,6 +13,7 @@ layout: area
 image: "/img/areas/sequential-temporal-data.png"
 last-updated: 2020-11-01
 ---
+<br>
 
 ## Description
 
@@ -20,6 +21,7 @@ One of our focus areas is searching and mining rich and complex data sources, wi
 
 {% capture count_pub %}{% bibliography_count -q @*[keywords=temporal]* %}{% endcapture %}
 {% if count_pub != "0" %}
+<br>
 
 ## Latest publications
 
@@ -27,7 +29,7 @@ One of our focus areas is searching and mining rich and complex data sources, wi
     <table class="table">
         <tbody>
         <tr>
-          {% bibliography -q @*[keywords=temporal]*  --max 10 %}
+          {% bibliography -q @*[keywords=temporal]*  -- max 10 -- reverse%}
         </tr>
         </tbody>
     </table>

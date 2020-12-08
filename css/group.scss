@@ -92,19 +92,19 @@ section {
 }
 
 #mainframe {
-  width: 1024px;
+  width: 100%;
   float: left;
   overflow-y: hidden;
-  overflow-x: scroll;
+  overflow-x: auto;
 }
 #mainframe .maincol {
-  width: 700px;
+  width: 70%;
   float: left;
   margin-right: 5%;  
 }
 
 #mainframe .rightcol {
-  width: 300px;
+  width: 25%;
   float: left;  
   padding: 15px;
   border-radius: 15px 50px;
