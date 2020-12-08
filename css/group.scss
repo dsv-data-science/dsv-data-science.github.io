@@ -96,18 +96,19 @@ section {
   float: left;
 }
 #mainframe .maincol {
-  width: 70%;
+  width: 65%;
   float: left;
   margin-right: 5%;  
 }
 
 #mainframe .rightcol {
-  width: 25%;
+  width: 30%;
   float: left;  
   padding: 15px;
   border-radius: 15px 50px;
   margin-top: 10px;
   background-color: rgb(230,230,230);
+  position: right;
 }
 
 
