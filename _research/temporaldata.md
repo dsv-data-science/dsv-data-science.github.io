@@ -29,7 +29,7 @@ One of our focus areas is searching and mining rich and complex data sources, wi
     <table class="table">
         <tbody>
         <tr>
-          {% bibliography -q @*[keywords=temporal]*  -- max 10 -- reverse%}
+          {% bibliography -q @*[keywords=temporal]*  -- max 10 %}
         </tr>
         </tbody>
     </table>
