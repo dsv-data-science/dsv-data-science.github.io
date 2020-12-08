@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Ongoing Projects
+
 ---
 <br>
 <div class="jumbotron">

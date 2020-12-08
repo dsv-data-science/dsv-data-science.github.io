@@ -1,5 +1,6 @@
 ---
 title: Covid-Sim
+highlight: priority
 
 description: |
   Artificial Intelligence for Simulating and Mitigating Pandemics<br>

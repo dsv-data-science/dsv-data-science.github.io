@@ -27,42 +27,44 @@ role-tables:
 </div>
 <div id="mainframe">
     <div class="maincol">
-    <h2>Research</h2>    
-   <p> The core research profile of the group is within machine learning and data mining, with emphasis on 
-   <ul>
-   <li>sequential and temporal data mining</li>
-   <li>interpretable and explainable machine learning</li>
-   <li>natural language processing</li>
-   <li>reinforcement learning</li>
-   <li>distributed optimization</li>
-   <li>probabilistic modeling</li>
-   </ul>
-   </p>
-<p>  The main application areas of the group include:
-   <ul>
-   <li>healthcare and wellbeing</li>
-   <li>integrated vehicle health management and predictive maintanance</li>
-   <li>public health policies for epidemics</li>
-   <li>virtual reality and immersive technologies</li>
-   <li>environmental sustainabiity</li>
-   </ul>
-   </p>
-   <p>  A selection of our ongoing projects can be found below. For a list of all ongoing and completed projects of our group you can refer to our projects page. 
-   </p>
+
+<h2>Research</h2>    
+<p>The core research profile of the group is within machine learning and data mining with emphasis on <b>sequential and temporal data mining</b>,  <b>explainable machine learning</b>,  <b>natural language processing</b>,  <b>reinforcement learning</b>, and  <b>distributed optimization</b>. Our focus application areas include  <b>healthcare and wellbeing</b>, <b>integrated vehicle health management and predictive maintanance</b>, <b>public health policies for epidemics</b>, <b>virtual reality and immersive technologies</b>, and <b>environmental sustainabiity</b>. </p>
+
+<p>  A selection of our ongoing resaerch can be found below. For a comprehensive list of our research topics and profile please visit our <a href="research.html">research profile page</a>.</p>
+   
    <div class="card-columns">
            {% comment %}
            Sort the projects by date, putting those without dates last
            {% endcomment %}
-           {% assign projects_by_date = site.projects | sort: 'last-updated', 'first' %}
-           {% assign projects_by_date = projects_by_date | reverse %}
-           {% for p in projects_by_date %}
-               {% if p.status != "inactive" %}
-                   {% include project-card.html project=p %}
+           {% assign research_by_date = site.research | sort: 'last-updated', 'first' %}
+           {% assign research_by_date = research_by_date | reverse %}
+           {% for r in research_by_date %}
+               {% if r.highlight == "priority" %}
+                   {% include researcharea-card.html project=r %}
                {% endif %}
            {% endfor %}
-       </div>
+    </div>
+    
+<h2>Projects</h2>  
+    <p>  A selection of our ongoing projects can be found below. For a comprehensive list of our projects please visit our <a href="projects.html">projects page</a>.
+    </p>
+   
+<div class="card-columns">
+        {% comment %}
+        Sort the projects by date, putting those without dates last
+        {% endcomment %}
+        {% assign projects_by_date = site.projects | sort: 'last-updated', 'first' %}
+        {% assign projects_by_date = projects_by_date | reverse %}
+        {% for p in projects_by_date %}
+            {% if p.highlight == "priority" %}
+                {% include project-card.html project=p %}
+            {% endif %}
+        {% endfor %}
+    </div>
+    
    </div>
-
+   
   <div class="rightcol">
     <h2>News</h2>
     <ul class="news list-unstyled">

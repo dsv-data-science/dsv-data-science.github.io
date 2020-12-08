@@ -1,5 +1,6 @@
 ---
 title: 3AI
+highlight: priority
 
 description: |
   Automated Auditing using Artificial Intelligence<br>

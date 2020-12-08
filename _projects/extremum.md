@@ -1,6 +1,6 @@
 ---
 title: EXTREMUM
-
+highlight: priority
 description: |
   Explainable and Ethical Machine Learning for Knowledge Discovery from Medical Data Sources<br>
   <b>Digital Futures: 2020-2023</b>

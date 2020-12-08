@@ -1,6 +1,6 @@
 ---
 title: Searching and mining sequential and temporal data
-
+highlight: priority
 description: |
  One of our focus areas is searching and mining rich and complex data sources, with emphasis on sequential and temporal data, histogram data, text, and graphs. 
 
@@ -11,7 +11,7 @@ people:
   - Rebane
 
 layout: area
-image: /img/areas/sequential-temporal-data.png
+image: "/img/areas/sequential-temporal-data.png"
 last-updated: 2020-11-01
 ---
 
