@@ -47,8 +47,9 @@ a > .fa {
 .jumbotron {
     text-align: justify;
     padding-top: 1%;
-    padding-bottom: 1%;
-    font-size: 110%
+    padding-bottom: 0.25%;
+    font-size: 110%;
+    border-radius: 15px 50px;
 }
 
 /* Group logo */
@@ -103,11 +104,10 @@ section {
 #mainframe .rightcol {
   width: 25%;
   float: left;  
-  border: 2px groove rgb(160, 160, 160);
   padding: 15px;
-  border-radius: 5px;
+  border-radius: 15px 50px;
   margin-top: 10px;
-  background-color: rgb(250,250,250);
+  background-color: rgb(230,230,230);
 }
 
 
