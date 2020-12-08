@@ -55,7 +55,7 @@ a > .fa {
 
 /* Group logo */
 #logo {
-    width: 180px;
+    width: 240px;
     height: auto;
     margin: 2px 0 8px 0;
 }
@@ -93,21 +93,21 @@ section {
 }
 
 #mainframe {
-  width: 100%;
+  width: 1110px;
   float: left;
   overflow-y: hidden;
   overflow-x: auto;
 }
 #mainframe .maincol {
-  width: 70%;
+  width: 800px;
   float: left;
-  margin-right: 5%;  
+  margin-right: 10px;  
 }
 
 #mainframe .rightcol {
-  width: 25%;
+  width: 300px;
   float: left;  
-  padding: 15px;
+  padding: 10px;
   border-radius: 15px 50px;
   margin-top: 10px;
   background-color:#d1f0fc;

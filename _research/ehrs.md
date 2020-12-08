@@ -12,7 +12,7 @@ people:
 
 layout: area
 image: /img/areas/elec-hea-rec.jpg
-last-updated: 2020-10-25
+last-updated: 2020-11-05
 ---
 
 <br>

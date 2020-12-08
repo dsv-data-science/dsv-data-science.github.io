@@ -15,7 +15,7 @@ people:
 
 layout: area
 image: /img/areas/interpretable-models.png
-last-updated: 2020-10-30
+last-updated: 2020-11-08
 ---
 
 <br>

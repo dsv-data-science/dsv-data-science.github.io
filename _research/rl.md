@@ -1,22 +1,27 @@
 ---
-title:  Immersive technologies and virtual reality
+title: Reinforcement learning
 
 description: |
 
+
 people:
+  - Magnusson
+  - Papapetrou
+  - Bampa
+  - Ginis
+  - Movin
   - Quintero
 
-
 layout: area
-image:
-last-updated: 2020-11-03
+image: 
+last-updated: 2020-11-07
 ---
 
 <br>
 
 ## Description
 
-...
+---
 
 ## Results
 

@@ -8,8 +8,8 @@ people:
   - Kougia
 
 layout: area
-image: 
-last-updated: 2020-10-10
+image: "/img/areas/nlp-example.png"
+last-updated: 2020-11-06
 ---
 
 <br>
