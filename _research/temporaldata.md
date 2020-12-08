@@ -23,8 +23,11 @@ One of our focus areas is searching and mining rich and complex data sources, wi
 
 ## Results
 
-$$ \sum{x^2} $$
+## Implementations
+
+- [wildboar](https://github.com/isaksamsten/wildboar) - explainable machine learning library for time series in Python
 
 ## Related Projects
 
-- [Project 1](../_projects/extremum.md)
+- [EXTREMUM](../_projects/extremum.md)
+- [3AI](../_projects/3ai.md)
