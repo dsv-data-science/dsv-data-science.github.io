@@ -6,7 +6,7 @@ title: Ongoing Projects
 <br>
 <div class="jumbotron">
 <p>
-    Our group is involved in several national projects in the area of data science with applications to healthcare, law, public health policies for pandemics, and finance. Our current project collaborators include other academic/research institutions (e.g., KTH, RISE), public authorities (e.g., the Swedish Health Agency), healthcare providers (Karolinska Hospital, Karolinska Institute, Danderyds Hospital), as well as industrial peers. </p>
+    Our group is involved in several national projects in the area of data science with applications in <b>healthcare</b>, <b>law</b>, <b>public health policies for pandemics</b>, and <b>finance</b>. Our current project collaborators include other academic/research institutions, public authorities, healthcare providers, as well as industrial peers.  The group has successfully completed several national and international projects in the broader area of data science and its applications. Our results comprise a number of peer-reviewed <a href="publications.html">publications</a>, source code packages, and demos.</p>
 </div>    
 
 <div class="card-columns">
@@ -24,9 +24,6 @@ title: Ongoing Projects
 
 <br>
 # Completed Projects
-<div class="jumbotron">
-    The group has successfully completed several national and international projects in the broader area of data science and its applications. Our results comprise a number of peer-reviewed <a href="publications.html">publications</a>, source code packages, and demos.
-</div> 
 
 <div class="card-columns">
     {% comment %}
