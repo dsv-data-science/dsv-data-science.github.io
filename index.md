@@ -25,7 +25,7 @@ role-tables:
 </div>
 <div id="mainframe">
     <div class="maincol">
-
+<br>
 <h2>Research</h2>    
 <p>  A selection of our ongoing resaerch can be found below. For a comprehensive list of our research topics and research profiles please visit our <a href="research.html">research profile page</a>.</p>
    
