@@ -11,6 +11,7 @@ people:
   - Bampa
 
 layout: project
+image: "/img/projects/covid/covid.jpg"
 last-updated: 2020-11-14
 ---
 
