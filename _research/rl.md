@@ -1,5 +1,5 @@
 ---
-title: Reinforcement learning for healthcare
+title: Reinforcement learning
 
 description: |
 
