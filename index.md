@@ -27,7 +27,7 @@ role-tables:
     <div class="maincol">
 
 <h2>Research</h2>    
-<p>  A selection of our ongoing resaerch can be found below. For a comprehensive list of our research topics and profile please visit our <a href="research.html">research profile page</a>.</p>
+<p>  A selection of our ongoing resaerch can be found below. For a comprehensive list of our research topics and research profiles please visit our <a href="research.html">research profile page</a>.</p>
    
    <div class="card-columns">
            {% comment %}
