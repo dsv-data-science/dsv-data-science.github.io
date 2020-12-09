@@ -1,5 +1,5 @@
 ---
-title: Distributed optimization and reinforcement learning
+title: Distributed optimization
 
 description: |
 
