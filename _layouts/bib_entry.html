@@ -51,15 +51,14 @@
 		<br/>
 		<span style="font-size:90%">
 		{% if entry.type == "article" %}
-        <em>{{entry.journal}}</em>,
-      {% elsif entry.type == "inproceedings" %}
-        <em>In {{entry.booktitle}}</em>,
-      {% endif %}
-      {% if entry.year %}
-        {{entry.year}}
-				{% endif %}
+        	<em>{{entry.journal}}</em>,
+      	{% elsif entry.type == "inproceedings" %}
+        		<em>In {{entry.booktitle}}</em>,
+		{% endif %}
+      	{% if entry.year %}
+        	{{entry.year}}
+		{% endif %}
 		</span>
-
 
 		{% if entry.note %}	
 			<span class="note">
