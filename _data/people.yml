@@ -26,6 +26,9 @@ Samsten:
     role: faculty
     bio: explainability, temporal data mining, fintech
 
+Karlsson: # This to link Isak's publications using previous name with his profile.
+    webpage: "https://people.dsv.su.se/~isak-kar/"
+
 Hollmen:
     display_name: "Jaakko Hollmen, Senior Lecturer"
     webpage: "https://users.ics.aalto.fi/jhollmen/"
@@ -34,9 +37,10 @@ Hollmen:
 
 Magnusson:
     display_name: "Sindri Magnússon, Senior Lecturer"
-    webpage: "https://www.kth.se/profile/sindrim?l=en"
+    webpage: "https://sites.google.com/view/sindri-magnusson/home"
     role: faculty
-    bio: distributed optimization, reinforcement learning
+    image: /img/people/sm.jpg
+    bio: distributed optimization, reinforcement learning, federated Learning, IoT/CPS
 
 Pavlopoulos:
     display_name: "Ioannis Pavlopoulos, Senior Lecturer (fixed term)"
