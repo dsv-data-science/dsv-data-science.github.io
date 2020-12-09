@@ -18,10 +18,31 @@ last-updated: 2020-11-03
 
 ...
 
-## Results
+{% capture count_pub %}{% bibliography_count -q @*[keywords=immersive]* %}{% endcapture %}
+{% if count_pub != "0" %}
+<br>
 
-$$ \sum{x^2} $$
+## Latest publications
+
+<div class="publications">
+    <table class="table">
+        <tbody>
+        <tr>
+          {% bibliography -q @*[keywords=immersive]*  -- max 10 %}
+        </tr>
+        </tbody>
+    </table>
+</div>
+{% endif %}
+ 
+ <br>
+ 
+## Implementations
+
+- 
+
+<br>
 
 ## Related Projects
 
-- [Project 1](../_projects/extremum.md)
+

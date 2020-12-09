@@ -35,10 +35,14 @@ One of our focus areas is searching and mining rich and complex data sources, wi
     </table>
 </div>
 {% endif %}
-    
+ 
+ <br>
+ 
 ## Implementations
 
 - [wildboar](https://github.com/isaksamsten/wildboar) - explainable machine learning library for time series in Python
+
+<br>
 
 ## Related Projects
 
