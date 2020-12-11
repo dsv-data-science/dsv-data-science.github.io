@@ -1,0 +1,242 @@
+/* CUSTOM CSS BY ZED */
+
+body {
+    font-family: "Mulish";
+}
+.header .container {
+    padding:0!important;
+}
+#logoline {
+    text-align: left;
+    margin-bottom: 20px;
+}
+#menuline {
+    height: 40px;
+}
+.card {
+    cursor: pointer;   
+    border: 1px solid #dedede;
+    position: relative;
+  padding: 10px 10px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+  transition: all 0.4s ease;
+}
+
+  
+.card:hover {
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+  }
+  
+.pt-3 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+#frontbar {
+    background-color: rgb(0, 47, 95);
+    height: 5px;
+    margin-bottom: 20px;
+}
+#navbarNav>ul {
+    width: 100%;
+    line-height: 0.5;
+}
+.container h2 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.footer{
+    background-color: #212529;
+    color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#welcome{
+    grid-area: welcome;
+}
+
+#newscol{
+    margin-bottom:20px;
+    grid-area: news;
+}
+
+#maincol{
+    grid-area: research;
+}
+@media (max-width: 991px) {
+    .bannerarea{
+        padding-top: 228px;
+    }
+
+    #logo {
+        width: 300px;
+        padding-left: 20px;
+    }
+    .header{
+        height: 228px;
+    }
+    .header .container {
+        margin: 0;
+        width: 100%;
+        max-width: 100%;
+    }
+    .footer{
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .researchbox{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #acdee6;
+        margin-bottom: 10px;
+        font-size: 30px;
+    }
+
+    .researchwrapper{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+        margin-bottom: 20px;
+    }
+
+    .flexcrv{
+        flex-direction: column-reverse;
+
+    }   
+}
+@media (min-width: 768px) {
+    
+}
+@media (min-width: 992px) {
+    .bannerarea{
+        padding-top: 175px;
+    }
+    
+    #mainframe {
+        display: grid;
+        grid-gap: 20px;
+        grid-template:
+        "welcome news" 
+        "research news";
+        grid-template-columns: 2fr 1fr; 
+        margin-bottom: 20px;
+    }
+    #logo {
+        width: 516px;
+        padding-left: 0px;
+    }
+    .header{
+        height: 175px;
+    }
+    .header .container {
+        margin: auto;
+    }
+
+    .researchbox{
+        width: 200px;
+        height: 200px;
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background: #acdee6;
+        padding: 10px;
+        float: left;
+        transition: 0.5s
+    }
+
+    .researchwrapper{
+        display: flex;
+        width: 100%;
+        gap: 20px;
+        margin-bottom: 20px;
+    }
+}
+@media (min-width: 1200px) {
+    #mainframe .maincol {
+        width: 700px;
+        float: left;
+        margin-right: 10px; 
+    } 
+    
+}
+#newscol {
+    /* float: left;   */
+    
+  }
+
+  #newswin {
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 15px;
+    background-color:#f0efef;
+  }
+
+
+#research2{
+    background: #93afe4;
+    transition: 0.5s;
+}
+
+#research2:hover{
+    background: #888;
+}
+
+.researchbox:hover{
+    background: #888;
+    cursor: pointer;
+}
+#welcome, #maincol {
+    padding-right: 20px;
+    padding-top: 20px;
+    margin-right: 10px;  
+    margin-bottom: 20px;
+}
+.bannerarea{
+    height: 400px;
+    width: 100%;
+    background: url("/img/banners/nodkista.jpg");
+    background-attachment:fixed;
+    background-position: center;
+    background-size: cover;
+}
+.gridtile{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("/img/banners/gridtile.png");
+    font-size: 30px;
+}
+.gridtile>p {
+
+    color: white;
+}
+.banner{
+    position: fixed;
+    height: 15rem;
+    width: 100%;
+}
+.header{
+    padding: 0!important;
+    position: fixed;
+    left: 0;
+    background: white;
+    z-index: 9999;
+    right: 0;
+}
+/* .container{
+    padding: 0!important;
+} */

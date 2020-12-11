@@ -17,6 +17,8 @@ image: "/img/projects/extremum/extremum.png"
 last-updated: 2020-11-15
 ---
 
+## EXTREMUM
+
 **Project leader - main PI**:
 - Panagiotis Papapetrou, Professor, SU
 

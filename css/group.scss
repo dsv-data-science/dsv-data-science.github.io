@@ -4,16 +4,12 @@
 $gray: #999;
 $light-gray: #EEE;
 
-/* Space out content a bit */
-body {
-    padding-top: 20px;
-}
 
 .header {
-    border-bottom: 1px solid $light-gray;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
-    text-align: center;
+    border-bottom: 1px solid #333;
+    // padding-bottom: 20px;
+    // margin-bottom: 20px;
+    // text-align: center;
 }
 
 .footer {
@@ -49,15 +45,15 @@ a > .fa {
     padding-top: 1%;
     padding-bottom: 0.25%;
     font-size: 110%;
-    border-radius: 15px 50px;
-    background-color: #e0e0e0
+    // border-radius: 15px 50px;
+    background-color: white;
 }
 
 /* Group logo */
 #logo {
-    width: 240px;
+    // width: 240px;
     height: auto;
-    margin: 2px 0 8px 0;
+    // margin: 2px 0 8px 0;
 }
 
 /* Front page news. */
@@ -80,7 +76,7 @@ ul.news {
 
 @media (min-width: 768px) {
     .role.grad      { column-count: 2 }
-    .project-people { column-count: 3 }
+    .project-people { column-count: 2 }
     .card-columns   { column-count: 3 }
 }
 
@@ -93,26 +89,14 @@ section {
 }
 
 #mainframe {
-  width: 1110px;
-  float: left;
+  // width: 1110px;
+  // float: left;
   overflow-y: hidden;
   overflow-x: auto;
-}
-#mainframe .maincol {
-  width: 800px;
-  float: left;
-  margin-right: 10px;  
+  text-align:justify;
+  padding-top: 1rem;
 }
 
-#mainframe .rightcol {
-  width: 300px;
-  float: left;  
-  padding: 10px;
-  border-radius: 15px 50px;
-  margin-top: 15px;
-  background-color:#f0efef;
-  position: right;
-}
 
 
 

@@ -13,7 +13,7 @@ layout: area
 image: "/img/areas/sequential-temporal-data.png"
 last-updated: 2020-11-09
 ---
-<br>
+
 
 ## Description
 

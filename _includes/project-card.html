@@ -7,7 +7,10 @@
     {% capture proj-url %}{{site.base}}{{project.url}}.html{% endcapture %}
 {% endif %}
 
-<div class="card">
+
+
+
+<div id="{{project.title}}" class="card" onclick="location.href='{{ proj-url }}'">
     <div class="card-body">
         {% if project.image %}
             {% assign imgurl = project.image %}
@@ -32,9 +35,7 @@
         <div class="card-text">
             {{ project.description | markdownify }}
         </div>
-        {% if project.no-link != true or project.link %}
-            <a href="{{ proj-url }}"> Read more &raquo;</a>
-        {% endif %}
+        
     </div>
     {% if project.people %}
         <div class="card-footer d-flex flex-row flex-wrap justify-content-center">

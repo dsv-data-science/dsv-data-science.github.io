@@ -10,8 +10,10 @@
               crossorigin="anonymous">
         <link rel="stylesheet"
               href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="{{ site.base }}/css/group.css">
-        
+        <link rel="stylesheet" href="{{ site.base }}/css/custom.css">
         
         <!-- LOAD MathJax for LaTeX formulae -->
         <script type="text/javascript">
@@ -29,65 +31,86 @@
         </script>
     </head>
     <body>
-        <div class="container">
+        <div class="">
             <!-- This is a bit nasty, but it basically says be a column first, and on larger screens be a spaced out row -->
-            <div class="header d-flex
-                        flex-column
-                        flex-md-row justify-content-md-between">
-                <a href="{{ site.base }}/" class="">
-                    <img src="{{ site.base }}/{{ site.logo }}"
-                         srcset="{{ site.base }}/{{ site.logo }} 2x"
-                         alt="dsdsv_logo" id="logo">
-                </a>
-                <ul class="nav nav-pills justify-content-center">
+            <div class="header">
+                <div class="container">
+                        <div id="frontbar">
 
-                    {% assign shorturl = page.url | replace:'.html','' | replace:'index','' %}
-                    {% for item in site.navigation %}
-
-                        {% assign itemshorturl = item.link | replace:'.html','' %}
-
-                        {% assign maybe-active = '' %}
-                        {% if item.title == 'Research' and page.layout == 'area' %}
-                            {% assign maybe-active = 'active' %}
-                        {% endif %}
-                        {% if item.title == 'Projects' and page.layout == 'project' %}
-                            {% assign maybe-active = 'active' %}
-                        {% endif %}
-                        {% if itemshorturl == shorturl or is-research %}
-                            {% assign maybe-active = 'active' %}
-                        {% endif %}
-
-                        <li class="nav-item">
-                            <a class="nav-link {{ maybe-active }}"
-                               href="{{ site.base }}{{ item.link }}">
-                                {{ item.title }}
+                        </div>
+                        <div id="logoline">
+                            <a href="{{ site.base }}/" class="">
+                                <img src="{{ site.base }}/{{ site.logo }}"
+                                     srcset="{{ site.base }}/{{ site.logo }} 2x"
+                                     alt="dsdsv_logo" id="logo">
                             </a>
-                        </li>
+                        </div>
+                        <div id="menuline">
+                            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                                <div class="navbar-collapse" id="navbarNav">
+                                    <ul class="navbar-nav justify-content-end">
 
-                    {% endfor %}
-
-                </ul>
+                                        {% assign shorturl = page.url | replace:'.html','' | replace:'index','' %}
+                                        {% for item in site.navigation %}
+                    
+                                            {% assign itemshorturl = item.link | replace:'.html','' %}
+                    
+                                            {% assign maybe-active = '' %}
+                                            {% if item.title == 'Research' and page.layout == 'area' %}
+                                                {% assign maybe-active = 'active' %}
+                                            {% endif %}
+                                            {% if item.title == 'Projects' and page.layout == 'project' %}
+                                                {% assign maybe-active = 'active' %}
+                                            {% endif %}
+                                            {% if itemshorturl == shorturl or is-research %}
+                                                {% assign maybe-active = 'active' %}
+                                            {% endif %}
+                    
+                                            <li class="nav-item">
+                                                <a class="nav-link {{ maybe-active }}"
+                                                href="{{ site.base }}{{ item.link }}">
+                                                    {{ item.title }}
+                                                </a>
+                                            </li>
+                    
+                                        {% endfor %}
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                
+                
             </div>
 
-            {% if page.image %}
-                <img src="{{ page.image }}"
-                     alt="{{ page.title }}"
-                     style="max-width: 400px"
-                     class="img-fluid mx-auto d-block mb-4"/>
-            {% endif %}
-
             {% if page.notitle != true %}
-                <h1>{{ page.title }}</h1>
+            <div class="bannerarea">
+                <div class="gridtile">
+                <p> {{ page.title }}</p>
+                </div>
+            </div>
+                <!-- <h1></h1> -->
             {% endif %}
 
-            {{ content }}
+            
+            {% if page.notitle == true %}
+            <div class="bannerarea">
+                <div class="gridtile">
+                <p>DataScienceGroup @ DSV</p>
+                </div>
+            </div>
+            {% endif %}
 
-            <div class="footer">
-                <p>
+            <div class="container">
+            {{ content }}
+            </div>
+
+            <div class="footer container navbar-dark">
+                <span>
                     <a href="{{ site.department_url }}">{{ site.department_name }}</a>
                     at the
                     <a href="{{ site.university_url }}">{{ site.university_name }}</a>
-                </p>
+                </span>
             </div>
 
         </div> <!-- /container -->

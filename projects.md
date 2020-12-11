@@ -3,11 +3,15 @@ layout: default
 title: Ongoing Projects
 
 ---
-<br>
+<div class="container  mt-3">
+
 <div class="jumbotron">
 <p>
     The group is currently involved in several national projects within the area of <b>data science</b> and its applications to <b>healthcare</b>, <b>law</b>, <b>public health policies for pandemics</b>, and <b>finance</b>. Current project collaborators include other academic and research institutions, public authorities, healthcare providers, as well as industrial peers.  The group has successfully completed several national and international projects resultng in peer-reviewed <a href="publications.html">publications</a>, source code packages, and demos.</p>
 </div>    
+
+
+<h2> Ongoing Projects </h2>
 
 <div class="card-columns">
     {% comment %}
@@ -22,8 +26,7 @@ title: Ongoing Projects
     {% endfor %}
 </div>
 
-<br>
-# Completed Projects
+<h2> Completed Projects </h2>
 
 <div class="card-columns">
     {% comment %}
@@ -37,8 +40,7 @@ title: Ongoing Projects
         {% endif %}
     {% endfor %}
 </div>
-
-<br>
+</div>
 
 {% comment %}
 # Project Details

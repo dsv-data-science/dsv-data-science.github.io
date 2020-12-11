@@ -15,6 +15,8 @@ image: "/img/projects/covid/covid.jpg"
 last-updated: 2020-11-14
 ---
 
+## Covid-Sim
+
 **Project leader - main PI**:
 - Tobias Fasth, Researcher, Swedish Health Agency
 

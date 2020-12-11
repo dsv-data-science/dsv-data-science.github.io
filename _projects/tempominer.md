@@ -14,6 +14,8 @@ layout: project
 last-updated: 2019-06-20
 ---
 
+## TEMPOMiner
+
 **Project leader**:
 - Panagiotis Papapetrou, Professor
 

@@ -35,7 +35,8 @@ front_page_news: 8
 base: ''
 
 # Setup main page
-logo: img/logo/dsdsv_logo_white_nobg.png #img/dsdsv_logo_white_bg.png
+logo: img/logo/dsgroup.png #img/dsdsv_logo_white_bg.png
+banner: img/banners/nodkista.jpg
 department_name: Department of Computer and Systems Sciences
 department_url: https://dsv.su.se/
 university_name: Stockholm University

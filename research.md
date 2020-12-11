@@ -2,18 +2,23 @@
 layout: default
 title: Research Profile
 ---
-<br>
-<div class="jumbotron">
-<p>The core research profile of the group is within machine learning and data mining with emphasis on <b>sequential</b> and <b>temporal data mining</b>,  <b>explainable machine learning</b>,  <b>natural language processing</b>,  <b>reinforcement learning</b>, and  <b>distributed optimization</b>. Our focus application areas include  <b>healthcare</b>, <b>integrated vehicle health management</b>, <b>public health policies</b> for epidemics, <b>virtual reality</b> and <b>immersive technologies</b>, and <b>environmental sustainabiity</b>. </p>
-</div>    
-<div class="card-columns">
-    {% comment %}
-    Sort the projects by date, putting those without dates last
-    {% endcomment %}
-    {% assign projects_by_date = site.research | sort: 'last-updated', 'first' %}
-    {% assign projects_by_date = projects_by_date | reverse %}
-    {% for p in projects_by_date %}
-        {% include researcharea-card.html project=p %}
-    {% endfor %}
-</div>
 
+<div class="container mt-3">
+
+    <div class="jumbotron">
+    <p>The core research profile of the group is within machine learning and data mining with emphasis on <b>sequential</b> and <b>temporal data mining</b>,  <b>explainable machine learning</b>,  <b>natural language processing</b>,  <b>reinforcement learning</b>, and  <b>distributed optimization</b>. Our focus application areas include  <b>healthcare</b>, <b>integrated vehicle health management</b>, <b>public health policies</b> for epidemics, <b>virtual reality</b> and <b>immersive technologies</b>, and <b>environmental sustainabiity</b>. </p>
+    </div>    
+    <div class="card-columns">
+        {% comment %}
+        Sort the projects by date, putting those without dates last
+        {% endcomment %}
+        {% assign projects_by_date = site.research | sort: 'last-updated', 'first' %}
+        {% assign projects_by_date = projects_by_date | reverse %}
+        {% for p in projects_by_date %}
+            {% include researcharea-card.html project=p %}
+        {% endfor %}
+    </div>
+
+
+
+</div>
