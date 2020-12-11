@@ -37,7 +37,7 @@ role-tables:
 <h2>Welcome!</h2> 
 
     <p>
-    The <b>Data Science Research Group</b> at the <a href="https://dsv.su.se/en/research/research-areas/datascience/description">Department of Computer and Systems Sciences (DSV) of Stockholm University</a> focuses on core data science resarch as well as on application areas where data science can assist in providing useful insights for decision making. The group focuses on the formulation of <strong>novel data science problems</strong> and the development of <strong>algorithmic methods</strong> and <strong>methodological pipelines</strong> for achieving scalable solutions in core application areas within <strong>social sciences</strong> and <strong>humanities</strong>.
+    The <b>Data Science Research Group</b> at the <a href="https://dsv.su.se/en/research/research-areas/datascience/description">Department of Computer and Systems Sciences (DSV) of Stockholm University</a> focuses on core data science resarch as well as on application areas where data science can assist in providing useful insights for decision making. The group focuses on the formulation of <strong>novel data science problems</strong> and the development of <strong>algorithmic methods</strong> and <strong>methodological workflows</strong> for achieving scalable solutions in core application areas within <strong>social sciences</strong> and <strong>humanities</strong>.
     </p>
 
 </div>
@@ -73,20 +73,20 @@ role-tables:
 
 <div id="maincol">
 <h2>Research Profile</h2>    
-<p>  A selection of our ongoing resaerch can be found below. For a comprehensive list of our research topics and research profiles please visit our <a href="research.html">research profile page</a>.</p>
+<p> The group has three main focus research themes: <b>temporal data mining</b>, <b>explainable</b> machine learning, and machine learning <b>applications</b>.  For a comprehensive list of our research topics please visit our <a href="research.html">research page</a>.</p>
    <!-- 1) Temporal Data Mining 2) Explainable ML 3) Applications -->
    <div class="researchwrapper" > 
       <div class="researchbox">Temporal Data Mining</div>
-      <div style="flex: 1;">One of our focus areas is searching and mining rich and complex data sources, with emphasis on sequential and temporal data, histogram data, text, and graphs. In particular, we are interested in (1) learning predictive models, such as ensemble models, for classification of complex temporal data sources, such as univariate and multivariate time series, event sequences, sequences of temporal intervals, and graphs </div>
+      <div style="flex: 1;">We focus on developing methods for searching and mining rich and complex data sources, with emphasis on sequential and temporal data, as well as text. In particular, we are interested in defining temporal abstractions and extracting high-utility features for clustering or classification of temporal data sources, such as univariate and multivariate time series, event sequences, and sequences of temporal intervals. </div>
    </div>
    <div class="researchwrapper flexcrv" > 
-   <div style="flex: 1;">One of our focus areas is searching and mining rich and complex data sources, with emphasis on sequential and temporal data, histogram data, text, and graphs. In particular, we are interested in (1) learning predictive models, such as ensemble models, for classification of complex temporal data sources, such as univariate and multivariate time series, event sequences, sequences of temporal intervals, and graphs </div>
-   <div id="research2" class="researchbox">Explanable Machine Learning</div>
+   <div style="flex: 1;">We give particular emphasis on methods and workflows for explainable machine learning. We explore both model agnostic and model specific solutions, as well as counterfactual explanation formulations for sequential data variables, images, and text. Our main goal with our solutions is to maintain good trade-offs between predictive performance and explainability. </div>
+   <div id="research2" class="researchbox">Explainable Models</div>
    </div>
    
    <div class="researchwrapper" > 
    <div id="research3" class="researchbox">Applications</div>
-   <div style="flex: 1;">One of our focus areas is searching and mining rich and complex data sources, with emphasis on sequential and temporal data, histogram data, text, and graphs. In particular, we are interested in (1) learning predictive models, such as ensemble models, for classification of complex temporal data sources, such as univariate and multivariate time series, event sequences, sequences of temporal intervals, and graphs </div>
+   <div style="flex: 1;">Our methods and solutions are motivated by real-world applications and use-cases. The group has particular expertise on mining and model understanding from healthcare and medical data sources. In addition, we have established strong expertise on predictive maintanance and integrated vehicle management.  Finally, we are interested in financial data, enironmental data, as well as data emerging from immersve technologies, such as virtual reality.</div>
     
    </div>
    </div>
