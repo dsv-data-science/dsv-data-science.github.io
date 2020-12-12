@@ -1,5 +1,5 @@
 ---
-title: Distributed optimization
+title: Federated Learning
 
 description: |
 
@@ -37,12 +37,3 @@ last-updated: 2020-11-07
  
  <br>
  
-## Implementations
-
-
-
-<br>
-
-## Related Projects
-
-- [Project 1](../_projects/x.md)

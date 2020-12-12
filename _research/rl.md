@@ -23,10 +23,6 @@ last-updated: 2020-11-07
 
 ---
 
-## Results
-
-$$ \sum{x^2} $$
-
 ## Related Projects
 
-- [Project 1](../_projects/extremum.md)
+- [Project 1](../_projects/covid.md)
