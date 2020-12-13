@@ -25,4 +25,4 @@ last-updated: 2020-11-07
 
 ## Related Projects
 
-- [Project 1](../_projects/covid.md)
+- [Covid-Sim](../projects/covid.html)

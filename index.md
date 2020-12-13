@@ -64,9 +64,9 @@ role-tables:
     <p>Scania</p>
     <p>Coop</p>
     <p>Spotify</p>
-    <p>Folkhälsomyndigheten (Swedish Health Agency)</p>
-    <p>SPV (Swedish Pension Agency)</p>
-    <p>Arbetsförmedlingen (Swedish Unemployment Office)</p>
+    <p>Folkhälsomyndigheten (Public Health Agency)</p>
+    <p>SPV (Swedish Pensions Agency)</p>
+    <p>Arbetsförmedlingen (Public Employment Office)</p>
     </div>
 </div>
 
@@ -76,8 +76,8 @@ role-tables:
 <p> The group has three main focus research themes: <b>temporal data mining</b>, <b>explainable</b> machine learning, and machine learning <b>applications</b>.  For a comprehensive list of our research topics please visit our <a href="research.html">research page</a>.</p>
    <!-- 1) Temporal Data Mining 2) Explainable ML 3) Applications -->
    <div class="researchwrapper" > 
-      <div class="researchbox">Temporal Data Mining</div>
-      <div style="flex: 1;">We focus on developing methods for searching and mining rich and complex data sources, with emphasis on sequential and temporal data, as well as text. In particular, we are interested in defining temporal abstractions and extracting high-utility features for clustering or classification of temporal data sources, such as univariate and multivariate time series, event sequences, and sequences of temporal intervals. </div>
+      <div class="researchbox">Sequential and Temporal Mining</div>
+      <div style="flex: 1;">We focus on developing methods for searching and mining rich and complex data sources, with emphasis on sequential and temporal data, as well as text. In particular, we are interested in defining temporal abstractions and extracting high-utility features for clustering or classification of sequential and temporal data sources, such as univariate and multivariate time series, event sequences, and text. </div>
    </div>
    <div class="researchwrapper flexcrv" > 
    <div style="flex: 1;">We give particular emphasis on methods and workflows for explainable machine learning. We explore both model agnostic and model specific solutions, as well as counterfactual explanation formulations for sequential data variables, images, and text. Our main goal with our solutions is to maintain good trade-offs between predictive performance and explainability. </div>
@@ -85,7 +85,7 @@ role-tables:
    </div>
    
    <div class="researchwrapper" > 
-   <div id="research3" class="researchbox">Applications</div>
+   <div id="research3" class="researchbox">Machine Learning Applications</div>
    <div style="flex: 1;">Our methods and solutions are motivated by real-world applications and use-cases. The group has particular expertise on mining and model understanding from healthcare and medical data sources. In addition, we have established strong expertise on predictive maintanance and integrated vehicle management.  Finally, we are interested in financial data, enironmental data, as well as data emerging from immersve technologies, such as virtual reality.</div>
     
    </div>

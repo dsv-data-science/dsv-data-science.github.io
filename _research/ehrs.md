@@ -1,6 +1,7 @@
 ---
 title: Learning from electronic health records
 highlight: priority
+topic: applications
 
 description: | 
 

@@ -1,6 +1,8 @@
 ---
 title: Interpretable and explainable models
 highlight: priority
+topic: explain
+
 description: |
 
 people:

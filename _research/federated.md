@@ -1,5 +1,5 @@
 ---
-title: Federated Learning
+title: Federated learning
 
 description: |
 

@@ -8,6 +8,8 @@ title: Research Profile
     <div class="jumbotron">
     <p>The core research profile of the group is within machine learning and data mining with emphasis on <b>sequential</b> and <b>temporal data mining</b>,  <b>explainable machine learning</b>,  <b>natural language processing</b>,  <b>reinforcement learning</b>, and  <b>distributed optimization</b>. Our focus application areas include  <b>healthcare</b>, <b>integrated vehicle health management</b>, <b>public health policies</b> for epidemics, <b>virtual reality</b> and <b>immersive technologies</b>, and <b>environmental sustainabiity</b>. </p>
     </div>    
+    <h2> Sequential and Temporal Mining </h2>
+    <a name="temporal"></a> 
     <div class="card-columns">
         {% comment %}
         Sort the projects by date, putting those without dates last
@@ -15,10 +17,41 @@ title: Research Profile
         {% assign projects_by_date = site.research | sort: 'last-updated', 'first' %}
         {% assign projects_by_date = projects_by_date | reverse %}
         {% for p in projects_by_date %}
-            {% include researcharea-card.html project=p %}
+            {% if p.topic == "temporal" %}
+                {% include researcharea-card.html project=p %}
+            {% endif %}
         {% endfor %}
     </div>
-
+    
+    <h2> Explainable Machine Learning</h2>
+    <a name="explain"></a> 
+    <div class="card-columns">
+        {% comment %}
+        Sort the projects by date, putting those without dates last
+        {% endcomment %}
+        {% assign projects_by_date = site.research | sort: 'last-updated', 'first' %}
+        {% assign projects_by_date = projects_by_date | reverse %}
+        {% for p in projects_by_date %}
+            {% if p.topic == "explain" %}
+                {% include researcharea-card.html project=p %}
+            {% endif %}
+        {% endfor %}
+    </div>
+    
+    <h2> Machine Learning Applications </h2>
+    <a name="applixations"></a> 
+    <div class="card-columns">
+        {% comment %}
+        Sort the projects by date, putting those without dates last
+        {% endcomment %}
+        {% assign projects_by_date = site.research | sort: 'last-updated', 'first' %}
+        {% assign projects_by_date = projects_by_date | reverse %}
+        {% for p in projects_by_date %}
+            {% if p.topic == "applications" %}
+                {% include researcharea-card.html project=p %}
+            {% endif %}
+        {% endfor %}
+    </div>
 
 
 </div>

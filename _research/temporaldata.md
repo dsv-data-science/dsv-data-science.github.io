@@ -1,6 +1,7 @@
 ---
 title: Searching and mining sequential and temporal data
 highlight: priority
+topic: temporal
 description: |
 
 people:
