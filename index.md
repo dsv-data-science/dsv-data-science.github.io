@@ -73,15 +73,16 @@ role-tables:
 
 <div id="maincol">
 <h2>Research Profile</h2>    
-<p> The group has three main focus research themes: <b>temporal data mining</b>, <b>explainable</b> machine learning, and machine learning <b>applications</b>.  For a comprehensive list of our research topics please visit our <a href="research.html">research page</a>.</p>
+<p> The group has three main focus research themes: <b>sequential and temporal mining</b>, <b>explainable and federated</b> learning, and machine learning <b>applications</b>.  For a comprehensive list of our research topics please visit our <a href="research.html">research page</a>.</p>
    <!-- 1) Temporal Data Mining 2) Explainable ML 3) Applications -->
    <div class="researchwrapper" > 
-      <div class="researchbox">Sequential and Temporal Mining</div>
+      <div class="researchbox">Sequential & Temporal Mining</div>
       <div style="flex: 1;">We focus on developing methods for searching and mining rich and complex data sources, with emphasis on sequential and temporal data, as well as text. In particular, we are interested in defining temporal abstractions and extracting high-utility features for clustering or classification of sequential and temporal data sources, such as univariate and multivariate time series, event sequences, and text. </div>
    </div>
    <div class="researchwrapper flexcrv" > 
-   <div style="flex: 1;">We give particular emphasis on methods and workflows for explainable machine learning. We explore both model agnostic and model specific solutions, as well as counterfactual explanation formulations for sequential data variables, images, and text. Our main goal with our solutions is to maintain good trade-offs between predictive performance and explainability. </div>
-   <div id="research2" class="researchbox">Explainable Models</div>
+   <div style="flex: 1;">We give particular emphasis on methods and workflows for explainable machine learning. We explore both model agnostic and model specific solutions, as well as counterfactual explanation formulations for sequential data variables, images, and text. Our main goal is to provide scalable and distributed solutions for maintaining good trade-offs between predictive performance and explainability.  Moreover, we are interested in solutions that can function in a distributed manner without the need for data exchange.
+   </div>
+   <div id="research2" class="researchbox">Explainable & Federated Learning</div>
    </div>
    
    <div class="researchwrapper" > 
