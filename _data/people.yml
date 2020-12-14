@@ -10,18 +10,21 @@ Papapetrou:
 Asker:
     display_name: "Lars Asker, Associate Professor"
     webpage: "http://people.dsv.su.se/~asker/"
+    image: /img/people/lars.asker.jpg
     role: faculty
     bio: repsentation learning, healthcare applications
 
 Lindgren:
     display_name: "Tony Lindgren, Associate Professor"
     webpage: "https://people.dsv.su.se/~tony/"
+    image: /img/people/tony.jpg
     role: faculty
     bio: explainability, predictive maintanance
 
 Samsten:
     display_name: "Isak Samsten, Senior Lecturer"
     webpage: "https://people.dsv.su.se/~isak-kar/"
+    image: /img/people/samsten.jpg
     github: isaksamsten
     role: faculty
     bio: explainability, temporal data mining, fintech
@@ -32,6 +35,7 @@ Karlsson: # This to link Isak's publications using previous name with his profil
 Hollmen:
     display_name: "Jaakko Hollmen, Senior Lecturer"
     webpage: "https://users.ics.aalto.fi/jhollmen/"
+    image: /img/people/Hollmen.png
     role: faculty
     bio: probabilistic modeling, environmental sustainability, healthcare applications
 
@@ -45,6 +49,7 @@ Magnusson:
 Pavlopoulos:
     display_name: "Ioannis Pavlopoulos, Senior Lecturer (fixed term)"
     webpage: "https://www.su.se/english/profiles/iopa3492-1.453830"
+    image: /img/people/pavlopoulos.jpg
     role: faculty
     bio: natural language processing, explainability, healthcare applications
 
@@ -52,6 +57,8 @@ Pavlopoulos:
 
 Kuratomi:
     display_name: "Alejandro Kuratomi"
+    webpage: "https://alku.blogs.dsv.su.se/"
+    image: /img/people/alku.jpg
     role: phd
     bio: interpretable models with statistical guarantees
 
