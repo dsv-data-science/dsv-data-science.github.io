@@ -12,7 +12,7 @@ people:
   - Papapetrou
 
 layout: project
-image: "/img/projects/Coril/heart-rate.png"
+image: "/img/projects/coril/heart-rate.png"
 last-updated: 2017-12-13
 ---
 
