@@ -76,17 +76,17 @@ role-tables:
 <p> The group has three main focus research themes: <b>sequential and temporal mining</b>, <b>explainable and federated</b> learning, and machine learning <b>applications</b>.  For a comprehensive list of our research topics please visit our <a href="research.html">research page</a>.</p>
    <!-- 1) Temporal Data Mining 2) Explainable ML 3) Applications -->
    <div class="researchwrapper" > 
-      <div class="researchbox">Sequential & Temporal Mining</div>
+      <div class="researchbox" onclick="location.href='research.html#rprofile1'">Sequential & Temporal Mining</div>
       <div style="flex: 1;">We focus on developing methods for searching and mining rich and complex data sources, with emphasis on sequential and temporal data, as well as text. In particular, we are interested in defining temporal abstractions and extracting high-utility features for clustering or classification of sequential and temporal data sources, such as univariate and multivariate time series, event sequences, and text. </div>
    </div>
    <div class="researchwrapper flexcrv" > 
    <div style="flex: 1;">We give particular emphasis on methods and workflows for explainable machine learning. We explore both model agnostic and model specific solutions, as well as counterfactual explanation formulations for sequential data variables, images, and text. Our main goal is to provide scalable and distributed solutions for maintaining good trade-offs between predictive performance and explainability.  Moreover, we are interested in solutions that can function in a distributed manner without the need for data exchange.
    </div>
-   <div id="research2" class="researchbox">Explainable & Federated Learning</div>
+   <div id="research2" class="researchbox" onclick="location.href='research.html#rprofile2'">Explainable & Federated Learning</div>
    </div>
    
    <div class="researchwrapper" > 
-   <div id="research3" class="researchbox">Machine Learning Applications</div>
+   <div id="research3" class="researchbox" onclick="location.href='research.html#rprofile3'">Machine Learning Applications</div>
    <div style="flex: 1;">Our methods and solutions are motivated by real-world applications and use-cases. The group has particular expertise on mining and model understanding from healthcare and medical data sources. In addition, we have established strong expertise on predictive maintanance and integrated vehicle management.  Finally, we are interested in financial data, enironmental data, as well as data emerging from immersve technologies, such as virtual reality.</div>
     
    </div>

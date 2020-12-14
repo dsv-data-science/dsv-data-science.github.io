@@ -57,6 +57,9 @@ body {
 }
 
 
+.profileanchor{
+    margin-top: 50px;
+}
 #welcome{
     grid-area: welcome;
 }
@@ -68,6 +71,9 @@ body {
 
 #maincol{
     grid-area: research;
+}
+.card-body{
+    text-align:center;
 }
 @media (max-width: 991px) {
     .bannerarea{
@@ -89,6 +95,11 @@ body {
     .footer{
         width: 100%;
         max-width: 100%;
+    }
+
+    #rprofile1, #rprofile2, #rprofile3 {
+        margin-top: -250px;
+        padding-top: 250px;
     }
 
     .researchbox{
@@ -121,7 +132,13 @@ body {
     .bannerarea{
         padding-top: 175px;
     }
-    
+    #rprofile1, #rprofile2, #rprofile3 {
+        margin-top: -200px;
+        padding-top: 200px;
+    }
+    .card-body img{
+        max-height: 130px;
+    }
     #mainframe {
         display: grid;
         grid-gap: 20px;
@@ -130,6 +147,15 @@ body {
         "research news";
         grid-template-columns: 2fr 1fr; 
         margin-bottom: 20px;
+    }
+    .card-columns {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card-columns .card{
+        width: 330px;
+        display: flex;
+        height: 400px;    
     }
     #logo {
         width: 516px;
@@ -237,6 +263,9 @@ body {
     z-index: 9999;
     right: 0;
 }
+
+
+
 /* .container{
     padding: 0!important;
 } */

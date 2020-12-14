@@ -7,8 +7,10 @@ title: Research Profile
 
     <div class="jumbotron">
     <p>The core research profile of the group is within machine learning and data mining with emphasis on <b>sequential</b> and <b>temporal data mining</b>,  <b>explainable machine learning</b>,  <b>natural language processing</b>,  <b>reinforcement learning</b>, and  <b>distributed optimization</b>. Our focus application areas include  <b>healthcare</b>, <b>integrated vehicle health management</b>, <b>public health policies</b> for epidemics, <b>virtual reality</b> and <b>immersive technologies</b>, and <b>environmental sustainabiity</b>. </p>
-    </div>    
-    <h2> Sequential and Temporal Mining </h2>
+    </div>
+    <div class="profileanchor">    
+    <h2 id="rprofile1"> Sequential and Temporal Mining </h2>
+    </div>
     <a name="temporal"></a> 
     <div class="card-columns">
         {% comment %}
@@ -22,8 +24,11 @@ title: Research Profile
             {% endif %}
         {% endfor %}
     </div>
-    
-    <h2> Explainable & Federated Learning</h2>
+
+    <div class="profileanchor">    
+    <h2 id="rprofile2"> Explainable & Federated Learning</h2>
+    </div>
+
     <a name="explain"></a> 
     <div class="card-columns">
         {% comment %}
@@ -37,8 +42,9 @@ title: Research Profile
             {% endif %}
         {% endfor %}
     </div>
-    
-    <h2> Machine Learning Applications </h2>
+    <div class="profileanchor">  
+    <h2 id="rprofile3"> Machine Learning Applications </h2>
+    </div>
     <a name="applixations"></a> 
     <div class="card-columns">
         {% comment %}
