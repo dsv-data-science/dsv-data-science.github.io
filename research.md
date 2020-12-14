@@ -24,9 +24,11 @@ title: Research Profile
             {% endif %}
         {% endfor %}
     </div>
+
     <div class="profileanchor">    
-    <h2 id="rprofile2"> Explainable Machine Learning</h2>
+    <h2 id="rprofile2"> Explainable & Federated Learning</h2>
     </div>
+
     <a name="explain"></a> 
     <div class="card-columns">
         {% comment %}
