@@ -17,7 +17,7 @@ last-updated: 2020-11-06
 
 ## Description
 
-Particular focus is given on natural language processing with emphasis on efficient and resource lean methods for text summarization, classification, and word burst detection. Particular emphasis is given on clinical text mining by applying language technology, such as semantic analysis, to extract accurate and relevant information from very large clinical text sets. The latter is performed in close collaboration with the clinical text mining group.
+Particular focus is given on Natural Language Processing with emphasis on efficient and resource lean methods for language modeling (e.g., predictive keyboards), text generation and classification (e.g, from radiograph to diagnostic text), as well as information extraction (e.g., toxic spans detection). Particular emphasis is given on language technology applied on medical texts, to extract accurate and relevant information from very large clinical text sets. The latter is performed in close collaboration with the clinical text mining group.
 
 {% capture count_pub %}{% bibliography_count -q @*[keywords=nlp]* %}{% endcapture %}
 {% if count_pub != "0" %}
