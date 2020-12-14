@@ -23,7 +23,7 @@ title: Research Profile
         {% endfor %}
     </div>
     
-    <h2> Explainable Machine Learning</h2>
+    <h2> Explainable & Federated Learning</h2>
     <a name="explain"></a> 
     <div class="card-columns">
         {% comment %}
