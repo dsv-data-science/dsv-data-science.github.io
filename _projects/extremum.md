@@ -59,7 +59,9 @@ This project intends to build a novel data management and analytics framework, f
 
 - **Objective 3: Legal and ethical implications of machine learning models.** We will focus on the legal and ethical risks, implications, and potential harms resulting from the development and use of predictive modelling in relation to the analysis of healthcare data. To this end, we will embed existing predictive modelling schemes with legal and ethical considerations, thereby making them more accessible to regulatory and policy demands. 
 
-![extremum](/img/projects/extremum/extremum.png)
+<div>
+<img src="/img/projects/extremum/extremum-overview.jpg" width="70%" height="70%" />
+</div>
 
 <br>
 

@@ -11,6 +11,7 @@ people:
   - Rebane
 
 layout: project
+image: "/img/projects/tempominer/interpretable-models.png"
 last-updated: 2019-06-20
 ---
 
