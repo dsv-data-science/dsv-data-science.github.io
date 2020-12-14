@@ -18,6 +18,7 @@ last-updated: 2020-11-15
 ---
 
 ## EXTREMUM
+This project is a continuation of the EXTREME-Pilot project.
 
 **Project leader - main PI**:
 - Panagiotis Papapetrou, Professor, SU
@@ -65,8 +66,6 @@ This project intends to build a novel data management and analytics framework, f
 
 <br>
 
-### Implementation
-
 The implementation of the project is organized in five implementation WPs, one for each of the three objectives (WP1, WP2, WP3), one for validation on real data sources (WP4), and one for dissemination and exploitation (WP5). The project coordination (WP6) is done by SU-DSV.
 
 - WP1: unifying representation of complex data spaces
@@ -75,3 +74,11 @@ The implementation of the project is organized in five implementation WPs, one f
 - WP4: validation in real data domains
 - WP5: dissemination and exploitation
 - WP6: project management
+
+### Implementation
+
+- [wildboar](https://github.com/isaksamsten/wildboar) - explainable machine learning library for time series in Python.
+
+<br>
+
+### Results

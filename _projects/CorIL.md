@@ -3,8 +3,8 @@ title: CorIL
 status: inactive
 
 description: |
-  Analyzing registry data to improve treatment of heart failure patients <br>
-  <b>Region Stockholm/Stockholm University: 2017-2019</b>
+  Analyzing registry data to improve treatment of heart failure <br>
+  <b>Reg. Stockholm/SU: 2017-2019</b>
 
 people:
   - Asker
@@ -12,6 +12,7 @@ people:
   - Papapetrou
 
 layout: project
+image: "/img/projects/Coril/heart-rate.png"
 last-updated: 2017-12-13
 ---
 

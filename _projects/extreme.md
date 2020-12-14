@@ -14,6 +14,7 @@ people:
   - Greenstein
 
 layout: project
+image: "/img/projects/extremum/extremum.png"
 link: "/projects/extremum"
 last-updated: 2020-06-01
 ---
