@@ -1,5 +1,5 @@
 ---
-title: Searching and mining sequential and temporal data
+title: Searching and mining temporal data
 highlight: priority
 topic: temporal
 description: |
