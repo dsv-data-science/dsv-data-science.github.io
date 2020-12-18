@@ -83,6 +83,8 @@ Bampa:
     display_name: "Maria Bampa"
     role: phd
     bio: learning from complex medical data sources
+    image: /img/people/mariabampa.jpg
+    webpage: "https://mariabampa.blogs.dsv.su.se"
 
 Movin:
     display_name: "Maria Movin"
