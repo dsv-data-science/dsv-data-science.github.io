@@ -114,11 +114,6 @@ Kougia:
 
 # EXTERNAL COLLABORATORS (collab)
 
-Johansson:
-    display_name: "Ulf Johansson"
-    role: collab
-    bio: Professor, Jönköping Univ.
-
 Gionis:
     display_name: "Aristides Gionis"
     role: collab
@@ -131,6 +126,12 @@ Rojas:
     bio: Assoc. Professor, KTH
     webpage: "https://www.kth.se/profile/crro"
 
+Wolff:
+    display_name: "Ellen Wolff"
+    role: collab
+    bio: Health Economist, Public Health Agency (FOHM)
+    webpage: "https://www.linkedin.com/in/ellen-wolff-a436466b/?originalSubdomain=se"
+    
 Boström:
     display_name: "Henrik Boström"
     role: collab
@@ -143,17 +144,32 @@ Spiliopoulou:
     bio: Professor, Univ. Magdeburg
     webpage: "http://www.kmd.ovgu.de/Team/Academic+Staff/Myra+Spiliopoulou.html"
 
+Mochaourab:
+    display_name: "Rami Mochaourab"
+    role: collab
+    bio: Researcher, RISE
+    webpage: "https://www.ri.se/en/rami-mochaourab"
+    
+    
 Greenstein:
     display_name: "Stanley Greenstein"
     role: collab
     bio: Senior Lecturer, Dept. of Law, SU
     webpage: "https://www.su.se/english/profiles/stgr7735-1.184962"
 
-Mochaourab:
-    display_name: "Rami Mouchaourab"
+Fasth:
+    display_name: "Tobias Fasth"
     role: collab
-    bio: Researcher, RISE
+    bio: Data Scientist, Public Health Agency (FOHM)
+    webpage: "https://www.linkedin.com/in/tobiasfasth/?originalSubdomain=se"
+    
 
+Johansson:
+    display_name: "Ulf Johansson"
+    role: collab
+    bio: Professor, Jönköping Univ.
+    webpage: "https://ju.se/personinfo.html?sign=johulf"
+    
 # ALUMNI (alumni)
 
 Gurung:
