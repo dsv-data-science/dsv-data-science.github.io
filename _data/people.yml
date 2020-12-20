@@ -138,6 +138,12 @@ Boström:
     bio: Professor, KTH
     webpage: "http://henke.blogs.dsv.su.se/"
 
+Kalgren:
+    display_name: "Jussi Karlgren"
+    role: collab
+    bio: Principal Research Scientist, Spotify
+    webpage: "https://www.linkedin.com/in/jussikarlgren/?originalSubdomain=se"
+
 Spiliopoulou:
     display_name: "Myra Spiliopoulou"
     role: collab
