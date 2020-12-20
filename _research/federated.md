@@ -9,7 +9,7 @@ people:
   - Magnusson
 
 layout: area
-image: 
+image: img/areas/Federated.jpg
 last-updated: 2020-11-07
 ---
 
@@ -29,7 +29,7 @@ Federated learning is an sub-area of machine learning that focuses on providing 
     <table class="table">
         <tbody>
         <tr>
-          {% bibliography -q @*[keywords=optimization]*  -- max 10 %}
+          {% bibliography -q @*[keywords=federated]*  -- max 10 %}
         </tr>
         </tbody>
     </table>

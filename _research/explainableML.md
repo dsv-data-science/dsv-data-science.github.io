@@ -12,7 +12,6 @@ people:
   - Pavlopoulos
   - Wang
   - Kuratomi
-  - Kougia
 
 
 layout: area

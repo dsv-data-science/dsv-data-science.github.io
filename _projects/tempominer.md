@@ -12,7 +12,7 @@ people:
 
 layout: project
 image: "/img/projects/tempominer/interpretable-models.png"
-last-updated: 2019-06-20
+last-updated: 2020-01-01
 ---
 
 ## TEMPOMiner
