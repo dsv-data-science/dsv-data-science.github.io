@@ -70,7 +70,9 @@ Chaliane:
 Rebane:
     display_name: "Jonathan Rebane"
     role: phd
+    image: /img/people/rebane.jpg
     bio: explainable temporal models for healthcare applications
+    webpage: "https://www.su.se/english/profiles/jore1728-1.344488"
 
 Quintero:
     display_name: "Luis Quintero"
