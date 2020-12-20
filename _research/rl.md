@@ -14,7 +14,7 @@ people:
   - Quintero
 
 layout: area
-image: 
+image: https://www.tech-quantum.com/wp-content/uploads/2018/10/simple_RL_schema1.png
 last-updated: 2020-11-07
 ---
 
