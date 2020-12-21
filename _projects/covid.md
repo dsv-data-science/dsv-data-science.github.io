@@ -11,7 +11,7 @@ people:
   - Bampa
 
 layout: project
-image: "/img/projects/covid/covid.jpg"
+image: "https://phil.cdc.gov//PHIL_Images/23312/23312_lores.jpg"
 last-updated: 2020-11-14
 ---
 
