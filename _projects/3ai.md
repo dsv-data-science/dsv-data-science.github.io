@@ -3,7 +3,7 @@ title: 3AI
 highlight: priority
 
 description: |
-  Automated Auditing using Artificial Intelligence<br>
+  Automated Auditing using AI<br>
   <b>Swedish Research Council: 2020-2021</b>
 
 people:
@@ -11,6 +11,7 @@ people:
 
 layout: project
 last-updated: 2020-01-23
+image: "/img/projects/3ai/excel_timeseries.png"
 ---
 
 ## 3AI
