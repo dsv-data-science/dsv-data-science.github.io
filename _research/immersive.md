@@ -6,6 +6,7 @@ description: |
 
 people:
   - Quintero
+  - Papapetrou
 
 
 layout: area

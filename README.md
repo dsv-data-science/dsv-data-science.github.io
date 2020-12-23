@@ -60,7 +60,7 @@ To deploy the website in the DSV server `datascience.dsv.su.se` please contact P
 - `PATH: /www/datascience`
 - `cd <PATH>` and delete all files web files: `rm -r *`
 - Copy the website files through SCP:
-  - `scp -r _src/* [username]@mimas[dot]dsv[d]su[d]se:/www/datascience`
+  - `scp -rp _site/* [username]@mimas[dot]dsv[d]su[d]se:/www/datascience`
 
 ## Work to do
 - Use `rsync` instead of `scp` and add commands to bash in `./bin/deploy`.
