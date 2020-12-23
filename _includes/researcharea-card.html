@@ -9,16 +9,6 @@
 
 <div class="card" onclick="location.href='{{ proj-url }}'">
     <div class="card-body">
-        {% if project.image %}
-            {% assign imgurl = project.image %}
-            {% capture init %}{{ project.image | slice: 0,1 }}{% endcapture %}
-            {% if init == "/" %}
-                {% capture imgurl %}{{site.base}}{{project.image}}{% endcapture %}
-            {% endif %}
-            <a href="{{ proj-url }}">
-                <img class="img-fluid mb-3" src="{{imgurl}}" alt="{{project.title}}"/>
-            </a>
-        {% endif %}
         {% if project.notitle != true %}
             <h4 class="card-title">
                 {{  project.title }}
@@ -28,6 +18,16 @@
             <h6 class="card-subtitle mb-2 text-muted">
                 {{  project.subtitle }}
             </h6>
+        {% endif %}
+        {% if project.image %}
+            {% assign imgurl = project.image %}
+            {% capture init %}{{ project.image | slice: 0,1 }}{% endcapture %}
+            {% if init == "/" %}
+                {% capture imgurl %}{{site.base}}{{project.image}}{% endcapture %}
+            {% endif %}
+            <a href="{{ proj-url }}">
+                <img class="img-fluid mb-3" src="{{imgurl}}" alt="{{project.title}}"/>
+            </a>
         {% endif %}
         <div class="card-text">
             {{ project.description | markdownify }}

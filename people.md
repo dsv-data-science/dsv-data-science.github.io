@@ -10,11 +10,14 @@ role-tables:
   - roles: [phd]
     width: 6
     image: true
-- - roles: [researcher, collab]
+- - roles: [researcher]
     width: 6
-    image: false
+    image: true
   - roles: [alumni]
     width: 6
+    image: false
+- - roles: [collab]
+  - width: 6
     image: false
 ---
 

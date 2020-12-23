@@ -12,7 +12,7 @@ Asker:
     webpage: "http://people.dsv.su.se/~asker/"
     image: /img/people/lars.asker.jpg
     role: faculty
-    bio: repsentation learning, healthcare applications
+    bio: representation learning, healthcare applications
 
 Lindgren:
     display_name: "Tony Lindgren, Associate Professor"
@@ -47,11 +47,11 @@ Magnusson:
     bio: distributed optimization, reinforcement learning, federated Learning, IoT/CPS
 
 Pavlopoulos:
-    display_name: "Ioannis Pavlopoulos, Senior Lecturer (fixed term)"
+    display_name: "John Pavlopoulos, Senior Lecturer (fixed term)"
     webpage: "https://www.su.se/english/profiles/iopa3492-1.453830"
     image: /img/people/pavlopoulos.jpg
     role: faculty
-    bio: natural language processing, explainability, healthcare applications
+    bio: machine learning for natural language processing; applications to healthcare and education
 
 # PhD Students (phd)
 
@@ -101,14 +101,18 @@ Lee:
 Wang:
     display_name: "Zhendong Wang"
     role: phd
+    image: /img/people/zhendong.png
     bio: explainable sequential models
+    webpage: https://zhendong3wang.blogs.dsv.su.se
 
 # RESEARCH ASSISTANTS (researcher)
 
 Kougia:
     display_name: "Vasiliki Kougia"
     role: researcher
+    image: /img/people/vasiliki.jpg
     bio: natural language processing
+    webpage: https://vasilikikou.github.io/ 
 
 
 # AFFILIATED RESEARCHERS (affiliated)
