@@ -19,7 +19,7 @@ last-updated: 2020-11-07
 
 Federated learning is an sub-area of machine learning that focuses on providing distributed and scalable algorithms for  training models across multiple decentralized peers without the need for sharing or exchanging data or information.
 
-{% capture count_pub %}{% bibliography_count -q @*[keywords=optimization]* %}{% endcapture %}
+{% capture count_pub %}{% bibliography_count -q @*[keywords=federated]* %}{% endcapture %}
 {% if count_pub != "0" %}
 <br>
 

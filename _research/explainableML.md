@@ -27,7 +27,7 @@ We focus on methods for generating interpretable and explainable models, e.g., c
 
 <img src="/img/projects/extremum/ABRANK.png">
 
-{% capture count_pub %}{% bibliography_count -q @*[keywords=temporal]* %}{% endcapture %}
+{% capture count_pub %}{% bibliography_count -q @*[keywords=explainable]* %}{% endcapture %}
 {% if count_pub != "0" %}
 <br>
 

@@ -15,20 +15,12 @@
         <link rel="stylesheet" href="{{ site.base }}/css/group.css">
         <link rel="stylesheet" href="{{ site.base }}/css/custom.css">
         
-        <!-- LOAD MathJax for LaTeX formulae -->
-        <script type="text/javascript">
-            document.addEventListener('DOMContentLoaded', function(){
-            document.querySelectorAll("script[type='math/tex']").forEach(function(el){
-                el.outerHTML = "\\(" + el.textContent + "\\)";
-            });
-            document.querySelectorAll("script[type='math/tex; mode=display']").forEach(function(el){
-                el.outerHTML = "\\[" + el.textContent + "\\]";
-            });
-            var script = document.createElement('script');
-            script.src = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js";
-            document.head.appendChild(script);
-            }, false);
-        </script>
+        <!-- Compatibility with MathJax -->
+        {% include latex_compat.html %}
+
+        <!-- Folder with favicon -->
+        {% include favicon.html %}
+
     </head>
     <body>
         <div class="">

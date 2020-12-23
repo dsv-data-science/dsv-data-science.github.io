@@ -68,9 +68,34 @@ To deploy the website in the DSV server `datascience.dsv.su.se` please contact P
 
 # Features details
 
+Write your information with MarkDown language, images can be added to `/img/areas/` and referenced as:
+
+```
+![general]({{ site.base }}/img/areas/file.png){:width="50%"}
+```
+
+While writing your page, you can also use emojis 🥽, and text with inline $$\LaTeX$$ or a single centered formula (leaving an empty line between text and formula):
+
+$$ \sum_{i=1}^{N}{i} = i \in \mathbb{R}^+ $$
+
+
 ## Publication List
 
-The list of publications is in `bib/papers.bib`. These are compiled and grouped per year. Each co-author that is part of the group (edit in `_data/people.yml`) will have a link that point to their website (if specified).
+The list of publications is in `bib/papers.bib`. These are compiled and grouped per year. If you want to make your publication clickable, add the web URL using the key `url = {},`, and to make the paper visible in the page of a specific research area use the key `keyword={}`, as follows:
+
+|keyword|Area|
+|---|---
+|temporal|Searching and mining temporal data|
+|healthcare|Learning from ECH|
+|explainable|Interpretable and Explainable models|
+|federated|Federated Learning|
+|vehicles| Integrated Vechicle Management|
+|nlp|Natural Language Processing|
+|reinforcement|Reinforcement Learning|
+|immersive|Immersive Technologies and VR|
+
+
+Each co-author that is part of the group (edit in `_data/people.yml`) will have a link that point to their website (if specified).
 
 ## News Items and Blog Posts
 
