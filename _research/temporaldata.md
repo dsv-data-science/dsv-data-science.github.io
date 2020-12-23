@@ -11,7 +11,7 @@ people:
   - Rebane
 
 layout: area
-image: "/img/areas/sequential-temporal-data.png"
+image: /img/areas/sequential-temporal-data.png
 last-updated: 2020-11-09
 ---
 
@@ -47,5 +47,5 @@ One of our focus areas is searching and mining rich and complex data sources, wi
 
 ## Related Projects
 
-- [EXTREMUM](../projects/extremum.html)
-- [3AI](../projects/3ai.html)
+- [EXTREMUM]({{ site.base }}/projects/extremum)
+- [3AI]({{ site.base }}/projects/3ai)

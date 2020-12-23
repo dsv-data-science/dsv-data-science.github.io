@@ -54,4 +54,4 @@ We focus on methods for generating interpretable and explainable models, e.g., c
 
 ## Related Projects
 
-- [EXTREMUM](../projects/extremum.html)
+- [EXTREMUM]({{ site.base }}/projects/extremum)

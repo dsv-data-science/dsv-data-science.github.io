@@ -1,5 +1,5 @@
 name: Data Science Research Group
-url: https://dsv.su.se/en/research/research-areas/datascience
+url: https://datascience.dsv.su.se/
 
 exclude: [README.md, Makefile, screenshot.png]
 
@@ -55,14 +55,14 @@ navigation:
   - title: Home
     link: /
   - title: People
-    link: /people.html
+    link: /people
 #    link: /#people
   - title: Research
-    link: /research.html
+    link: /research
   - title: Projects
-    link: /projects.html
+    link: /projects
   - title: Publications
-    link: /publications.html
+    link: /publications
   #- title: Code
   #  link: /code.html
 

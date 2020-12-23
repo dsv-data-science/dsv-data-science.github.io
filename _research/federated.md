@@ -9,7 +9,7 @@ people:
   - Magnusson
 
 layout: area
-image: img/areas/Federated.jpg
+image: /img/areas/Federated.jpg
 last-updated: 2020-11-07
 ---
 

@@ -8,10 +8,12 @@ years: [2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 
 
 
 <!-- <a href="{{ site.base }}/bib/papers.bib" download>Download BibTeX.</a> -->
+<br>
+
+**To see the complete list of publications please click [this link](https://dsv.su.se/en/research/research-areas/datascience/results){:target="_blank"}.**
+
 
 <div class="publications container  mt-3">
-
-    <b>To see the complete list of publications please click <a href="https://dsv.su.se/en/research/research-areas/datascience/results" target="blank"> this link.</a></b>
 
     <table class="table">
         <tbody>
