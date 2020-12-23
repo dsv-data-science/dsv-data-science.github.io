@@ -1,5 +1,5 @@
 ---
-title: Efficient Machine Learning in Complex Networks
+title: Efficient ML in Complex Networks
 status: active
 
 description: |
@@ -10,6 +10,7 @@ people:
   - Magnusson
 
 layout: project
+image: img/projects/VR.jpg
 last-updated: 2020-06-20
 ---
 
