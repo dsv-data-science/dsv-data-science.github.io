@@ -45,5 +45,5 @@ Particular focus is given on Natural Language Processing with emphasis on effici
 
 ## Related Projects
 
-- [EXTREMUM]({{ site.base }}/projects/extremum)
+- [EXTREMUM]({{ site.base }}/projects/extremum.html)
 

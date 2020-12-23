@@ -55,7 +55,7 @@ The general **framework** comprises six building blocks and involves the use of 
 {% comment %}
 ## Projects
 
-- [EXTREMUM]({{ site.base }}/projects/extremum)
+- [EXTREMUM]({{ site.base }}/projects/extremum.html)
 
 {% endcomment %}
 <br>

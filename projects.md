@@ -7,8 +7,8 @@ title: Ongoing Projects
 
 <div class="jumbotron">
 <p>
-    The group is currently involved in several national projects within the area of <b>data science</b> and its applications to <b>healthcare</b>, <b>law</b>, <b>public health policies for pandemics</b>, and <b>finance</b>. Current project collaborators include other academic and research institutions, public authorities, healthcare providers, as well as industrial peers.  The group has successfully completed several national and international projects resultng in peer-reviewed <a href="{{ site.base }}/publications ">publications</a>, source code packages, and demos.</p>
-</div>    
+    The group is currently involved in several national projects within the area of <b>data science</b> and its applications to <b>healthcare</b>, <b>law</b>, <b>public health policies for pandemics</b>, and <b>finance</b>. Current project collaborators include other academic and research institutions, public authorities, healthcare providers, as well as industrial peers.  The group has successfully completed several national and international projects resultng in peer-reviewed <a href="{{ site.base }}/publications.html ">publications</a>, source code packages, and demos.</p>
+</div>
 
 
 <h2> Ongoing Projects </h2>

@@ -52,5 +52,5 @@ For the purposes of these two projects, our group has established strong collabo
 
 ## Related Projects
 
-- [EXTREMUM]({{ site.base }}/projects/extremum)
-- [COVID]({{ site.base }}/projects/covid)
+- [EXTREMUM]({{ site.base }}/projects/extremum.html)
+- [COVID]({{ site.base }}/projects/covid.html)

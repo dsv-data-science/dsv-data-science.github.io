@@ -54,4 +54,4 @@ Reinforcement Learning is the sub-field of AI that deals with how an software ag
 
 ## Related Projects
 
-- [Covid-Sim]({{ site.base }}/projects/covid)
+- [Covid-Sim]({{ site.base }}/projects/covid.html)

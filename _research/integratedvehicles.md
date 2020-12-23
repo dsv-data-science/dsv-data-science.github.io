@@ -47,5 +47,5 @@ The aim is to facilitate integrated vehicle health monitoring (IVHM) of heavy tr
 
 ## Related Projects
 
-- [CODA]({{ site.base }}/projects/coda)
-- [IRIS]({{ site.base }}/projects/iris)
+- [CODA]({{ site.base }}/projects/coda.html)
+- [IRIS]({{ site.base }}/projects/iris.html)
