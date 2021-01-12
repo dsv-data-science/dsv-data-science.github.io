@@ -7,7 +7,7 @@ description: |
   <b>Swedish Research Council: 2021-2024</b>
 
 people:
-  - Magnusson
+  - Magnússon
 
 layout: project
 image: /img/projects/VR.jpg
@@ -17,7 +17,7 @@ last-updated: 2020-06-20
 ##  Efficient Machine Learning in Complex Networks
 
 **Project leader**:
-- Sindri Magnusson, Senior Lecturer
+- Sindri Magnússon, Senior Lecturer
 
 **Researchers**
 - TBA

@@ -6,7 +6,7 @@ description: |
 
 
 people:
-  - Magnusson
+  - Magnússon
 
 layout: area
 image: /img/areas/Federated.jpg

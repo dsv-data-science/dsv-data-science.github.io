@@ -6,7 +6,7 @@ description: |
 
 
 people:
-  - Magnusson
+  - Magnússon
   - Papapetrou
   - Bampa
   - Chaliane

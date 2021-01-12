@@ -39,12 +39,12 @@ Hollmen:
     role: faculty
     bio: probabilistic modeling, environmental sustainability, healthcare applications
 
-Magnusson:
+Magnússon:
     display_name: "Sindri Magnússon, Senior Lecturer"
     webpage: "https://sites.google.com/view/sindri-magnusson/home"
     role: faculty
     image: /img/people/sm.jpg
-    bio: distributed optimization, reinforcement learning, federated Learning, IoT/CPS
+    bio: distributed optimization, reinforcement learning, federated learning, IoT/CPS
 
 Pavlopoulos:
     display_name: "John Pavlopoulos, Senior Lecturer (fixed term)"

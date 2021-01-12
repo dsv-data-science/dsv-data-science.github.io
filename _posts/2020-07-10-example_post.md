@@ -1,6 +1,9 @@
 ---
 layout: post
 icon: newspaper-o
+title: This is the title of the post
+description: This is the description **of the post**
+published: false
 ---
 
 News Extremum
