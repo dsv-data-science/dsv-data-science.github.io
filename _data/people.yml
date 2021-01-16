@@ -97,6 +97,8 @@ Lee:
     display_name: "Zed Lee"
     role: phd
     bio: mining temporal abstractions from complex data sources
+    image: /img/people/zed.png
+    webpage: "https://zed.okinawa"
 
 Wang:
     display_name: "Zhendong Wang"
