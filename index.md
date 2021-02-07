@@ -67,9 +67,9 @@ role-tables:
     <p><img src="img/logo/HM-group.jpg" width ="100%" style="horizontal-align:middle"></p>
     <p><img src="https://www.coop.se/contentassets/a2726990fdc948efbb5fb5e917bb2dec/coop_topbild_700x260.png" width ="100%" style="horizontal-align:middle"></p>    
     <br>
-    <p><img src="https://www.scania.com/content/dam/scanianoe/market/master/homepage/scania-wordmark.svg" width ="100%" style="horizontal-align:middle"></p>    
-    <br>
     <p>Spotify</p>
+    <br>
+    <p>Scania</p>
     <br>
     <p>SPV (Swedish Pensions Agency)</p>
     </div>
