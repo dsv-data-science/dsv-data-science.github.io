@@ -10,7 +10,6 @@ people:
   - Pavlopoulos
 
 layout: project
-#image: "/img/projects/extremum/extremum.png"
 last-updated: 2021-02-01
 ---
 
