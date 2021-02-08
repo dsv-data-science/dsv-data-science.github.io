@@ -61,13 +61,13 @@ To deploy the website in the DSV server `datascience.dsv.su.se` please contact P
 
 Three ways:
 1. Git 
-   - **Only the first time:** To clone the repository (notice the `.` at the end to avoid creating a new root directory)
-     -  `git clone --single-branch --branch master https://github.com/dsv-data-science/dsv-data-science.github.io.git .`
-   - After cloning, just update changes by:
+   - *If the repository is already cloned*, just update changes by:
      -  `git fetch`
      -  `git reset --hard origin/master`
+  -  *To pull the repository **Only the first time**:* (notice the `.` at the end to avoid creating a new root directory)
+     -  `git clone --single-branch --branch master https://github.com/dsv-data-science/dsv-data-science.github.io.git .`
 
-2. SCP
+2. **Deprecated - Do not use SCP**:
    - `cd <PATH>` and delete all files web files: `rm -r *`
    - Copy the website files through SCP:
      - `scp -rp _site/* [username]@mimas[dot]dsv[d]su[d]se:/www/datascience`
