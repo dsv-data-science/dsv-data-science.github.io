@@ -8,6 +8,7 @@ description: |
 people:
   - Papapetrou
   - Pavlopoulos
+  - Lee
 
 layout: project
 last-updated: 2021-02-01
