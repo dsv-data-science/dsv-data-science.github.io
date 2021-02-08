@@ -25,7 +25,7 @@ last-updated: 2021-02-01
 - Ioannis Pavlopoulos,  Senior Lecturer (fixed-term), DSV, SU
 
 **Researchers**
-- TBA
+- Lee
 
 **Project period:** 2021-03-01 to 2021-12-31
 
