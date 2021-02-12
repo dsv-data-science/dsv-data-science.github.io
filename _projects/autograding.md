@@ -25,7 +25,7 @@ last-updated: 2021-02-01
 - Ioannis Pavlopoulos,  Senior Lecturer (fixed-term), DSV, SU
 
 **Researchers**
-- Alexandra Frantzouli, Research Assistant
+- Alexandra Farazouli, Research Assistant
 - Jimmy Ljungman, Research Assistant
 - Vanessa Lislevand, Research Assistant
 - Zed Lee, PhD student
