@@ -17,14 +17,10 @@ last-updated: 2021-02-01
 ## AutoGrade
 
 
-**Project leader - main PI**:
-- Panagiotis Papapetrou, Professor, SU
-
-**Co-PIs**
+**Project team**:
+- Panagiotis Papapetrou, Professor, DSV, SU
 - Uno Fors, Professor, DSV, SU
 - Ioannis Pavlopoulos,  Senior Lecturer (fixed-term), DSV, SU
-
-**Researchers**
 - Alexandra Farazouli, Research Assistant
 - Jimmy Ljungman, Research Assistant
 - Vanessa Lislevand, Research Assistant
