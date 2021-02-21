@@ -85,7 +85,7 @@ title: Data Science @ DSV PhD Workshop 2021
         
         <span class="session-time">13:20-13:45</span>
         <h3 class="session-title">Reinforcement learning in recommender systems</h3>
-        <span class="session-presenter">Guilherme Dj, 1st year</span>
+        <span class="session-presenter">Guilherme Dj, 1st year, Spotify</span>
         <br>
         
     </div>
@@ -114,7 +114,7 @@ title: Data Science @ DSV PhD Workshop 2021
         
         <span class="session-time">14:50-15:15</span>
         <h3 class="session-title">Explanaible machine learning in the medical domain</h3>
-        <span class="session-presenter">Zhendong Wang, 1st year, Spotify</span>
+        <span class="session-presenter">Zhendong Wang, 1st year</span>
         <br>
     </div>
     
