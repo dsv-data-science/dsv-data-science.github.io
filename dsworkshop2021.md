@@ -27,7 +27,6 @@ title: Data Science @ DSV PhD Workshop 2021
         <span class="session-time">09:10 - 09:50</span>
         <h3 class="session-title">TBA</h3>
         <span class="session-presenter">Stojan Denic, Ericsson</span>
-        <br>
     </div>
     
     
