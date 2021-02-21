@@ -1,5 +1,5 @@
 /*************************
- * GRID SCHEDULE LAYOUT
+ * GRID SCHEDULE LAYOUT FOR DS WORKSHOP
  *************************/
 @media screen and (min-width:700px) {
 	.schedule {
@@ -59,15 +59,8 @@
 	}
 }
 
-body {
-	padding: 50px;
-	max-width: 1100px;
-	margin: 0 auto;
-	line-height: 1.5;
-}
-
 .session {
-	padding: .5em;
+	padding: 1em;
 	border-radius: 2px;
 	font-size: 14px;
 	box-shadow:
@@ -78,6 +71,7 @@ body {
 .session-title,
 .session-time,
 .session-track,
+.session-heading,
 .session-presenter {
 	display: block;
 }
@@ -88,29 +82,28 @@ body {
 	font-size: 1em;
 }
 
+.session-time {
+    font-size: medium;
+    font-weight: bold;
+}
+
 .session-heading {
     margin-top: 0;
-    margin-bottom: 10;
+    margin-bottom: 10px;
+    font-size: x-large;
     text-align: left;
 }
 
-.session-title a {
+.session-title{
 	color: #fff;
-	text-decoration-style: dotted;
-	
-	&:hover {
-		font-style: italic;
-	}
-	
-	&:focus {
-		outline: 2px dotted rgba(255,255,255,.8);
-	}
+    font-size: medium;
+    font-style: italic;
 }
 
 .track-slot,
 .time-slot {
 	font-weight: bold;
-	font-size:.75em;
+	font-size:1.5em;
 }
 
 .track-1 {
@@ -133,30 +126,11 @@ body {
 	color: #fff;
 }
 
-.track-all {
+.track-break {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	background: #ccc;
 	color: #000;
 	box-shadow: none;
-}
-
-.text {
-	max-width: 750px;
-	font-size: 18px;
-	margin: 0 auto 50px;
-}
-
-.meta {
-	color: #555;
-	font-style: italic;
-}
-
-.meta a {
-	color: #555;
-}
-
-hr {
-	margin: 40px 0;
 }
