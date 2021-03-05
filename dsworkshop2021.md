@@ -26,9 +26,8 @@ title: Data Science @ DSV PhD Workshop 2021
         
         <span class="session-time">09:10 - 09:50</span>
         <h3 class="session-title">TBA</h3>
-        <span class="session-presenter">TBA</span>
+        <span class="session-presenter">Mykola Pechenizkiy</span>
     </div>
-    
     
     <h2 class="time-slot" style="grid-row: time-0950;">09:50</h2>
 
