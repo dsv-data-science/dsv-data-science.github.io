@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Data Science Research Group: Learning from electronic health records</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+              integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+              crossorigin="anonymous">
+        <link rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/css/group.css">
+        <link rel="stylesheet" href="/css/custom.css">
+        <link rel="stylesheet" href="/css/event.css">
+        
+        <!-- Compatibility with MathJax -->
+        <!-- LOAD MathJax for LaTeX formulae -->
+<script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function(){
+    document.querySelectorAll("script[type='math/tex']").forEach(function(el){
+        el.outerHTML = "\\(" + el.textContent + "\\)";
+    });
+    document.querySelectorAll("script[type='math/tex; mode=display']").forEach(function(el){
+        el.outerHTML = "\\[" + el.textContent + "\\]";
+    });
+    var script = document.createElement('script');
+    script.src = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js";
+    document.head.appendChild(script);
+    }, false);
+</script>
+
+        <!-- Folder with favicon -->
+        <!-- Generated from favicon-generator.org -->
+<link rel="apple-touch-icon" sizes="57x57" href="/img/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/img/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/img/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+<link rel="manifest" href="/img/favicon/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/img/favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+    </head>
+    <body>
+        <div class="">
+            <!-- This is a bit nasty, but it basically says be a column first, and on larger screens be a spaced out row -->
+            <div class="header">
+                <div class="container">
+                        <div id="frontbar">
+
+                        </div>
+                        <div id="logoline">
+                            <a href="/" class="">
+                                <img src="/img/logo/dsgroup.png"
+                                     srcset="/img/logo/dsgroup.png 2x"
+                                     alt="dsdsv_logo" id="logo">
+                            </a>
+                        </div>
+                        <div id="menuline">
+                            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                                <div class="navbar-collapse" id="navbarNav">
+                                    <ul class="navbar-nav justify-content-end">
+
+                                        
+                                        
+                    
+                                            
+                    
+                                            
+                                            
+                                            
+                                            
+                    
+                                            <li class="nav-item">
+                                                <a class="nav-link "
+                                                href="/">
+                                                    Home
+                                                </a>
+                                            </li>
+                    
+                                        
+                    
+                                            
+                    
+                                            
+                                            
+                                            
+                                            
+                    
+                                            <li class="nav-item">
+                                                <a class="nav-link "
+                                                href="/people.html">
+                                                    People
+                                                </a>
+                                            </li>
+                    
+                                        
+                    
+                                            
+                    
+                                            
+                                            
+                                            
+                                            
+                    
+                                            <li class="nav-item">
+                                                <a class="nav-link active"
+                                                href="/research.html">
+                                                    Research
+                                                </a>
+                                            </li>
+                    
+                                        
+                    
+                                            
+                    
+                                            
+                                            
+                                            
+                                            
+                    
+                                            <li class="nav-item">
+                                                <a class="nav-link "
+                                                href="/projects.html">
+                                                    Projects
+                                                </a>
+                                            </li>
+                    
+                                        
+                    
+                                            
+                    
+                                            
+                                            
+                                            
+                                            
+                    
+                                            <li class="nav-item">
+                                                <a class="nav-link "
+                                                href="/publications.html">
+                                                    Publications
+                                                </a>
+                                            </li>
+                    
+                                        
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                
+                
+            </div>
+
+            
+            <div class="bannerarea">
+                <div class="gridtile">
+                <p> Learning from electronic health records</p>
+                </div>
+            </div>
+                <!-- <h1></h1> -->
+            
+
+            
+            
+
+            <div class="container">
+            <p><br /></p>
+
+<h2 id="description">Description</h2>
+
+<p>The key aim is to develop and employ machine learning methods for providing efficient and effective decision support for healthcare and pharmaceutical research. The research group is currently focusing on two concrete problems:</p>
+
+<ol>
+  <li>Learning temporal models for predicting and preventing adverse events in healthcare, such as Adverse Drug Events (ADEs)</li>
+  <li>Understanding heart failure and modeling heart failure patient treatment trajectories.</li>
+</ol>
+
+<p>For the purposes of these two projects, our group has established strong collaboration with Stockholm County Council, Karolinska University Hospital, and Karolinska Institute.</p>
+
+<p><br /></p>
+
+<h2 id="latest-publications">Latest publications</h2>
+
+<div class="publications">
+    <table class="table">
+        <tbody>
+        <tr>
+          <ol class="bibliography"><li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://doi.org/10.1109/CBMS49503.2020.00041">A Clustering Framework for Patient Phenotyping with Application to Adverse Drug Events</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  <a href="https://mariabampa.blogs.dsv.su.se" target="_blank">Bampa, Maria</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  <a href="http://people.dsv.su.se/~panagiotis/" target="_blank">Papapetrou, Panagiotis</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and <a href="https://users.ics.aalto.fi/jhollmen/" target="_blank">Hollmen, Jaakko</a>
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        		<em>In International Symposium on Computer-Based Medical Systems (CBMS)</em>,
+		
+      	
+        	2020
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://doi.org/10.1109/CBMS49503.2020.00061">Mining Disproportional Frequent Arrangements of Event Intervals for
+               Investigating Adverse Drug Events</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  <a href="https://zed.okinawa" target="_blank">Lee, Zed</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  <a href="https://www.su.se/english/profiles/jore1728-1.344488" target="_blank">Rebane, Jonathan</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and <a href="http://people.dsv.su.se/~panagiotis/" target="_blank">Papapetrou, Panagiotis</a>
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        		<em>In International Symposium on Computer-Based Medical Systems (CBMS)</em>,
+		
+      	
+        	2020
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://doi.org/10.1145/3292500.3332274">Mining and Model Understanding on Medical Data</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  <a href="http://www.kmd.ovgu.de/Team/Academic+Staff/Myra+Spiliopoulou.html" target="_blank">Spiliopoulou, Myra</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and <a href="http://people.dsv.su.se/~panagiotis/" target="_blank">Papapetrou, Panagiotis</a>
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        		<em>In International Conference on Knowledge Discovery &amp; Data Mining (KDD)</em>,
+		
+      	
+        	2019
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://doi.org/10.1007/978-3-030-19823-7_11">FISUL: A Framework for Detecting Adverse Drug Events from Heterogeneous
+               Medical Sources Using Feature Importance</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  Allaart, Corinne G.,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Mondrejevski, Lena,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and <a href="http://people.dsv.su.se/~panagiotis/" target="_blank">Papapetrou, Panagiotis</a>
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        		<em>In International Conference on Artificial Intelligence Applications and Innovations (AIAI)</em>,
+		
+      	
+        	2019
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://doi.org/10.1007/978-3-030-19823-7_9">Clustering Diagnostic Profiles of Patients</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  <a href="https://users.ics.aalto.fi/jhollmen/" target="_blank">Hollmen, Jaakko</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and <a href="http://people.dsv.su.se/~panagiotis/" target="_blank">Papapetrou, Panagiotis</a>
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        		<em>In International Conference on Artificial Intelligence Applications and Innovations (AIAI)</em>,
+		
+      	
+        	2019
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://doi.org/10.1145/3167132.3167162">Discovering, selecting and exploiting feature sequence records of
+               study participants for the classification of epidemiological data
+               on hepatic steatosis</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  Hielscher, Tommy,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Volzke, Henry,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  <a href="http://people.dsv.su.se/~panagiotis/" target="_blank">Papapetrou, Panagiotis</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and <a href="http://www.kmd.ovgu.de/Team/Academic+Staff/Myra+Spiliopoulou.html" target="_blank">Spiliopoulou, Myra</a>
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        		<em>In Symposium on Applied Computing (SAC)</em>,
+		
+      	
+        	2018
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li></ol>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<p><br /></p>
+
+<h2 id="implementations">Implementations</h2>
+
+<p><br /></p>
+
+<h2 id="related-projects">Related Projects</h2>
+
+<ul>
+  <li><a href="/projects/extremum.html">EXTREMUM</a></li>
+  <li><a href="/projects/covid.html">COVID</a></li>
+</ul>
+
+
+<h2> People </h2>
+<section class="people project-people">
+    
+        
+        
+
+
+
+
+
+
+
+    <div class="person person-with-image row">
+        <div class="col-auto">
+            
+
+
+
+
+
+
+
+    <a href="http://people.dsv.su.se/~panagiotis/"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile"
+             alt="Panagiotis Papapetrou, Professor"
+             title="Panagiotis Papapetrou, Professor"
+             src="/img/people/panagiotis_papapetrou-266x300.jpg" />
+    
+    </a>
+
+
+        </div>
+        <div class="col pl-0">
+            <h6 class="person-name"> 
+        <a href="http://people.dsv.su.se/~panagiotis/"> Panagiotis Papapetrou, Professor </a>
+     </h6>
+            
+                <div class="bio">sequential and temporal data mining, explainability, healthcare applications</div>
+            
+        </div>
+    </div>
+
+
+    
+        
+        
+
+
+
+
+
+
+
+    <div class="person person-with-image row">
+        <div class="col-auto">
+            
+
+
+
+
+
+
+
+    <a href="http://people.dsv.su.se/~asker/"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile"
+             alt="Lars Asker, Associate Professor"
+             title="Lars Asker, Associate Professor"
+             src="/img/people/lars.asker.jpg" />
+    
+    </a>
+
+
+        </div>
+        <div class="col pl-0">
+            <h6 class="person-name"> 
+        <a href="http://people.dsv.su.se/~asker/"> Lars Asker, Associate Professor </a>
+     </h6>
+            
+                <div class="bio">representation learning, healthcare applications</div>
+            
+        </div>
+    </div>
+
+
+    
+        
+        
+
+
+
+
+
+
+
+    <div class="person person-with-image row">
+        <div class="col-auto">
+            
+
+
+
+
+
+
+
+    <a href="https://mariabampa.blogs.dsv.su.se"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile"
+             alt="Maria Bampa"
+             title="Maria Bampa"
+             src="/img/people/mariabampa.jpg" />
+    
+    </a>
+
+
+        </div>
+        <div class="col pl-0">
+            <h6 class="person-name"> 
+        <a href="https://mariabampa.blogs.dsv.su.se"> Maria Bampa </a>
+     </h6>
+            
+                <div class="bio">learning from complex medical data sources</div>
+            
+        </div>
+    </div>
+
+
+    
+        
+        
+
+
+
+
+
+
+
+    <div class="person person-with-image row">
+        <div class="col-auto">
+            
+
+
+
+
+
+
+
+    <a href="https://www.su.se/english/profiles/jore1728-1.344488"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile"
+             alt="Jonathan Rebane"
+             title="Jonathan Rebane"
+             src="/img/people/rebane.jpg" />
+    
+    </a>
+
+
+        </div>
+        <div class="col pl-0">
+            <h6 class="person-name"> 
+        <a href="https://www.su.se/english/profiles/jore1728-1.344488"> Jonathan Rebane </a>
+     </h6>
+            
+                <div class="bio">explainable temporal models for healthcare applications</div>
+            
+        </div>
+    </div>
+
+
+    
+</section>
+
+            </div>
+
+            <div class="footer container navbar-dark">
+                <span>
+                    <a href="https://dsv.su.se/">Department of Computer and Systems Sciences</a>
+                    of
+                    <a href="https://su.se/">Stockholm University</a>
+                </span>
+            </div>
+
+        </div> <!-- /container -->
+
+        <!-- Support retina images. -->
+        <script type="text/javascript"
+                src="/js/srcset-polyfill.js"></script>
+    </body>
+</html>
