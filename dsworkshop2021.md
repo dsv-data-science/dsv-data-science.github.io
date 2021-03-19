@@ -25,7 +25,7 @@ title: Data Science @ DSV PhD Workshop 2021
         <br>
         
         <span class="session-time">09:10 - 09:50</span>
-        <h3 class="session-title">TBA</h3>
+        <h3 class="session-title">On Explainable Machine Learning</h3>
         <span class="session-presenter">Mykola Pechenizkiy, Eindhoven University of Technology, The Netherlands</span>
     </div>
     
