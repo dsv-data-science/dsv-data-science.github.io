@@ -8,7 +8,8 @@ title: Data Science @ DSV PhD Workshop 2021
 
 <span class="session-heading"><strong>Attend via Zoom:</strong> 
 <a href="https://stockholmuniversity.zoom.us/j/67984630132?pwd=eHhJUHdITHd2dnYrVEMwVmY4RlVsZz09">direct URL</a>
-</span><br>
+</span>
+<h3>
 Meeting ID: 679 8463 0132 <br>
 Passcode: 660144 <br>
 </h3>
