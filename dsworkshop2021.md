@@ -79,6 +79,7 @@ Passcode: 660144 <br>
     <h2 class="time-slot" style="grid-row: time-1230;">12:30</h2>
     
     <div class="session session-3 track-3" style="grid-column: track-1-start / track-2-end; grid-row: time-1230 / time-1345;">
+        <h3 class="session-title">Session Chair: Sindri Magnusson</h3>
         <span class="session-heading">Session 3: Reinforcement Learning and Machine Learning Applications</span>
         <span class="session-time">12:30-12:55</span>
         <h3 class="session-title">Enhancing interactive immersive applications with real-time data science</h3>
@@ -91,7 +92,7 @@ Passcode: 660144 <br>
         <br>
         
         <span class="session-time">13:20-13:45</span>
-        <h3 class="session-title">Reinforcement learning in recommender systems</h3>
+        <h3 class="session-title">Predicting Value Functions with Periodic Rewards</h3>
         <span class="session-presenter">Guilherme Dj, 1st year, Spotify</span>
         
     </div>
