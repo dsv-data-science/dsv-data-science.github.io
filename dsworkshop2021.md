@@ -27,11 +27,11 @@ Passcode: 660144 <br>
     <div class="session session-1 track-1" style="grid-column: track-1-start / track-2-end; grid-row: time-0900 / time-0950;">
         
         <span class="session-heading">Session 1: Event Opening and Keynote</span>
-        <h3 class="session-title">Session Chair: Panagiotis Papapetrou</h3>
+        <h3 class="session-title">Session Chair: Jelena Zdravkovic</h3>
         <br>
         
         <span class="session-time">09:00 - 09:10</span>
-        <h3 class="session-title">Opening remarks</h3>
+        <h3 class="session-title">Opening remarks: Panagiotis Papapetrou, Jelena Zdravkovic</h3>
         <br>
         
         <span class="session-time">09:10 - 09:50</span>
