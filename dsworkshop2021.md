@@ -7,7 +7,7 @@ title: Data Science @ DSV PhD Workshop 2021
 <span class="session-heading"><strong>Where:</strong> online</span>
 
 <span class="session-heading"><strong>Presentation Handouts: </strong> 
-<a target="_blank" href="https://stockholmuniversity.app.box.com/folder/135058386388">Access here</a>
+<a target="_blank" href="https://stockholmuniversity.box.com/s/bi1p6d8m8y0y7nthh599jgi4vfqndn7k">Access here</a>
 </span>
 
 <hr>
