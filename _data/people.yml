@@ -52,6 +52,14 @@ Pavlopoulos:
     image: /img/people/pavlopoulos.jpg
     role: faculty
     bio: machine learning for natural language processing; applications to healthcare and education
+    
+Miliou:
+    display_name: "Ioanna Miliou, Postdoctoral researcher"
+    webpage:
+    role: faculty
+    image:
+    bio: data science for social good, nowcasting and forecasting
+    
 
 # PhD Students (phd)
 
@@ -107,6 +115,7 @@ Wang:
     bio: explainable sequential models
     webpage: https://zhendong3wang.blogs.dsv.su.se
 
+
 # RESEARCH ASSISTANTS (researcher)
 
 Kougia:
@@ -114,7 +123,28 @@ Kougia:
     role: researcher
     image: /img/people/vasiliki.jpg
     bio: natural language processing
-    webpage: https://vasilikikou.github.io/ 
+    webpage: https://vasilikikou.github.io/
+    
+Ljungman:
+    display_name: "Jimmy Ljungman"
+    role: researcher
+    image:
+    bio: temporal data mining
+    webpage:
+    
+Farazouli:
+    display_name: "Alexandra Farazouli"
+    role: researcher
+    image:
+    bio: data science for education and pedagogics
+    webpage:
+    
+Lislevand:
+    display_name: "Vanessa Lislevand"
+    role: researcher
+    image:
+    bio: natural language processing
+    webpage:
 
 
 # AFFILIATED RESEARCHERS (affiliated)
