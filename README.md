@@ -67,13 +67,8 @@ Three ways:
   -  *To pull the repository **Only the first time**:* (notice the `.` at the end to avoid creating a new root directory)
      -  `git clone --single-branch --branch master https://github.com/dsv-data-science/dsv-data-science.github.io.git .`
 
-2. **Deprecated - Do not use SCP**:
-   - `cd <PATH>` and delete all files web files: `rm -r *`
-   - Copy the website files through SCP:
-     - `scp -rp _site/* [username]@mimas[dot]dsv[d]su[d]se:/www/datascience`
 
 ## Work to do
-- Use `rsync` instead of `scp` and add commands to bash in `./bin/deploy`.
 - Modify the projects and research templates with a table of contents on the right side of the page.
 
 # Features details

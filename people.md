@@ -10,7 +10,10 @@ role-tables:
   - roles: [phd]
     width: 6
     image: true
-- - roles: [researcher]
+- - roles: [postdoc]
+    width: 6
+    image: true
+  - roles: [researcher]
     width: 6
     image: true
 - - roles: [collab]

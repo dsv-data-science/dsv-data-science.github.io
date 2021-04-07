@@ -55,11 +55,10 @@ Pavlopoulos:
     
 Miliou:
     display_name: "Ioanna Miliou, Postdoctoral researcher"
-    webpage:
+    webpage: #https://scholar.google.it/citations?user=zJOkaFYAAAAJ&hl=en
     role: faculty
-    image:
+    image: #https://scholar.googleusercontent.com/citations?view_op=view_photo&user=zJOkaFYAAAAJ&citpid=4
     bio: data science for social good, nowcasting and forecasting
-    
 
 # PhD Students (phd)
 
@@ -114,6 +113,8 @@ Wang:
     image: /img/people/zhendong.png
     bio: explainable sequential models
     webpage: https://zhendong3wang.blogs.dsv.su.se
+
+# POST DOCS (postdoc)
 
 
 # RESEARCH ASSISTANTS (researcher)
