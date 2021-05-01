@@ -30,6 +30,7 @@ This project is a continuation of the EXTREME-Pilot project.
 - Stanley Greenstein, Senior Lecturer, Dept. of Law, SU
 
 **Researchers**
+- Ioanna Miliou, Senior Lecturer, DSV, SU
 - Ioannis Pavlopoulos, Senior Lecturer (fixed-term), DSV, SU
 - Isak Samsten, Senior Lecturer, DSV, SU
 - Sugandh Sinha, RISE
