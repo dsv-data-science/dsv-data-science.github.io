@@ -17,7 +17,7 @@ last-updated: 2020-06-20
 ##  Efficient Machine Learning in Complex Networks
 
 **Project leader**:
-- Sindri Magnússon, Senior Lecturer
+- Sindri Magnússon, Associate Professor
 
 **Researchers**
 - TBA
