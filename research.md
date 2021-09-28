@@ -6,7 +6,7 @@ title: Research Profile
 <div class="container mt-3">
 
     <div class="jumbotron">
-    <p>The core research profile of the group is within machine learning and data mining with emphasis on <b>sequential</b> and <b>temporal data mining</b>,  <b>explainable machine learning</b>,  <b>natural language processing</b>,  <b>reinforcement learning</b>, and  <b>distributed optimization</b>. Our focus application areas include  <b>healthcare</b>, <b>integrated vehicle health management</b>, <b>public health policies</b> for epidemics, <b>virtual reality</b> and <b>immersive technologies</b>, and <b>environmental sustainabiity</b>. </p>
+    <p>The core research profile of the data science group is within machine learning and data mining with emphasis on <b>sequential</b> and <b>temporal data mining</b>,  <b>explainable machine learning</b>,  <b>time series nowcasting and forecasting</b>, <b>natural language processing</b>,  <b>reinforcement learning</b>, and  <b>distributed optimization</b>. Our focus application areas include  <b>healthcare</b>, <b>integrated vehicle health management</b>, <b>public health policies</b> for epidemics, <b>virtual reality</b> and <b>immersive technologies</b>, and <b>environmental sustainabiity</b>. </p>
     </div>
     <div class="profileanchor">    
     <h2 id="rprofile1"> Sequential and Temporal Mining </h2>
