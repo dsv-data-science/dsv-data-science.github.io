@@ -8,6 +8,7 @@ description: |
 
 people:
   - Magnússon
+  - Beikmohammadi
 
 layout: project
 image: /img/projects/VR.jpg
@@ -20,7 +21,7 @@ last-updated: 2020-06-20
 - Sindri Magnússon, Associate Professor
 
 **Researchers**
-- TBA
+- Ali Beikmohammadi
 
 **Project period:** 2021-01-01 to 2024-12-31
 

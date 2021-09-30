@@ -4,18 +4,16 @@ title: People
 
 # groups of columns of {roles: list, width: num, image: bool}
 role-tables:
-- - roles: [faculty]
+- - roles: [faculty, senior, researcher]
     width: 6
     image: true
   - roles: [phd]
     width: 6
     image: true
-- - roles: [postdoc]
-    width: 6
-    image: true
-  - roles: [researcher]
-    width: 6
-    image: true
+# - - # Empty left column
+#   - roles: [researcher]
+#     width: 6
+#     image: true
 - - roles: [collab]
     width: 6
     image: false

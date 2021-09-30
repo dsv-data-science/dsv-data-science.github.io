@@ -1,5 +1,5 @@
 ---
-title:  Immersive technologies and virtual reality
+title:  Behavioral user modelling in virtual reality
 topic: applications
 
 description: |
@@ -7,7 +7,7 @@ description: |
 people:
   - Quintero
   - Papapetrou
-
+  - Hollmen
 
 layout: area
 image: /img/areas/immersive/1generalArch.jpg
@@ -18,15 +18,17 @@ last-updated: 2020-11-01
 
 ## Description
 
-The main focus of this area is on how to exploit machine learning methods for improving user experience within the area of immersive technologies. Our emphasis is on applying time series analysis and early classification techniques for modeling user skills and capabilities when using virtual reality (VR) applications.
+This research area focuses on the design, application and evaluation of machine learning methods to create behavioral models of users in digital environments. Our emphasis is the analysis of physiological time-series, motion trajectories, and game-play interactions within virtual reality (VR) environments, aiming to build models that perform real-time clustering and classification of subjective treats like user skill level, emotional states, or mental workload. We use VR as out testbed because it is a powerful medium to enhance traditional tasks with interactive immersive experiences, and with many applications on healthcare (physical and mental rehab), professional training, education, or marketing. 
 
-VR is a powerful medium to enhance traditional learning tasks with interactive immersive experiences in areas like *education, physical rehabilitation, psychological therapies, professional training, or marketing*. We explore how **real-time data science** can enable the creation of training virtual tasks that can automatically adapt and personalize to a specific user based on estimation of skill level based on ML-based methodological workflows.
+<!-- The general **framework** comprises six building blocks and involves the use of **time-series analysis** and **reinforcement learning**:
 
-The general **framework** comprises six building blocks and involves the use of **time-series analysis** and **reinforcement learning**:
+![general]({{ site.base }}/img/areas/immersive/1generalArch.jpg){:width="70%"}  -->
 
-![general]({{ site.base }}/img/areas/immersive/1generalArch.jpg){:width="70%"}
+## Frameworks
 
-## Implementations
+- [Excite-O-Meter](https://github.com/luiseduve/exciteometer){:target="_blank"} - Easy Integration of time-series analysis in Virtual Reality
+
+![general]({{ site.base }}/img/areas/immersive/eom.png){:width="50%"}
 
 - [PARE-VR](https://github.com/luiseduve/pare-vr){:target="_blank"} - Physiologically Adaptable Relaxation Experience through Virtual Reality
 

@@ -7,6 +7,9 @@ description: |
 
 people:
   - Magnússon
+  - Beikmohammadi
+  - Vaishnav
+  - Mondrejevski
 
 layout: area
 image: /img/areas/Federated.jpg

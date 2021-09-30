@@ -46,17 +46,20 @@ Hollmen:
     role: faculty
     bio: probabilistic modeling, environmental sustainability, healthcare applications
 
+# Senior Researchers (senior)
+
 Pavlopoulos:
     display_name: "John Pavlopoulos, Senior Lecturer (fixed term)"
     webpage: "https://www.su.se/english/profiles/iopa3492-1.453830"
     image: /img/people/pavlopoulos.jpg
-    role: faculty
+    role: senior
     bio: machine learning for natural language processing; applications to healthcare and education
-    
+
+
 Miliou:
-    display_name: "Ioanna Miliou, Postdoctoral researcher"
+    display_name: "Ioanna Miliou, Postdoctoral Researcher"
     webpage: #https://scholar.google.it/citations?user=zJOkaFYAAAAJ&hl=en
-    role: faculty
+    role: senior
     image: #https://scholar.googleusercontent.com/citations?view_op=view_photo&user=zJOkaFYAAAAJ&citpid=4
     bio: data science for social good, nowcasting and forecasting
 
@@ -86,7 +89,7 @@ Quintero:
     role: phd
     webpage: "https://luiseduve.github.io/"
     image: /img/people/lq.jpg
-    bio: machine learning for immersive technology applications
+    bio: user modelling from time series in digital environments
 
 Bampa:
     display_name: "Maria Bampa"
@@ -98,7 +101,9 @@ Bampa:
 Movin:
     display_name: "Maria Movin"
     role: phd
+    # image: /img/people/ali.png
     bio: multi-objective learning for modeling user preferences (Spotify)
+    # webpage: 
 
 Lee:
     display_name: "Zed Lee"
@@ -114,7 +119,34 @@ Wang:
     bio: explainable sequential models
     webpage: https://zhendong3wang.blogs.dsv.su.se
 
-# POST DOCS (postdoc)
+Beikmohammadi:
+    display_name: "Ali Beikmohammadi"
+    role: phd
+    image: /img/people/ali.png
+    bio: efficient federated learning in complex networks
+    webpage: https://www.su.se/english/profiles/albe0724
+
+Vaishnav:
+    display_name: "Shubham Vaishnav"
+    role: phd
+    # image: /img/people/ali.png
+    bio: data science
+    # webpage: https://www.su.se/english/profiles/shva2279
+
+Mondrejevski:
+    display_name: "Lena Mondrejevski"
+    role: phd
+    # image: /img/people/ali.png
+    bio: federated learning (Getinge)
+    #webpage: https://www.su.se/english/profiles/shva2279
+
+Piller:
+    display_name: "Jonathan Piller"
+    role: phd
+    # image: /img/people/ali.png
+    bio: data science (Spotify)
+    #webpage: https://www.su.se/english/profiles/shva2279
+
 
 
 # RESEARCH ASSISTANTS (researcher)

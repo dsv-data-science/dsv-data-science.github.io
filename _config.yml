@@ -12,6 +12,8 @@ permalink: /blog/:year/:month/:day/:title.html
 # Sections on the "people" page.
 roles:
   - key: faculty
+    name: Faculty
+  - key: senior
     name: Senior Researchers
   - key: staff
     name: Staff
@@ -19,8 +21,8 @@ roles:
     name: Research Assistants
   - key: phd
     name: PhD Students
-  - key: ugrad
-    name: Undergraduate Students
+  - key: stud
+    name: Students
   - key: affiliated
     name: Affiliated Researchers
   - key: collab

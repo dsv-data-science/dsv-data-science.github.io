@@ -12,6 +12,7 @@ people:
   - Chaliane
   - Movin
   - Quintero
+  - Piller
 
 layout: area
 image: /img/areas/RL.jpg

@@ -3,20 +3,20 @@ layout: default
 title: Home
 notitle: true
 
-# groups of columns of {roles: list, width: num, image: bool}
-role-tables:
-- - roles: [faculty]
-    width: 6
-    image: true
-  - roles: [phd]
-    width: 6
-    image: true
-- - roles: [researcher, collab]
-    width: 6
-    image: false
-  - roles: [alumni]
-    width: 6
-    image: false
+# # groups of columns of {roles: list, width: num, image: bool}
+# role-tables:
+# - - roles: [faculty, postdoc]
+#     width: 6
+#     image: true
+#   - roles: [phd]
+#     width: 6
+#     image: true
+# - - roles: [researcher, collab]
+#     width: 6
+#     image: false
+#   - roles: [alumni]
+#     width: 6
+#     image: false
 ---
 
 <!-- <div class="bannerarea">
@@ -138,7 +138,7 @@ role-tables:
 
 </div>
    
-  
+<!--   
 
 {% comment %}
 <div id="people">
@@ -155,4 +155,4 @@ role-tables:
         </section>
     {% endfor %}
 </div>
-{% endcomment %}
+{% endcomment %} -->
