@@ -8,9 +8,8 @@ description: |
 people:
   - Papapetrou
   - Asker
-  - Rojas
-  - Mochaourab
-  - Greenstein
+  - Miliou
+  - Wang
 
 layout: project
 image: "/img/projects/extremum/extremum.png"

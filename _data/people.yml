@@ -58,24 +58,12 @@ Pavlopoulos:
 
 Miliou:
     display_name: "Ioanna Miliou, Postdoctoral Researcher"
-    webpage: #https://scholar.google.it/citations?user=zJOkaFYAAAAJ&hl=en
+    webpage: https://ioannamiliou.blogs.dsv.su.se
     role: senior
-    image: #https://scholar.googleusercontent.com/citations?view_op=view_photo&user=zJOkaFYAAAAJ&citpid=4
+    image: /img/people/ioanna.jpg
     bio: data science for social good, nowcasting and forecasting
 
 # PhD Students (phd)
-
-Kuratomi:
-    display_name: "Alejandro Kuratomi"
-    webpage: "https://alku.blogs.dsv.su.se/"
-    image: /img/people/alku.jpg
-    role: phd
-    bio: interpretable models with statistical guarantees
-
-Chaliane:
-    display_name: "Guilherme Chaliane Jr"
-    role: phd
-    bio: learning dynamic multi-agent environments (Spotify)
 
 Rebane:
     display_name: "Jonathan Rebane"
@@ -83,6 +71,13 @@ Rebane:
     image: /img/people/rebane.jpg
     bio: explainable temporal models for healthcare applications
     webpage: "https://www.su.se/english/profiles/jore1728-1.344488"
+
+Kuratomi:
+    display_name: "Alejandro Kuratomi"
+    webpage: "https://alku.blogs.dsv.su.se/"
+    image: /img/people/alku.jpg
+    role: phd
+    bio: interpretable models with statistical guarantees
 
 Quintero:
     display_name: "Luis Quintero"
@@ -98,13 +93,6 @@ Bampa:
     image: /img/people/mariabampa.jpg
     webpage: "https://mariabampa.blogs.dsv.su.se"
 
-Movin:
-    display_name: "Maria Movin"
-    role: phd
-    # image: /img/people/ali.png
-    bio: multi-objective learning for modeling user preferences (Spotify)
-    # webpage: 
-
 Lee:
     display_name: "Zed Lee"
     role: phd
@@ -118,6 +106,18 @@ Wang:
     image: /img/people/zhendong.png
     bio: explainable sequential models
     webpage: https://zhendong3wang.blogs.dsv.su.se
+
+Chaliane:
+    display_name: "Guilherme Chaliane Jr"
+    role: phd
+    bio: learning dynamic multi-agent environments (Spotify)
+
+Movin:
+    display_name: "Maria Movin"
+    role: phd
+    # image: /img/people/ali.png
+    bio: multi-objective learning for modeling user preferences (Spotify)
+    # webpage: 
 
 Beikmohammadi:
     display_name: "Ali Beikmohammadi"

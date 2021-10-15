@@ -12,6 +12,7 @@ people:
   - Pavlopoulos
   - Wang
   - Kuratomi
+  - Miliou
 
 
 layout: area
