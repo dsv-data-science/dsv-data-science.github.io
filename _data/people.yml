@@ -48,20 +48,19 @@ Hollmen:
 
 # Senior Researchers (senior)
 
-Pavlopoulos:
-    display_name: "John Pavlopoulos, Senior Lecturer (fixed term)"
-    webpage: "https://www.su.se/english/profiles/iopa3492-1.453830"
-    image: /img/people/pavlopoulos.jpg
-    role: senior
-    bio: machine learning for natural language processing; applications to healthcare and education
-
-
 Miliou:
     display_name: "Ioanna Miliou, Postdoctoral Researcher"
     webpage: https://ioannamiliou.blogs.dsv.su.se
     role: senior
     image: /img/people/ioanna.jpg
     bio: data science for social good, nowcasting and forecasting
+
+Pavlopoulos:
+    display_name: "John Pavlopoulos, Affiliated Researcher"
+    webpage: "https://www.su.se/english/profiles/iopa3492-1.453830"
+    image: /img/people/pavlopoulos.jpg
+    role: senior
+    bio: machine learning for natural language processing; applications to healthcare and education
 
 # PhD Students (phd)
 
