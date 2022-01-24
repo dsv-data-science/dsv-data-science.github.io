@@ -11,7 +11,7 @@ people:
   - Lee
 
 layout: project
-last-updated: 2021-02-01
+last-updated: 2022-02-01
 ---
 
 ## AutoGrade
@@ -26,7 +26,7 @@ last-updated: 2021-02-01
 - Vanessa Lislevand, Research Assistant
 - Zed Lee, PhD student
 
-**Project period:** 2021-03-01 to 2021-12-31
+**Project period:** 2021-03-01 to 2022-12-31
 
 **Funding source:** DSV internal project
 

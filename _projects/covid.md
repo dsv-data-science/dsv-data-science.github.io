@@ -1,6 +1,6 @@
 ---
 title: Covid-Sim
-highlight: priority
+status: inactive
 
 description: |
   Artificial Intelligence for Simulating and Mitigating Pandemics<br>
