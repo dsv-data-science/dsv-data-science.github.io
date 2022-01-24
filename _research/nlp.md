@@ -7,6 +7,9 @@ description: |
 people:
   - Pavlopoulos
   - Kougia
+  - Lislevand
+  - Mahamud
+  - Törnqvist
 
 layout: area
 image: /img/areas/nlp-example.png

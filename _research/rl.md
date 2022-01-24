@@ -7,11 +7,10 @@ description: |
 
 people:
   - Magnússon
-  - Papapetrou
   - Bampa
   - Chaliane
   - Movin
-  - Quintero
+  - Beikmohammadi
   - Piller
 
 layout: area

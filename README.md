@@ -25,18 +25,18 @@
 
 ## To contribute to the website from your computer
 
-1. Install [Ruby][] in your computer according to your operating system.
+1. Install [Ruby][] v2.6.9 in your computer according to your operating system. For Windows use [RubyInstaller][]
 2. Then, install Jekyll and bundler through:
    -  ` gem install jekyll bundler`
-4. Clone the fork to your own machine: 
+3. Clone the fork to your own machine: 
    - `git clone https://github.com/dsv-data-science/dsv-data-science.github.io.git`
-5. Access in the terminal to the folder `cd dsv-data-science.github.io`
-6. Install the rest of the gems using: `bundle install`
-7. Check that you use the `source` branch of the repo while development purposes. `master` is used for deployment of the static website and avoid CI/CD in GitHub (which does not support compilation of `.bib`).
-
+4. Access in the terminal to the folder `cd dsv-data-science.github.io`
+5. Install the rest of the gems using: `bundle install`
+6. Check that you use the `source` branch of the repo while development purposes. `master` is used for deployment of the static website and avoid CI/CD in GitHub (which does not support compilation of `.bib`).
 
 [Jekyll]: http://jekyllrb.com/]
 [Ruby]: https://www.ruby-lang.org/en/downloads/
+[RubyInstaller]: https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.6.9-1/rubyinstaller-devkit-2.6.9-1-x64.exe
 
 ## To edit or contribute to the website
 
@@ -81,6 +81,14 @@ Write your information with MarkDown language, images can be added to `/img/area
 
 While writing your page, you can also use emojis 🥽, and text with inline $$\LaTeX$$ or a single centered formula (leaving an empty line between text and formula):
 
+```
+Your text here... Leave one blank line for LaTeX formulas
+
+$$ \sum_{i=1}^{N}{i} = i \in \mathbb{R}^+ $$
+
+Continue writing here leaving one blank line...
+```
+
 $$ \sum_{i=1}^{N}{i} = i \in \mathbb{R}^+ $$
 
 
@@ -97,7 +105,7 @@ The list of publications is in `bib/papers.bib`. These are compiled and grouped 
 |vehicles| Integrated Vechicle Management|
 |nlp|Natural Language Processing|
 |reinforcement|Reinforcement Learning|
-|immersive|Immersive Technologies and VR|
+|immersive|Behavioral modeling and VR|
 
 
 Each co-author that is part of the group (edit in `_data/people.yml`) will have a link that point to their website (if specified).

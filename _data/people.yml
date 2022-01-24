@@ -81,7 +81,7 @@ Kuratomi:
 Quintero:
     display_name: "Luis Quintero"
     role: phd
-    webpage: "https://luiseduve.github.io/"
+    webpage: "https://luisqtr.com/"
     image: /img/people/lq.jpg
     bio: user modelling from time series in digital environments
 
@@ -150,6 +150,27 @@ Piller:
 
 # RESEARCH ASSISTANTS (researcher)
 
+Lislevand:
+    display_name: "Vanessa Lislevand"
+    role: researcher
+    image:
+    bio: natural language processing
+    webpage:
+
+Mahamud:
+    display_name: "Mosleh Mahamud"
+    role: researcher
+    image:
+    bio: natural language processing
+    webpage: https://github.com/mosh98
+
+Törnqvist:
+    display_name: "Maximilian Törnqvist"
+    role: researcher
+    image:
+    bio: natural language processing
+    # webpage: 
+
 Kougia:
     display_name: "Vasiliki Kougia"
     role: researcher
@@ -171,12 +192,7 @@ Farazouli:
     bio: data science for education and pedagogics
     webpage:
     
-Lislevand:
-    display_name: "Vanessa Lislevand"
-    role: researcher
-    image:
-    bio: natural language processing
-    webpage:
+
 
 
 # AFFILIATED RESEARCHERS (affiliated)
