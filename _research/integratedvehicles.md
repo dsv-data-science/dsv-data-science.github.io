@@ -47,6 +47,7 @@ The aim is to facilitate integrated vehicle health monitoring (IVHM) of heavy tr
 
 ## Related Projects
 
+- [RAPIDS]({{ site.base }}/projects/rapids.html)
 - [NLP-assisted troubleshooting]({{ site.base }}/projects/nlp_assisted_troubleshooting.html)
 - [CODA]({{ site.base }}/projects/coda.html)
 - [IRIS]({{ site.base }}/projects/iris.html)
