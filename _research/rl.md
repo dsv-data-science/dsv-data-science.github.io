@@ -1,20 +1,19 @@
 ---
 title: Reinforcement learning
-topic: temporal
+topic: rl_fl
 
 description: |
 
 
 people:
   - Magnússon
-  - Bampa
   - Chaliane
-  - Movin
   - Beikmohammadi
   - Piller
 
 layout: area
 image: /img/areas/RL.jpg
+last-updated: 2022-09-02
 ---
 
 <br>
@@ -51,7 +50,3 @@ Reinforcement Learning is the sub-field of AI that deals with how an software ag
 {% endcomment %}
 
 <br>
-
-## Related Projects
-
-- [Covid-Sim]({{ site.base }}/projects/covid.html)

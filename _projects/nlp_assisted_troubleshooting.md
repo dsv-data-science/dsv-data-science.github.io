@@ -1,5 +1,6 @@
 ---
 title: NLP-assisted troubleshooting
+status: inactive
 highlight: low
 description: |
   NLP to assist troubleshooting management<br>

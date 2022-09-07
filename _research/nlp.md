@@ -6,14 +6,12 @@ description: |
 
 people:
   - Pavlopoulos
-  - Kougia
-  - Lislevand
   - Mahamud
   - Törnqvist
 
 layout: area
 image: /img/areas/nlp-example.png
-last-updated: 2020-11-06
+last-updated: 2020-11-10
 ---
 
 <br>

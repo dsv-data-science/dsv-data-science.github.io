@@ -130,7 +130,7 @@ Vaishnav:
     role: phd
     # image: /img/people/ali.png
     bio: data science
-    # webpage: https://www.su.se/english/profiles/shva2279
+    webpage: https://www.su.se/english/profiles/shva2279
 
 Mondrejevski:
     display_name: "Lena Mondrejevski"
@@ -151,11 +151,11 @@ Piller:
 # RESEARCH ASSISTANTS (researcher)
 
 Lislevand:
-    display_name: "Vanessa Lislevand"
+    display_name: "Franco Rugolon"
     role: researcher
     image:
-    bio: natural language processing
-    webpage:
+    bio: explainable machine learning for healthcare
+    webpage: "https://www.su.se/english/profiles/frru0901-1.616339"
 
 Mahamud:
     display_name: "Mosleh Mahamud"
@@ -169,30 +169,10 @@ Törnqvist:
     role: researcher
     image:
     bio: natural language processing
-    # webpage: 
-
-Kougia:
-    display_name: "Vasiliki Kougia"
-    role: researcher
-    image: /img/people/vasiliki.jpg
-    bio: natural language processing
-    webpage: https://vasilikikou.github.io/
-    
-Ljungman:
-    display_name: "Jimmy Ljungman"
-    role: researcher
-    image:
-    bio: temporal data mining
-    webpage:
-    
-Farazouli:
-    display_name: "Alexandra Farazouli"
-    role: researcher
-    image:
-    bio: data science for education and pedagogics
-    webpage:
+    webpage: 
     
 
+    
 
 
 # AFFILIATED RESEARCHERS (affiliated)
@@ -249,6 +229,12 @@ Greenstein:
     bio: Senior Lecturer, Dept. of Law, SU
     webpage: "https://www.su.se/english/profiles/stgr7735-1.184962"
 
+Tucker:
+    display_name: "Allan Tucker"
+    role: collab
+    bio: Senior Lecturer, Brunel University London
+    webpage: "https://www.su.se/english/profiles/stgr7735-1.184962"
+
 Fasth:
     display_name: "Tobias Fasth"
     role: collab
@@ -261,6 +247,18 @@ JohanssonUlf:
     role: collab
     bio: Professor, Jönköping Univ.
     webpage: "https://ju.se/personinfo.html?sign=johulf"
+
+Kougia:
+    display_name: "Vasiliki Kougia"
+    role: collab
+    bio: PhD Student, Univ. of Vienna
+    webpage: "https://vasilikikou.github.io/"
+
+Farazouli:
+    display_name: "Alexandra Farazouli"
+    role: collab
+    bio: PhD Student, Dept. of Education, SU
+    webpage: "https://www.su.se/profiles/alfa7899-1.543489"
     
 # ALUMNI (alumni)
 

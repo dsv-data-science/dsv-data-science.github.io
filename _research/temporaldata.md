@@ -7,12 +7,14 @@ description: |
 people:
   - Papapetrou
   - Samsten
+  - Hollmen
+  - Miliou
   - Lee
-  - Rebane
+  - Wang
 
 layout: area
 image: /img/areas/sequential-temporal-data.png
-last-updated: 2020-11-09
+last-updated: 2020-11-11
 ---
 
 
@@ -48,4 +50,3 @@ One of our focus areas is searching and mining rich and complex data sources, wi
 ## Related Projects
 
 - [EXTREMUM]({{ site.base }}/projects/extremum.html)
-- [3AI]({{ site.base }}/projects/3ai.html)

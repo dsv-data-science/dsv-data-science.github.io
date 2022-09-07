@@ -10,7 +10,7 @@ people:
   - Lindgren
 
 layout: project
-last-updated: 2022-01-10
+last-updated: 2022-09-02
 ---
 
 ## RAPIDS

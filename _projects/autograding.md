@@ -1,14 +1,15 @@
 ---
 title: AutoGrade
-highlight: priority
+highlight: low
 description: |
   Automatic grading of electronic exams<br>
-  <b>Internal pilot project: 2021</b>
+  <b>Internal pilot project: 2021-2022</b>
 
 people:
   - Papapetrou
-  - Pavlopoulos
   - Lee
+  - Mahamud
+  - Törnqvist
 
 layout: project
 last-updated: 2022-02-01

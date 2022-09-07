@@ -13,7 +13,7 @@ people:
 
 layout: project
 image: "/img/projects/extremum/extremum.png"
-last-updated: 2020-11-15
+last-updated: 2022-09-01
 ---
 
 ## EXTREMUM

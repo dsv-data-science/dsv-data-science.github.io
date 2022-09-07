@@ -1,6 +1,6 @@
 ---
 title: TEMPOMiner
-status: active
+status: inactive
 
 description: |
   Temporal Data Mining for Detecting Adverse Events in Healthcare<br>

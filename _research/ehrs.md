@@ -1,5 +1,5 @@
 ---
-title: Learning from electronic health records
+title: Medical Mining
 highlight: priority
 topic: applications
 
@@ -8,8 +8,11 @@ description: |
 people:
   - Papapetrou
   - Asker
+  - Hollmen
   - Bampa
   - Rebane
+  - Wang
+  - Mondrejevski
 
 layout: area
 image: /img/areas/elec-hea-rec.jpg
@@ -53,4 +56,3 @@ For the purposes of these two projects, our group has established strong collabo
 ## Related Projects
 
 - [EXTREMUM]({{ site.base }}/projects/extremum.html)
-- [COVID]({{ site.base }}/projects/covid.html)

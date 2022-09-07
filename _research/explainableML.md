@@ -9,9 +9,10 @@ people:
   - Papapetrou
   - Lindgren
   - Samsten
+  - Miliou
   - Kuratomi
   - Wang
-  - Miliou
+
 
 layout: area
 image: /img/areas/interpretable-models.png

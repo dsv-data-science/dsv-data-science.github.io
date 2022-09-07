@@ -1,6 +1,6 @@
 ---
 title: Federated learning
-topic: explain
+topic: rl_fl
 
 description: |
 
@@ -13,7 +13,7 @@ people:
 
 layout: area
 image: /img/areas/Federated.jpg
-last-updated: 2020-11-07
+last-updated: 2022-09-01
 ---
 
 <br>
