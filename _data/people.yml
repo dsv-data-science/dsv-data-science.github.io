@@ -160,8 +160,8 @@ Lislevand:
 Mahamud:
     display_name: "Mosleh Mahamud"
     role: researcher
-    image:
-    bio: natural language processing
+    image: /img/people/mosh.jpeg
+    bio: natural language processing, deep learning
     webpage: https://github.com/mosh98
 
 Törnqvist:
