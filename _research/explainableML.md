@@ -12,6 +12,7 @@ people:
   - Miliou
   - Kuratomi
   - Wang
+  - Movin
 
 
 layout: area
