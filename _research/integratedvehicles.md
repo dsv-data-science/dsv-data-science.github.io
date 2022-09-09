@@ -9,7 +9,7 @@ people:
   - Kuratomi
 
 layout: area
-image: 
+image: /img/areas/vehicle_management.jpg
 last-updated: 2022-01-23
 ---
 

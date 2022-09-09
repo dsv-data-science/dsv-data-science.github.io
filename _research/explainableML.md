@@ -56,3 +56,5 @@ We focus on methods for generating interpretable and explainable models, such as
 ## Related Projects
 
 - [EXTREMUM]({{ site.base }}/projects/extremum.html)
+- [AutoGrade]({{ site.base }}/projects/autograding.html)
+- [3AI]({{ site.base }}/projects/3ai.html)

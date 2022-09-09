@@ -80,5 +80,6 @@ The implementation of the project is organized in five implementation WPs, one f
 - [wildboar](https://github.com/isaksamsten/wildboar) - explainable machine learning library for time series in Python.
 
 <br>
-
+{% comment %}
 ### Results
+{% endcomment %}

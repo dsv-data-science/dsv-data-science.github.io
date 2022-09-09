@@ -10,6 +10,7 @@ people:
   - Chaliane
   - Beikmohammadi
   - Piller
+  - Bampa
 
 layout: area
 image: /img/areas/RL.jpg
@@ -42,11 +43,12 @@ Reinforcement Learning is the sub-field of AI that deals with how an software ag
 </div>
 {% endif %}
  
- <br>
- 
- {% comment %}
+{% comment %}
 ## Implementations
 
 {% endcomment %}
 
 <br>
+## Related Projects
+
+- [Covid-Sim]({{ site.base }}/projects/covid.html)

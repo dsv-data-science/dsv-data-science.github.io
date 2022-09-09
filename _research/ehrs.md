@@ -56,3 +56,8 @@ For the purposes of these two projects, our group has established strong collabo
 ## Related Projects
 
 - [EXTREMUM]({{ site.base }}/projects/extremum.html)
+- [DADEL]({{ site.base }}/projects/DADEL.html)
+- [CorIL]({{ site.base }}/projects/CorIL.html)
+- [Covid-Sim]({{ site.base }}/projects/covid.html)
+- [TEMPOMiner]({{ site.base }}/projects/tempominer.html)
+

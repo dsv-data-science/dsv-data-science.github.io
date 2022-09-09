@@ -50,3 +50,5 @@ One of our focus areas is searching and mining rich and complex data sources, wi
 ## Related Projects
 
 - [EXTREMUM]({{ site.base }}/projects/extremum.html)
+- [TEMPOMiner]({{ site.base }}/projects/tempominer.html)
+- [TROPICAL]({{ site.base }}/projects/TROPICAL.html)

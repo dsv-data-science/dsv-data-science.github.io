@@ -46,7 +46,7 @@ The project is about automatic grading and assessment of electonic exams. The go
 
 - **Objective 3: Ethics and explainability of automated exam assessment.** With the intention of being GDPR compliant we will include explainability features in our models so that each grade recommendation will be coupled with an explanation indicating the parts of the text in the answer that are positively or negatively contributing affecting the grade decision. A final assessment report will be generated based on the overall score and performance in the exam functioning as general feedback.
 
-
+{% comment %}
 <br>
 
 ### Implementation
@@ -54,3 +54,4 @@ The project is about automatic grading and assessment of electonic exams. The go
 <br>
 
 ### Results
+{% endcomment %}

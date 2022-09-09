@@ -60,7 +60,7 @@ Pavlopoulos:
     webpage: "https://www.su.se/english/profiles/iopa3492-1.453830"
     image: /img/people/pavlopoulos.jpg
     role: senior
-    bio: machine learning for natural language processing; applications to healthcare and education
+    bio: machine learning for natural language processing, applications to healthcare and education
 
 # PhD Students (phd)
 
@@ -109,7 +109,9 @@ Wang:
 Chaliane:
     display_name: "Guilherme Chaliane Jr"
     role: phd
+    image: /img/people/guilherme.jpg
     bio: learning dynamic multi-agent environments (Spotify)
+    webpage: https://www.su.se/english/profiles/guch4839
 
 Movin:
     display_name: "Maria Movin"
@@ -128,16 +130,16 @@ Beikmohammadi:
 Vaishnav:
     display_name: "Shubham Vaishnav"
     role: phd
-    # image: /img/people/ali.png
-    bio: data science
+    image: /img/people/shubham.jpeg
+    bio: reinforcement learning, federated learning, fog and edge networks optimization
     webpage: https://www.su.se/english/profiles/shva2279
 
 Mondrejevski:
     display_name: "Lena Mondrejevski"
     role: phd
-    # image: /img/people/ali.png
+    image: /img/people/lena.jpg
     bio: federated learning (Getinge)
-    #webpage: https://www.su.se/english/profiles/shva2279
+    webpage: https://www.su.se/english/profiles/lesc0230
 
 Piller:
     display_name: "Jonathan Piller"
