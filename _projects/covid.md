@@ -44,3 +44,21 @@ last-updated: 2020-11-14
 ### Implementation
 
 {% endcomment %}
+
+
+{% capture count_pub %}{% bibliography_count -q @*[keywords=temporal]* %}{% endcapture %}
+{% if count_pub != "0" %}
+<br>
+
+## Results
+
+<div class="publications">
+    <table class="table">
+        <tbody>
+        <tr>
+          {% bibliography -q @*[project=Covid-Sim]*  -- max 10 %}
+        </tr>
+        </tbody>
+    </table>
+</div>
+{% endif %}

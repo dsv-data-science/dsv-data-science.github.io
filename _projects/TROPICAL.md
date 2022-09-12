@@ -56,7 +56,7 @@ The main implementation steps include:
     <table class="table">
         <tbody>
         <tr>
-          {% bibliography -q @*[keywords=networks]*  -- max 10 %}
+          {% bibliography -q @*[project=networks]*  -- max 10 %}
         </tr>
         </tbody>
     </table>

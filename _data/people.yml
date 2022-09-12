@@ -152,10 +152,10 @@ Piller:
 
 # RESEARCH ASSISTANTS (researcher)
 
-Lislevand:
+Rugolon:
     display_name: "Franco Rugolon"
     role: researcher
-    image:
+    image: /img/people/rugolon.jpg
     bio: explainable machine learning for healthcare
     webpage: "https://www.su.se/english/profiles/frru0901-1.616339"
 
