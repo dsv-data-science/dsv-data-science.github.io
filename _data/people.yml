@@ -50,7 +50,7 @@ Hollmen:
 
 Miliou:
     display_name: "Ioanna Miliou, Postdoctoral Researcher"
-    webpage: https://ioannamiliou.blogs.dsv.su.se
+    webpage: "https://ioannamiliou.blogs.dsv.su.se"
     role: senior
     image: /img/people/ioanna.jpg
     bio: data science for social good, nowcasting and forecasting
@@ -66,10 +66,10 @@ Pavlopoulos:
 
 Rebane:
     display_name: "Jonathan Rebane"
+    webpage: "https://www.su.se/english/profiles/jore1728-1.344488"
     role: phd
     image: /img/people/rebane.jpg
     bio: explainable temporal models for healthcare applications
-    webpage: "https://www.su.se/english/profiles/jore1728-1.344488"
 
 Kuratomi:
     display_name: "Alejandro Kuratomi"
@@ -104,7 +104,7 @@ Wang:
     role: phd
     image: /img/people/zhendong.png
     bio: explainable sequential models
-    webpage: https://zhendong3wang.blogs.dsv.su.se
+    webpage: "https://zhendong3wang.blogs.dsv.su.se"
 
 Chaliane:
     display_name: "Guilherme Chaliane Jr"
@@ -147,6 +147,14 @@ Piller:
     # image: /img/people/ali.png
     bio: data science (Spotify)
     #webpage: https://www.su.se/english/profiles/shva2279
+
+Kharazian:
+    display_name: "Zhara Kharazian"
+    role: phd
+    image: /img/people/kharazian.png
+    bio: data science, predictive maintenance
+    webpage: https://www.su.se/english/profiles/zakh1874
+
 
 
 
@@ -235,7 +243,7 @@ Tucker:
     display_name: "Allan Tucker"
     role: collab
     bio: Senior Lecturer, Brunel University London
-    webpage: "https://www.su.se/english/profiles/stgr7735-1.184962"
+    webpage: "https://www.brunel.ac.uk/people/allan-tucker"
 
 Fasth:
     display_name: "Tobias Fasth"

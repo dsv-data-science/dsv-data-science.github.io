@@ -8,6 +8,7 @@ description: |
 
 people:
   - Lindgren
+  - Kharazian
 
 layout: project
 last-updated: 2022-09-02

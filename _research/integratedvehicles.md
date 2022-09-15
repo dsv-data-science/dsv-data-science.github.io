@@ -7,6 +7,7 @@ description: |
 people:
   - Lindgren
   - Kuratomi
+  - Kharazian
 
 layout: area
 image: /img/areas/vehicle_management.jpg
