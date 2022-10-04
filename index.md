@@ -57,7 +57,7 @@ notitle: true
    
    <div class="researchwrapper" > 
    <div id="research3" class="researchbox" onclick="location.href='research.html#rprofile4'">Machine Learning Applications</div>
-   <div style="flex: 1;">Our methods and solutions are motivated by real-world applications and use-cases. The group has particular expertise on mining and model understanding from healthcare and medical data sources. In addition, we have established strong expertise on predictive maintanance and integrated vehicle management.  Finally, we are interested in financial data, enironmental data, as well as data emerging from immersve technologies, such as virtual reality.</div>
+   <div style="flex: 1;">Our methods and solutions are motivated by real-world applications and use cases. The group has particular expertise in mining and model understanding from healthcare and medical data sources. In addition, we have established a strong expertise in predictive maintenance and integrated vehicle management. Finally, we are interested in financial data, environmental data, as well as data emerging from immersive technologies, such as virtual reality.</div>
     
    </div>
 </div>
