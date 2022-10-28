@@ -17,10 +17,10 @@ last-updated: 2019-06-18
 ## CODA
 
 **Project leader**:
-- Tony Lindgren, Senior Lecturer
+- Tony Lindgren, Senior Lecturer, DSV, SU
 
 **Researchers**
-- Ram Gurung, PhD student
+- Ram Gurung, PhD student, DSV, SU
 
 **Partners**
 - Scania Vehicle Service Information

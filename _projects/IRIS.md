@@ -19,11 +19,11 @@ last-updated: 2017-12-07
 
 
 **Project leader**:
-- Tony Lindgren, Senior Researcher and co-supervisor
+- Tony Lindgren, Senior Researcher and co-supervisor, DSV, SU
 
 **Researchers**
-- Henrik Boström, main supervisor
-- Ram Gurung, PhD student
+- Henrik Boström, main supervisor, DSV, SU
+- Ram Gurung, PhD student, DSV, SU
 
 **Partners**
 - Scania Vehicle Service Information

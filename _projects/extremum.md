@@ -8,37 +8,44 @@ description: |
 people:
   - Papapetrou
   - Asker
+  - Samsten
   - Miliou
   - Wang
 
 layout: project
 image: "/img/projects/extremum/extremum.png"
-last-updated: 2022-09-01
+last-updated: 2022-10-28
 ---
 
-## EXTREMUM
+## Ethical Machine Learning for Knowledge Discovery from Medical Data Sources (EXTREMUM)
 This project is a continuation of the EXTREME-Pilot project.
 
 **Project leader - main PI**:
-- Panagiotis Papapetrou, Professor, SU
+- Panagiotis Papapetrou, Professor, DSV, SU
 
 **Co-PIs**
-- Cristian Rojas, Associate Professor, KTH
+
 - Lars Asker, Associate Professor, DSV, SU
+- Cristian Rojas, Associate Professor, KTH
 - Rami Mochaourab, Researcher, RISE
 - Stanley Greenstein, Senior Lecturer, Dept. of Law, SU
 
 **Researchers**
-- Ioanna Miliou, Senior Lecturer, DSV, SU
-- Ioannis Pavlopoulos, Senior Lecturer (fixed-term), DSV, SU
+
+- Ioanna Miliou, Postdoctoral Researcher, DSV, SU
 - Isak Samsten, Senior Lecturer, DSV, SU
+- Ioannis Pavlopoulos, Affiliated Researcher, DSV, SU (2019-2021)
 - Sugandh Sinha, RISE
-- Vasiliki Kougia, Research Assistant, DSV, SU
 - Zhendong Wang, PhD student, DSV, SU
+- Vanessa Lislevand, Research Assistant, DSV, SU (2022)
+- Vasiliki Kougia, Research Assistant, DSV, SU (2021)
+
 
 **Project period:** 2020-01-01 to 2023-12-31
 
 **Funding source:** Digital Futures
+
+**Digital Futures Website:** [EXTREMUM: Explainable and Ethical Machine Learning for Knowledge Discovery from Medical Data Sources](https://www.digitalfutures.kth.se/research/collaborative-projects/extremum/){:target="_blank"}
 
 **Budget:** 8.4M SEK
 

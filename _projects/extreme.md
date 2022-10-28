@@ -9,9 +9,6 @@ description: |
 people:
   - Papapetrou
   - Asker
-  - Rojas
-  - Mochaourab
-  - Greenstein
 
 layout: project
 image: "/img/projects/extremum/extremum.png"

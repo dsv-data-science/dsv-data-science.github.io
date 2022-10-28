@@ -4,7 +4,7 @@ status: inactive
 highlight: low
 description: |
   NLP to assist troubleshooting management<br>
-  <b>Project in collaboration with Scania</b>
+  <b>Project in collaboration with Scania: 2021</b>
 
 people:
   - Pavlopoulos
@@ -18,9 +18,9 @@ last-updated: 2021-02-01
 ## NLP-assisted troubleshooting
 
 **Project team**:
-- John Pavlopoulos, Aff. Researcher, DSV, SU
-- Tony Lindgren, Professor, DSV, SU
-- Alex Xenos, Research Assistant
+- John Pavlopoulos, Affiliated Researcher, DSV, SU
+- Tony Lindgren, Associate Professor, DSV, SU
+- Alex Xenos, Research Assistant, DSV, SU
 
 **Project period:** 2022-02-01 to 2022-07-31
 

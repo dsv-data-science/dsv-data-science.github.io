@@ -11,16 +11,16 @@ people:
   - Kharazian
 
 layout: project
-last-updated: 2022-09-02
+last-updated: 2022-10-27
 ---
 
 ## RAPIDS
 
 **Project leader**:
-- Tony Lindgren, Senior Lecturer
+- Tony Lindgren, Associate Professor, DSV, SU
 
 **Researchers**
-- PhD student
+- Zahra Kharazian, PhD student, DSV, SU
 
 **Partners**
 - Scania Vehicle Service Information

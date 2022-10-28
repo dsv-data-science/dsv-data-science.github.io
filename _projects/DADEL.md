@@ -7,9 +7,10 @@ description: |
   <b>Swedish Foundation for Strategic Research: 2012-2016</b>
 
 people:
-  - Boström
   - Asker
   - Samsten
+  - Papapetrou
+  - Boström
   - Löfström
   - Zhao
 
@@ -20,11 +21,11 @@ last-updated: 2017-10-10
 ## DADEL
 
 **Project leader**:
-- Lars Asker, Associate Professor
+- Lars Asker, Associate Professor, DSV, SU
 
 **Researchers**
-- Isak Samsten, Postdoctoral Researcher
-- Panagiotis Papapetrou, Professor
+- Isak Samsten, Postdoctoral Researcher, DSV, SU
+- Panagiotis Papapetrou, Professor, DSV, SU
 
 **Partners**
 - Stockholm County Council

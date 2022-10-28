@@ -12,16 +12,16 @@ people:
 
 layout: project
 image: /img/projects/VR.jpg
-last-updated: 2022-09-01
+last-updated: 2022-10-26
 ---
 
 ##  Efficient Machine Learning in Complex Networks
 
 **Project leader**:
-- Sindri Magnússon, Associate Professor
+- Sindri Magnússon, Associate Professor, DSV, SU
 
 **Researchers**
-- Ali Beikmohammadi
+- Ali Beikmohammadi, PhD Student, DSV, SU
 
 **Project period:** 2021-01-01 to 2024-12-31
 

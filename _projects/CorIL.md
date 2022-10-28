@@ -19,11 +19,11 @@ last-updated: 2017-12-13
 ## CorIL
 
 **Project leader**:
-- Lars Asker, Associate Professor
+- Lars Asker, Associate Professor, DSV, SU
 
 **Researchers**
-- Isak Samsten, Postdoctoral Researcher
-- Panagiotis Papapetrou, Professor
+- Isak Samsten, Postdoctoral Researcher, DSV, SU
+- Panagiotis Papapetrou, Professor, DSV, SU
 
 **Partners**
 - Stockholm County Council

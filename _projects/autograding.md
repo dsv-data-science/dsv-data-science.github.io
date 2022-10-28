@@ -12,7 +12,7 @@ people:
   - Törnqvist
 
 layout: project
-last-updated: 2022-02-01
+last-updated: 2022-10-25
 ---
 
 ## AutoGrade
@@ -21,11 +21,13 @@ last-updated: 2022-02-01
 **Project team**:
 - Panagiotis Papapetrou, Professor, DSV, SU
 - Uno Fors, Professor, DSV, SU
-- Ioannis Pavlopoulos,  Senior Lecturer (fixed-term), DSV, SU
-- Alexandra Farazouli, Research Assistant
-- Jimmy Ljungman, Research Assistant
-- Vanessa Lislevand, Research Assistant
-- Zed Lee, PhD student
+- Ioannis Pavlopoulos, Affiliated Researcher, DSV, SU (2021)
+- Zed Lee, PhD student, DSV, SU
+- Mosleh Mahamud, Research Assistant, DSV, SU (2022)
+- Maximilian Törnqvist, Research Assistant, DSV, SU (2022)
+- Alexandra Farazouli, Research Assistant, DSV, SU (2021)
+- Jimmy Ljungman, Research Assistant, DSV, SU (2021)
+- Vanessa Lislevand, Research Assistant, DSV, SU (2021)
 
 **Project period:** 2021-03-01 to 2022-12-31
 

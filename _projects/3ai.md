@@ -17,10 +17,10 @@ image: "/img/projects/3ai/excel_timeseries.png"
 
 ## 3AI
 **Project leader**:
-- Jan Svanberg, Associate Professor
+- Jan Svanberg, Associate Professor, SU
 
 **Researchers**
-- Isak Samsten, Senior Lecturer
+- Isak Samsten, Senior Lecturer, DSV, SU
 
 **Project period:** 2020-01-01 to 2021-12-31
 

@@ -18,10 +18,10 @@ last-updated: 2020-01-01
 ## TEMPOMiner
 
 **Project leader**:
-- Panagiotis Papapetrou, Professor
+- Panagiotis Papapetrou, Professor, DSV, SU
 
 **Researchers**
-- Jonathan Rebane, PhD student
+- Jonathan Rebane, PhD student, DSV, SU
 
 **Project period:** 2017-01-01 to 2020-12-31
 

@@ -64,12 +64,12 @@ Pavlopoulos:
 
 # PhD Students (phd)
 
-Rebane:
-    display_name: "Jonathan Rebane"
-    webpage: "https://www.su.se/english/profiles/jore1728-1.344488"
-    role: phd
-    image: /img/people/rebane.jpg
-    bio: explainable temporal models for healthcare applications
+#Rebane:
+#    display_name: "Jonathan Rebane"
+#    webpage: "https://www.su.se/english/profiles/jore1728-1.344488"
+#    role: phd
+#    image: /img/people/rebane.jpg
+#    bio: explainable temporal models for healthcare applications
 
 Kuratomi:
     display_name: "Alejandro Kuratomi"
@@ -149,7 +149,7 @@ Piller:
     #webpage: https://www.su.se/english/profiles/shva2279
 
 Kharazian:
-    display_name: "Zhara Kharazian"
+    display_name: "Zahra Kharazian"
     role: phd
     image: /img/people/kharazian.png
     bio: data science, predictive maintenance
@@ -194,7 +194,7 @@ Gionis:
     display_name: "Aristides Gionis"
     role: collab
     bio: Professor, KTH
-    webpage: "https://users.ics.aalto.fi/gionis/"
+    webpage: "https://www.kth.se/profile/argioni"
 
 Rojas:
     display_name: "Cristian Rojas"
@@ -202,17 +202,11 @@ Rojas:
     bio: Assoc. Professor, KTH
     webpage: "https://www.kth.se/profile/crro"
 
-Wolff:
-    display_name: "Ellen Wolff"
-    role: collab
-    bio: Health Economist, Public Health Agency (FOHM)
-    webpage: "https://www.linkedin.com/in/ellen-wolff-a436466b/?originalSubdomain=se"
-    
 Boström:
     display_name: "Henrik Boström"
     role: collab
     bio: Professor, KTH
-    webpage: "http://henke.blogs.dsv.su.se/"
+    webpage: "https://www.kth.se/profile/henbos"
 
 Kalgren:
     display_name: "Jussi Karlgren"
@@ -245,13 +239,6 @@ Tucker:
     bio: Senior Lecturer, Brunel University London
     webpage: "https://www.brunel.ac.uk/people/allan-tucker"
 
-Fasth:
-    display_name: "Tobias Fasth"
-    role: collab
-    bio: Data Scientist, Public Health Agency (FOHM)
-    webpage: "https://www.linkedin.com/in/tobiasfasth/?originalSubdomain=se"
-    
-
 JohanssonUlf:
     display_name: "Ulf Johansson"
     role: collab
@@ -272,37 +259,50 @@ Farazouli:
     
 # ALUMNI (alumni)
 
+Rebane:
+    display_name: "Jonathan Rebane"
+    role: alumni
+    bio: "Ph.D. (2022)- Now at anch.AI"
+    webpage: "https://anch.ai/team/jonathan-rebane/"
+
 Gurung:
     display_name: "Ram Gurung"
     role: alumni
     bio: "Ph.D. (2020)- Now at SEB"
+    webpage: "https://www.linkedin.com/in/ram-gurung-a3ab7518/"
 
 Homem:
     display_name: "Irvin Homem"
     role: alumni
     bio: "Ph.D. (2018)- Now at IBM"
+    webpage: "https://www.linkedin.com/in/irvin-homem-35391419/"
 
 Zhao:
     display_name: "Jing Zhao"
     role: alumni
-    bio: "Ph.D. (2017)- Now at [24]7.ai"
+    bio: "Ph.D. (2017)- Now at EasyPark Group"
+    webpage: "https://www.linkedin.com/in/jing-zhao-b6b03815/"
 
 Zacarias:
     display_name: "Orlando Zacarias"
     role: alumni
     bio: "Ph.D. (2015)- Now at Eduardo Mondlane Un."
+    webpage: "https://www.linkedin.com/in/orlando-zacarias-23476182/"
 
 Löfström:
-    display_name: "Tuve Löfström"
+    display_name: "Tuwe Löfström"
     role: alumni
     bio: "Ph.D. (2015)- Now at Jönköping Univ."
+    webpage: "https://ju.se/personinfo.html?id=3205"
 
 Dudas:
     display_name: "Catarina Dudas"
     role: alumni
     bio: "Ph.D. (2014)- Now at Volvo Car Group"
+    webpage: "https://www.linkedin.com/in/catarinadudas/"
 
 Karunaratne:
     display_name: "Thashmee Karunaratne"
     role: alumni
     bio: "Ph.D. (2014)- Now at Stockholm Univ."
+    webpage: "https://www.su.se/profiles/tkaru-1.190260"

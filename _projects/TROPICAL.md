@@ -16,10 +16,10 @@ last-updated: 2019-06-19
 
 ## TROPICAL
 **Project leader**:
-- Panagiotis Papapetrou, Professor
+- Panagiotis Papapetrou, Professor, DSV, SU
 
 **Researchers**
-- Amin Azari, Postdoctoral Researcher
+- Amin Azari, Postdoctoral Researcher, DSV, SU
 
 **Project period:** 2019-01-01 to 2019-09-31
 

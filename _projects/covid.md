@@ -21,7 +21,7 @@ last-updated: 2020-11-14
 - Tobias Fasth, Researcher, Swedish Health Agency
 
 **Co-PIs**
-- Aron Larson Associate Professor, DSV
+- Aron Larson, Associate Professor, DSV
 - Panagiotis Papapetrou, Professor, DSV
 
 **Researchers**
