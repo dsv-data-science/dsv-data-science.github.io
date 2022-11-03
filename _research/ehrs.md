@@ -10,7 +10,6 @@ people:
   - Asker
   - Hollmen
   - Bampa
-  - Rebane
   - Wang
   - Mondrejevski
 
