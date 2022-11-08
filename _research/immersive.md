@@ -7,7 +7,7 @@ description: |
 people:
   - Quintero
   - Papapetrou
-  - Hollmen
+  - Hollmén
 
 layout: area
 image: /img/areas/immersive/1generalArch.jpg

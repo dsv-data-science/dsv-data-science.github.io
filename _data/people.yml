@@ -39,8 +39,8 @@ Samsten:
 Karlsson: # This to link Isak's publications using previous name with his profile.
     webpage: "https://people.dsv.su.se/~isak-kar/"
 
-Hollmen:
-    display_name: "Jaakko Hollmen, Senior Lecturer"
+Hollmén:
+    display_name: "Jaakko Hollmén, Senior Lecturer"
     webpage: "https://users.ics.aalto.fi/jhollmen/"
     image: /img/people/Hollmen.png
     role: faculty
@@ -106,8 +106,8 @@ Wang:
     bio: explainable sequential models
     webpage: "https://zhendong3wang.blogs.dsv.su.se"
 
-Chaliane:
-    display_name: "Guilherme Chaliane Jr"
+Dinis Jr:
+    display_name: "Guilherme Dinis Chaliane Jr"
     role: phd
     image: /img/people/guilherme.jpg
     bio: learning dynamic multi-agent environments (Spotify)

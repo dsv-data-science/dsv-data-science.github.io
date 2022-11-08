@@ -7,7 +7,7 @@ description: |
 people:
   - Papapetrou
   - Samsten
-  - Hollmen
+  - Hollmén
   - Miliou
   - Lee
   - Wang

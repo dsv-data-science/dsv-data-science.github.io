@@ -7,7 +7,7 @@ description: |
 
 people:
   - Magnússon
-  - Chaliane
+  - Dinis Jr
   - Beikmohammadi
   - Piller
   - Bampa

@@ -8,7 +8,7 @@ description: |
 people:
   - Papapetrou
   - Asker
-  - Hollmen
+  - Hollmén
   - Bampa
   - Wang
   - Mondrejevski
