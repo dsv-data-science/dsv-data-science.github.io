@@ -6,8 +6,6 @@ description: |
 
 people:
   - Pavlopoulos
-  - Mahamud
-  - Törnqvist
 
 layout: area
 image: /img/areas/nlp-example.png

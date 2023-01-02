@@ -28,6 +28,20 @@ Magnússon:
     image: /img/people/sm.jpg
     bio: distributed optimization, reinforcement learning, federated learning, IoT/CPS
 
+Taheri:
+    display_name: "Golnaz Taheri, Senior Lecturer"
+    webpage: ""
+    image: 
+    role: faculty
+    bio: computational biology
+
+Miliou:
+    display_name: "Ioanna Miliou, Senior Lecturer"
+    webpage: "https://ioannamiliou.blogs.dsv.su.se"
+    image: /img/people/ioanna.jpg
+    role: faculty
+    bio: data science for social good, nowcasting and forecasting
+
 Samsten:
     display_name: "Isak Samsten, Senior Lecturer"
     webpage: "https://people.dsv.su.se/~isak-kar/"
@@ -46,21 +60,8 @@ Hollmén:
     role: faculty
     bio: probabilistic modeling, environmental sustainability, healthcare applications
 
+
 # Senior Researchers (senior)
-
-Miliou:
-    display_name: "Ioanna Miliou, Postdoctoral Researcher"
-    webpage: "https://ioannamiliou.blogs.dsv.su.se"
-    role: senior
-    image: /img/people/ioanna.jpg
-    bio: data science for social good, nowcasting and forecasting
-
-Pavlopoulos:
-    display_name: "John Pavlopoulos, Affiliated Researcher"
-    webpage: "https://www.su.se/english/profiles/iopa3492-1.453830"
-    image: /img/people/pavlopoulos.jpg
-    role: senior
-    bio: machine learning for natural language processing, applications to healthcare and education
 
 # PhD Students (phd)
 
@@ -78,6 +79,34 @@ Kuratomi:
     role: phd
     bio: interpretable models with statistical guarantees
 
+Beikmohammadi:
+    display_name: "Ali Beikmohammadi"
+    role: phd
+    image: /img/people/ali.png
+    bio: efficient federated learning in complex networks
+    webpage: https://www.su.se/english/profiles/albe0724
+
+Dinis Jr:
+    display_name: "Guilherme Dinis Chaliane Jr"
+    role: phd
+    image: /img/people/guilherme.jpg
+    bio: learning dynamic multi-agent environments (Spotify)
+    webpage: https://www.su.se/english/profiles/guch4839
+
+Piller:
+    display_name: "Jonathan Piller"
+    role: phd
+    image: /img/people/piller.jpeg
+    bio: dynamic complex digital networks (Spotify)
+    #webpage: 
+
+Mondrejevski:
+    display_name: "Lena Mondrejevski"
+    role: phd
+    image: /img/people/lena.jpg
+    bio: federated learning (Getinge)
+    webpage: https://www.su.se/english/profiles/lesc0230
+
 Quintero:
     display_name: "Luis Quintero"
     role: phd
@@ -91,6 +120,27 @@ Bampa:
     bio: learning from complex medical data sources
     image: /img/people/mariabampa.jpg
     webpage: "https://mariabampa.blogs.dsv.su.se"
+
+Movin:
+    display_name: "Maria Movin"
+    role: phd
+    image: /img/people/movin.jpeg
+    bio: multi-objective learning for modeling user preferences (Spotify)
+    # webpage: 
+
+Vaishnav:
+    display_name: "Shubham Vaishnav"
+    role: phd
+    image: /img/people/shubham.jpeg
+    bio: reinforcement learning, federated learning, fog and edge networks optimization
+    webpage: https://www.su.se/english/profiles/shva2279
+
+Kharazian:
+    display_name: "Zahra Kharazian"
+    role: phd
+    image: /img/people/kharazian.png
+    bio: data science, predictive maintenance
+    webpage: https://www.su.se/english/profiles/zakh1874
 
 Lee:
     display_name: "Zed Lee"
@@ -106,54 +156,6 @@ Wang:
     bio: explainable sequential models
     webpage: "https://zhendong3wang.blogs.dsv.su.se"
 
-Dinis Jr:
-    display_name: "Guilherme Dinis Chaliane Jr"
-    role: phd
-    image: /img/people/guilherme.jpg
-    bio: learning dynamic multi-agent environments (Spotify)
-    webpage: https://www.su.se/english/profiles/guch4839
-
-Movin:
-    display_name: "Maria Movin"
-    role: phd
-    # image: /img/people/ali.png
-    bio: multi-objective learning for modeling user preferences (Spotify)
-    # webpage: 
-
-Beikmohammadi:
-    display_name: "Ali Beikmohammadi"
-    role: phd
-    image: /img/people/ali.png
-    bio: efficient federated learning in complex networks
-    webpage: https://www.su.se/english/profiles/albe0724
-
-Vaishnav:
-    display_name: "Shubham Vaishnav"
-    role: phd
-    image: /img/people/shubham.jpeg
-    bio: reinforcement learning, federated learning, fog and edge networks optimization
-    webpage: https://www.su.se/english/profiles/shva2279
-
-Mondrejevski:
-    display_name: "Lena Mondrejevski"
-    role: phd
-    image: /img/people/lena.jpg
-    bio: federated learning (Getinge)
-    webpage: https://www.su.se/english/profiles/lesc0230
-
-Piller:
-    display_name: "Jonathan Piller"
-    role: phd
-    # image: /img/people/ali.png
-    bio: data science (Spotify)
-    #webpage: https://www.su.se/english/profiles/shva2279
-
-Kharazian:
-    display_name: "Zahra Kharazian"
-    role: phd
-    image: /img/people/kharazian.png
-    bio: data science, predictive maintenance
-    webpage: https://www.su.se/english/profiles/zakh1874
 
 
 
@@ -167,28 +169,38 @@ Rugolon:
     bio: explainable machine learning for healthcare
     webpage: "https://www.su.se/english/profiles/frru0901-1.616339"
 
-Mahamud:
-    display_name: "Mosleh Mahamud"
-    role: researcher
-    image: /img/people/mosh.jpeg
-    bio: natural language processing, deep learning
-    webpage: https://github.com/mosh98
+#Mahamud:
+#    display_name: "Mosleh Mahamud"
+#    role: researcher
+#    image: /img/people/mosh.jpeg
+#    bio: natural language processing, deep learning
+#    webpage: https://github.com/mosh98
 
-Törnqvist:
-    display_name: "Maximilian Törnqvist"
-    role: researcher
-    image: /img/people/tornqvist.jpeg
-    bio: natural language processing
-    webpage: https://www.su.se/profiles/mata7372
-    
-
-    
+#Törnqvist:
+#    display_name: "Maximilian Törnqvist"
+#    role: researcher
+#    image: /img/people/tornqvist.jpeg
+#    bio: natural language processing
+#    webpage: https://www.su.se/profiles/mata7372
 
 
 # AFFILIATED RESEARCHERS (affiliated)
 
+Pavlopoulos:
+    display_name: "John Pavlopoulos, Affiliated Researcher"
+    webpage: "https://www.su.se/english/profiles/iopa3492-1.453830"
+    image: /img/people/pavlopoulos.jpg
+    role: affiliated
+    bio: machine learning for natural language processing, applications to healthcare and education
+
 
 # EXTERNAL COLLABORATORS (collab)
+
+Tucker:
+    display_name: "Allan Tucker"
+    role: collab
+    bio: Senior Lecturer, Brunel University London
+    webpage: "https://www.brunel.ac.uk/people/allan-tucker"
 
 Gionis:
     display_name: "Aristides Gionis"
@@ -233,11 +245,6 @@ Greenstein:
     bio: Senior Lecturer, Dept. of Law, SU
     webpage: "https://www.su.se/english/profiles/stgr7735-1.184962"
 
-Tucker:
-    display_name: "Allan Tucker"
-    role: collab
-    bio: Senior Lecturer, Brunel University London
-    webpage: "https://www.brunel.ac.uk/people/allan-tucker"
 
 JohanssonUlf:
     display_name: "Ulf Johansson"
@@ -245,17 +252,17 @@ JohanssonUlf:
     bio: Professor, Jönköping Univ.
     webpage: "https://ju.se/personinfo.html?sign=johulf"
 
-Kougia:
-    display_name: "Vasiliki Kougia"
-    role: collab
-    bio: PhD Student, Univ. of Vienna
-    webpage: "https://vasilikikou.github.io/"
+#Kougia:
+#    display_name: "Vasiliki Kougia"
+#    role: collab
+#    bio: PhD Student, Univ. of Vienna
+#    webpage: "https://vasilikikou.github.io/"
 
-Farazouli:
-    display_name: "Alexandra Farazouli"
-    role: collab
-    bio: PhD Student, Dept. of Education, SU
-    webpage: "https://www.su.se/profiles/alfa7899-1.543489"
+#Farazouli:
+#    display_name: "Alexandra Farazouli"
+#    role: collab
+#    bio: PhD Student, Dept. of Education, SU
+#    webpage: "https://www.su.se/profiles/alfa7899-1.543489"
     
 # ALUMNI (alumni)
 

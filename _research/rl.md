@@ -8,7 +8,6 @@ description: |
 people:
   - Magnússon
   - Dinis Jr
-  - Beikmohammadi
   - Piller
   - Bampa
 

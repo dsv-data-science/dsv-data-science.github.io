@@ -4,7 +4,7 @@ title: People
 
 # groups of columns of {roles: list, width: num, image: bool}
 role-tables:
-- - roles: [faculty, senior]
+- - roles: [faculty, affiliated]
     width: 6
     image: true
   - roles: [phd]

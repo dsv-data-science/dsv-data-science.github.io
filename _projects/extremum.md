@@ -3,7 +3,7 @@ title: EXTREMUM
 highlight: priority
 description: |
   Explainable and Ethical Machine Learning for Knowledge Discovery from Medical Data Sources<br>
-  <b>Digital Futures: 2020-2023</b>
+  <b>Digital Futures: 2020-2024</b>
 
 people:
   - Papapetrou
@@ -32,7 +32,7 @@ This project is a continuation of the EXTREME-Pilot project.
 
 **Researchers**
 
-- Ioanna Miliou, Postdoctoral Researcher, DSV, SU
+- Ioanna Miliou, Senior Lecturer, DSV, SU
 - Isak Samsten, Senior Lecturer, DSV, SU
 - Ioannis Pavlopoulos, Affiliated Researcher, DSV, SU (2019-2021)
 - Sugandh Sinha, RISE
@@ -41,7 +41,7 @@ This project is a continuation of the EXTREME-Pilot project.
 - Vasiliki Kougia, Research Assistant, DSV, SU (2021)
 
 
-**Project period:** 2020-01-01 to 2023-12-31
+**Project period:** 2020-01-01 to 2024-05-31
 
 **Funding source:** Digital Futures
 

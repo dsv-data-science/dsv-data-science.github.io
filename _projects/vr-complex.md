@@ -12,7 +12,7 @@ people:
 
 layout: project
 image: /img/projects/VR.jpg
-last-updated: 2022-10-26
+last-updated: 2022-12-26
 ---
 
 ##  Efficient Machine Learning in Complex Networks

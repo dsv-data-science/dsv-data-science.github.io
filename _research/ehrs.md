@@ -1,5 +1,5 @@
 ---
-title: Medical Mining
+title: Learning from Medical Data Sources
 highlight: priority
 topic: applications
 

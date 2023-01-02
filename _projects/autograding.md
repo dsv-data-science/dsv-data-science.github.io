@@ -1,5 +1,6 @@
 ---
 title: AutoGrade
+status: inactive
 highlight: low
 description: |
   Automatic grading of electronic exams<br>
@@ -8,8 +9,6 @@ description: |
 people:
   - Papapetrou
   - Lee
-  - Mahamud
-  - Törnqvist
 
 layout: project
 last-updated: 2022-10-25
@@ -23,8 +22,8 @@ last-updated: 2022-10-25
 - Uno Fors, Professor, DSV, SU
 - Ioannis Pavlopoulos, Affiliated Researcher, DSV, SU (2021)
 - Zed Lee, PhD student, DSV, SU
-- Mosleh Mahamud, Research Assistant, DSV, SU (2022)
 - Maximilian Törnqvist, Research Assistant, DSV, SU (2022)
+- Mosleh Mahamud, Research Assistant, DSV, SU (2022)
 - Alexandra Farazouli, Research Assistant, DSV, SU (2021)
 - Jimmy Ljungman, Research Assistant, DSV, SU (2021)
 - Vanessa Lislevand, Research Assistant, DSV, SU (2021)

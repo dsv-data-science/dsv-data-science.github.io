@@ -11,7 +11,7 @@ people:
   - Kharazian
 
 layout: project
-last-updated: 2022-10-27
+last-updated: 2022-12-27
 ---
 
 ## RAPIDS
