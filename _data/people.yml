@@ -31,16 +31,16 @@ Magnússon:
 Taheri:
     display_name: "Golnaz Taheri, Senior Lecturer"
     webpage: ""
-    image: 
+    image: /img/people/golnaz.jpg
     role: faculty
-    bio: computational biology
+    bio: probabilistic and multimodal machine learning, machine learning for complex biological data
 
 Miliou:
     display_name: "Ioanna Miliou, Senior Lecturer"
     webpage: "https://ioannamiliou.blogs.dsv.su.se"
     image: /img/people/ioanna.jpg
     role: faculty
-    bio: data science for social good, nowcasting and forecasting
+    bio: nowcasting and forecasting, data science for social good with applications in healthcare, epidemics and peace
 
 Samsten:
     display_name: "Isak Samsten, Senior Lecturer"
@@ -62,6 +62,8 @@ Hollmén:
 
 
 # Senior Researchers (senior)
+
+#...
 
 # PhD Students (phd)
 
@@ -98,7 +100,7 @@ Piller:
     role: phd
     image: /img/people/piller.jpeg
     bio: dynamic complex digital networks (Spotify)
-    #webpage: 
+    webpage: ""
 
 Mondrejevski:
     display_name: "Lena Mondrejevski"
@@ -126,7 +128,7 @@ Movin:
     role: phd
     image: /img/people/movin.jpeg
     bio: multi-objective learning for modeling user preferences (Spotify)
-    # webpage: 
+    webpage: "" 
 
 Vaishnav:
     display_name: "Shubham Vaishnav"
@@ -155,9 +157,6 @@ Wang:
     image: /img/people/zhendong.png
     bio: explainable sequential models
     webpage: "https://zhendong3wang.blogs.dsv.su.se"
-
-
-
 
 
 # RESEARCH ASSISTANTS (researcher)
