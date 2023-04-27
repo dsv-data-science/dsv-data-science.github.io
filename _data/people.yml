@@ -102,6 +102,13 @@ Piller:
     bio: dynamic complex digital networks (Spotify)
     webpage: ""
 
+Randl:
+    display_name: "Korbinian Randl"
+    role: phd
+    image: /img/people/korbinian.jpg
+    bio:  text classification, explainability in NLP, food risk prediction
+    webpage: https://www.su.se/english/profiles/kora8563-1.646714
+
 Mondrejevski:
     display_name: "Lena Mondrejevski"
     role: phd

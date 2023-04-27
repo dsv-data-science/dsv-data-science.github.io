@@ -6,6 +6,7 @@ description: |
 
 people:
   - Pavlopoulos
+  - Randl
 
 layout: area
 image: /img/areas/nlp-example.png

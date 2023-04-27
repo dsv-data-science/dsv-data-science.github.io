@@ -9,6 +9,7 @@ people:
   - Papapetrou
   - Asker
   - Hollmén
+  - Miliou
   - Bampa
   - Wang
   - Mondrejevski
