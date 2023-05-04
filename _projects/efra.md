@@ -12,7 +12,7 @@ people:
   - Randl
 
 layout: project
-image: "/img/projects/efra/efra.png"
+image: "/img/projects/efra/EFRA.png"
 last-updated: 2023-05-04
 ---
 
