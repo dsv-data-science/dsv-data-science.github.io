@@ -67,13 +67,6 @@ Hollmén:
 
 # PhD Students (phd)
 
-#Rebane:
-#    display_name: "Jonathan Rebane"
-#    webpage: "https://www.su.se/english/profiles/jore1728-1.344488"
-#    role: phd
-#    image: /img/people/rebane.jpg
-#    bio: explainable temporal models for healthcare applications
-
 Kuratomi:
     display_name: "Alejandro Kuratomi"
     webpage: "https://alku.blogs.dsv.su.se/"
@@ -87,6 +80,13 @@ Beikmohammadi:
     image: /img/people/ali.png
     bio: efficient federated learning in complex networks
     webpage: https://www.su.se/english/profiles/albe0724
+
+Rugolon:
+    display_name: "Franco Rugolon"
+    role: phd
+    image: /img/people/rugolon.jpg
+    bio: explainable machine learning for healthcare
+    webpage: "https://www.su.se/english/profiles/frru0901-1.616339"
 
 Dinis Jr:
     display_name: "Guilherme Dinis Chaliane Jr"
@@ -144,6 +144,13 @@ Vaishnav:
     bio: reinforcement learning, federated learning, fog and edge networks optimization
     webpage: https://www.su.se/english/profiles/shva2279
 
+Kreuzer:
+    display_name: "Tim Kreuzer"
+    role: phd
+    image: /img/people/tim.jpg
+    bio: time series analysis for digital twins
+    webpage: https://www.su.se/english/profiles/tikr7960
+
 Kharazian:
     display_name: "Zahra Kharazian"
     role: phd
@@ -168,12 +175,6 @@ Wang:
 
 # RESEARCH ASSISTANTS (researcher)
 
-Rugolon:
-    display_name: "Franco Rugolon"
-    role: researcher
-    image: /img/people/rugolon.jpg
-    bio: explainable machine learning for healthcare
-    webpage: "https://www.su.se/english/profiles/frru0901-1.616339"
 
 #Mahamud:
 #    display_name: "Mosleh Mahamud"

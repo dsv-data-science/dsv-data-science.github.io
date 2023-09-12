@@ -17,7 +17,7 @@ role-tables:
 - - roles: [collab]
     width: 6
     image: false
-  - roles: [researcher, alumni]
+  - roles: [alumni]
     width: 6
     image: false
 ---
