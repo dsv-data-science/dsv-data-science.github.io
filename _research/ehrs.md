@@ -10,9 +10,11 @@ people:
   - Asker
   - Hollmén
   - Miliou
+  - Taheri
   - Bampa
   - Wang
   - Mondrejevski
+  - Rugolon
 
 layout: area
 image: /img/areas/elec-hea-rec.jpg

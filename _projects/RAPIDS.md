@@ -11,6 +11,7 @@ people:
   - Kharazian
 
 layout: project
+image: "/img/projects/rapids/rapids.png"
 last-updated: 2022-12-27
 ---
 

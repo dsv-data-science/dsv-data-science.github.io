@@ -5,7 +5,9 @@ topic: temporal
 description: |
 
 people:
+  - Papapetrou
   - Miliou
+  - Kreuzer
 
 layout: area
 image: /img/areas/nowcasting-example.png

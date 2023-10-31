@@ -9,7 +9,8 @@ people:
   - Magnússon
   - Dinis Jr
   - Piller
-  - Bampa
+  - Beikmohammadi
+  - Vaishnav
 
 layout: area
 image: /img/areas/RL.jpg

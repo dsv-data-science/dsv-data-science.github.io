@@ -11,6 +11,8 @@ people:
   - Miliou
   - Lee
   - Wang
+  - Rugolon
+  - Kreuzer
 
 layout: area
 image: /img/areas/sequential-temporal-data.png

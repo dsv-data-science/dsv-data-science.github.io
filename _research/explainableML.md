@@ -13,6 +13,7 @@ people:
   - Kuratomi
   - Wang
   - Movin
+  - Rugolon
 
 
 layout: area
