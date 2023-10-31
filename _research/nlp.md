@@ -37,14 +37,10 @@ Particular focus is given on Natural Language Processing with emphasis on effici
 {% endif %}
  
  <br>
- 
-## Implementations
-
-
-<br>
 
 ## Related Projects
 
+- [EFRA]({{ site.base }}/projects/efra.html)
 - [EXTREMUM]({{ site.base }}/projects/extremum.html)
 - [AutoGrade]({{ site.base }}/projects/autograding.html)
 - [NLP-assisted troubleshooting]({{ site.base }}/projects/nlp_assisted_troubleshooting.html)

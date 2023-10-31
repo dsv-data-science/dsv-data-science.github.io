@@ -11,6 +11,7 @@ people:
   - Piller
   - Beikmohammadi
   - Vaishnav
+  - Amiri
 
 layout: area
 image: /img/areas/RL.jpg

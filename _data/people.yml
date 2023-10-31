@@ -141,8 +141,8 @@ Amiri:
     display_name: "Mohsen Amiri"
     role: phd
     image: /img/people/mohsen.png
-    bio: ""
-    webpage: "" 
+    bio: reinforcement learning, federated learning, distributed optimization
+    webpage: "https://www.su.se/english/profiles/moam9597-1.672422" 
 
 Vaishnav:
     display_name: "Shubham Vaishnav"

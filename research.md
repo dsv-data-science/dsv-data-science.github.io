@@ -44,7 +44,7 @@ title: Research Profile
     </div>
     
     <div class="profileanchor">    
-    <h2 id="rprofile3"> Reinforcement Learning and Federated Learning</h2>
+    <h2 id="rprofile3"> Distributed computing and optimization</h2>
     </div>
     <a name="rl_fl"></a> 
     <div class="card-columns">

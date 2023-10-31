@@ -10,6 +10,7 @@ people:
   - Beikmohammadi
   - Vaishnav
   - Mondrejevski
+  - Amiri
 
 layout: area
 image: /img/areas/Federated.jpg

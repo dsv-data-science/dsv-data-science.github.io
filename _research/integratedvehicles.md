@@ -37,14 +37,13 @@ The aim is to facilitate integrated vehicle health monitoring (IVHM) of heavy tr
 </div>
 {% endif %}
  
- <br>
- 
  {% comment %}
 ## Implementations
 
-{% endcomment %}
 
 <br>
+{% endcomment %}
+
 
 ## Related Projects
 

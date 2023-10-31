@@ -51,12 +51,10 @@ For the purposes of these two projects, our group has established strong collabo
 
 <br>
 
-## Implementations
-
-<br>
-
 ## Related Projects
 
+
+- [Let’s talk about non-verbal communication]({{ site.base }}/projects/wallenberg.html)
 - [EXTREMUM]({{ site.base }}/projects/extremum.html)
 - [DADEL]({{ site.base }}/projects/DADEL.html)
 - [CorIL]({{ site.base }}/projects/CorIL.html)

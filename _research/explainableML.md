@@ -1,5 +1,5 @@
 ---
-title: Interpretable and explainable models
+title: Model explainability and Fairness
 highlight: priority
 topic: explain
 
@@ -11,7 +11,6 @@ people:
   - Samsten
   - Miliou
   - Kuratomi
-  - Wang
   - Movin
   - Rugolon
 
