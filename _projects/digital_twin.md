@@ -11,7 +11,7 @@ people:
   - Kreuzer
 
 layout: project
-#image: "/img/projects/wallenberg/communication.png"
+image: "/img/projects/digitaltwin/digital_twin.png"
 last-updated: 2023-11-01
 ---
 
