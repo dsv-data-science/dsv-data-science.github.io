@@ -1,7 +1,6 @@
 ---
 title: 3AI
 status: inactive
-highlight: priority
 
 description: |
   Automated Auditing using AI<br>

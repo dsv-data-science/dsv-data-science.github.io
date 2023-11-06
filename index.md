@@ -62,6 +62,23 @@ notitle: true
    </div>
 </div>
 
+<h2>Projects</h2>  
+    <p>  Our group is involved in several national and international projects. A selection of our ongoing projects can be found below. For a comprehensive list of our projects please visit our <a href="projects.html">projects page</a>.
+    </p>
+   
+<div class="card-columns">
+        {% comment %}
+        Sort the projects by date, putting those without dates last
+        {% endcomment %}
+        {% assign projects_by_date = site.projects | sort: 'last-updated', 'first' %}
+        {% assign projects_by_date = projects_by_date | reverse %}
+        {% for p in projects_by_date %}
+            {% if p.highlight == "priority" %}
+                {% include project-card.html project=p %}
+            {% endif %}
+        {% endfor %}
+    </div>
+
 </div>
 
 <div id="newscol">
@@ -82,7 +99,7 @@ notitle: true
     </div>
     <div id="collaborators">
     <h2>Collaborators</h2>
-    <p><img src="https://www.folkhalsomyndigheten.se/gui/i/logo.png?v=1.4.25.0" width ="100%"></p>
+    <p><img src="img/logo/folkhalsomyndigheten-share.png" width ="100%"></p>
     <br>
     <p><img src="img/logo/AF-logga1.png" width="100%"  style="horizontal-align:middle"></p>
     <br>
@@ -96,41 +113,6 @@ notitle: true
     <p>SPV (Swedish Pensions Agency)</p>
     </div>
 </div>
-
-
-{% comment %}
-   <div class="card-columns">
-           {% comment %}
-           Sort the projects by date, putting those without dates last
-           {% endcomment %}
-           {% assign research_by_date = site.research | sort: 'last-updated', 'first' %}
-           {% assign research_by_date = research_by_date | reverse %}
-           {% for r in research_by_date %}
-               {% if r.highlight == "priority" %}
-                   {% include researcharea-card.html project=r %}
-               {% endif %}
-           {% endfor %}
-    </div>
-
-<h2>Projects</h2>  
-    <p>  Our group is involved in several national and international projects. A selection of our ongoing projects can be found below. For a comprehensive list of our projects please visit our <a href="projects.html">projects page</a>.
-    </p>
-   
-<div class="card-columns">
-        {% comment %}
-        Sort the projects by date, putting those without dates last
-        {% endcomment %}
-        {% assign projects_by_date = site.projects | sort: 'last-updated', 'first' %}
-        {% assign projects_by_date = projects_by_date | reverse %}
-        {% for p in projects_by_date %}
-            {% if p.highlight == "priority" %}
-                {% include project-card.html project=p %}
-            {% endif %}
-        {% endfor %}
-    </div>
-{% endcomment %}
-
-
 
 </div>
    

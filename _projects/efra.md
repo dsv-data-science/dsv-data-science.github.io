@@ -1,6 +1,7 @@
 ---
 title: EFRA
 status: active
+highlight: priority
 
 description: |
   Extreme Food Risk Analytics <br>

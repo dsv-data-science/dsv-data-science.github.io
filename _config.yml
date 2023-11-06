@@ -58,7 +58,6 @@ navigation:
     link: /
   - title: People
     link: /people.html
-#    link: /#people
   - title: Research
     link: /research.html
   - title: Projects

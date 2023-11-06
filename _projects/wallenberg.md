@@ -1,6 +1,7 @@
 ---
 title: Let's talk about non-verbal communication
 status: active
+highlight: priority
 
 description: |
   Interpersonal Psychotherapeutic Interactions and AI<br>
