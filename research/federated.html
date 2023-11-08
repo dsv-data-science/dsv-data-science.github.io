@@ -1,0 +1,1663 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Data Science Research Group: Federated learning</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+              integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+              crossorigin="anonymous">
+        <link rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/css/group.css">
+        <link rel="stylesheet" href="/css/custom.css">
+        <link rel="stylesheet" href="/css/event.css">
+        
+        <!-- Compatibility with MathJax -->
+        <!-- LOAD MathJax for LaTeX formulae -->
+<script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function(){
+    document.querySelectorAll("script[type='math/tex']").forEach(function(el){
+        el.outerHTML = "\\(" + el.textContent + "\\)";
+    });
+    document.querySelectorAll("script[type='math/tex; mode=display']").forEach(function(el){
+        el.outerHTML = "\\[" + el.textContent + "\\]";
+    });
+    var script = document.createElement('script');
+    script.src = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js";
+    document.head.appendChild(script);
+    }, false);
+</script>
+
+        <!-- Folder with favicon -->
+        <!-- Generated from favicon-generator.org -->
+<link rel="apple-touch-icon" sizes="57x57" href="/img/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/img/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/img/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+<link rel="manifest" href="/img/favicon/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/img/favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+    </head>
+    <body>
+        <div class="">
+            <!-- This is a bit nasty, but it basically says be a column first, and on larger screens be a spaced out row -->
+            <div class="header">
+                <div class="container">
+                        <div id="frontbar">
+
+                        </div>
+                        <div id="logoline">
+                            <a href="/" class="">
+                                <img src="/img/logo/dsgroup.png"
+                                     srcset="/img/logo/dsgroup.png 2x"
+                                     alt="dsdsv_logo" id="logo">
+                            </a>
+                        </div>
+                        <div id="menuline">
+                            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                                <div class="navbar-collapse" id="navbarNav">
+                                    <ul class="navbar-nav justify-content-end">
+
+                                        
+                                        
+                    
+                                            
+                    
+                                            
+                                            
+                                            
+                                            
+                    
+                                            <li class="nav-item">
+                                                <a class="nav-link "
+                                                href="/">
+                                                    Home
+                                                </a>
+                                            </li>
+                    
+                                        
+                    
+                                            
+                    
+                                            
+                                            
+                                            
+                                            
+                    
+                                            <li class="nav-item">
+                                                <a class="nav-link "
+                                                href="/people.html">
+                                                    People
+                                                </a>
+                                            </li>
+                    
+                                        
+                    
+                                            
+                    
+                                            
+                                            
+                                            
+                                            
+                    
+                                            <li class="nav-item">
+                                                <a class="nav-link active"
+                                                href="/research.html">
+                                                    Research
+                                                </a>
+                                            </li>
+                    
+                                        
+                    
+                                            
+                    
+                                            
+                                            
+                                            
+                                            
+                    
+                                            <li class="nav-item">
+                                                <a class="nav-link "
+                                                href="/projects.html">
+                                                    Projects
+                                                </a>
+                                            </li>
+                    
+                                        
+                    
+                                            
+                    
+                                            
+                                            
+                                            
+                                            
+                    
+                                            <li class="nav-item">
+                                                <a class="nav-link "
+                                                href="/seminars.html">
+                                                    Data Science Seminars
+                                                </a>
+                                            </li>
+                    
+                                        
+                    
+                                            
+                    
+                                            
+                                            
+                                            
+                                            
+                    
+                                            <li class="nav-item">
+                                                <a class="nav-link "
+                                                href="/publications.html">
+                                                    Publications
+                                                </a>
+                                            </li>
+                    
+                                        
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                
+                
+            </div>
+
+            
+            <div class="bannerarea">
+                <div class="gridtile">
+                <p> Federated learning</p>
+                </div>
+            </div>
+                <!-- <h1></h1> -->
+            
+
+            
+            
+
+            <div class="container">
+            <p><br /></p>
+
+<h2 id="description">Description</h2>
+
+<p>Federated learning is an sub-area of machine learning that focuses on providing distributed and scalable algorithms for  training models across multiple decentralized peers without the need for sharing or exchanging data or information.</p>
+
+<p><br /></p>
+
+<h2 id="latest-publications">Latest publications</h2>
+
+<div class="publications">
+    <table class="table">
+        <tbody>
+        <tr>
+          <ol class="bibliography"><li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://www.sciencedirect.com/science/article/pii/S0005109823002066">Distributed safe resource allocation using barrier functions</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  Wu, Xuyang,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  <a href="https://sites.google.com/view/sindri-magnusson/home" target="_blank">Magnússon, Sindri</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and Johansson, Mikael
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        	<em>Automatica</em>,
+      	
+      	
+        	2023
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://ieeexplore.ieee.org/abstract/document/10278999/">Energy-Efficient and Adaptive Gradient Sparsification for Federated Learning</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  <a href="https://www.su.se/english/profiles/shva2279" target="_blank">Vaishnav, Shubham</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Efthymiou, Maria,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and <a href="https://sites.google.com/view/sindri-magnusson/home" target="_blank">Magnússon, Sindri</a>
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        		<em>In ICC 2023-IEEE International Conference on Communications</em>,
+		
+      	
+        	2023
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://ieeexplore.ieee.org/abstract/document/9747809">Eco-Fedsplit: Federated Learning with Error-Compensated Compression</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  Khirirat, Sarit,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  <a href="https://sites.google.com/view/sindri-magnusson/home" target="_blank">Magnússon, Sindri</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and Johansson, Mikael
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        		<em>In ICASSP 2022 - 2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)</em>,
+		
+      	
+        	2022
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://arxiv.org/pdf/2003.06377.pdf">A flexible framework for communication-efficient machine learning</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  Khirirat, S.,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  <a href="https://sites.google.com/view/sindri-magnusson/home" target="_blank">Magnússon, S.</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Aytekin, A.,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and Johansson, M.
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        		<em>In Proceedings of The Thirty-Fifth AAAI Conference on Artificial Intelligence (AAAI-21)</em>,
+		
+      	
+        	2021
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://ieeexplore.ieee.org/document/9311407">Compressed Gradient Methods with Hessian-Aided Error Compensation</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  Khirirat, S.,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  <a href="https://sites.google.com/view/sindri-magnusson/home" target="_blank">Magnússon, S.</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and Johansson, M.
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        	<em>IEEE Transactions on Signal Processing</em>,
+      	
+      	
+        	2021
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://ieeexplore.ieee.org/document/9214382">The Internet of Things as a Deep Neural Network</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  Du, R.,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  <a href="https://sites.google.com/view/sindri-magnusson/home" target="_blank">Magnússon, S.</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and Fischione, C.
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        	<em>IEEE Communications Magazine, Internet of Things and Sensor Networks Series</em>,
+      	
+      	
+        	2020
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://arxiv.org/pdf/2003.04686.pdf">Communication-Efficient Variance-Reduced Stochastic Gradient Descent</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  Shokri-Ghadikolaei, H.,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and <a href="https://sites.google.com/view/sindri-magnusson/home" target="_blank">Magnússon, S.</a>
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        		<em>In Proceedings of the IFAC World Congress</em>,
+		
+      	
+        	2020
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://ieeexplore.ieee.org/document/9226092">On Maintaining Linear Convergence of Distributed Learning and Optimization under Limited Communication</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  <a href="https://sites.google.com/view/sindri-magnusson/home" target="_blank">Magnússon, Sindri</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Shokri-Ghadikolaei, Hossein,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and Li, Na
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        	<em>IEEE Transactions on Signal Processing</em>,
+      	
+      	
+        	2020
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://ieeexplore.ieee.org/document/8682931">Convergence Bounds For Compressed Gradient Methods With Memory Based Error Compensation</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  Khirirat, S.,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  <a href="https://sites.google.com/view/sindri-magnusson/home" target="_blank">Magnússon, S.</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and Johansson, M.
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        		<em>In Proceedings of the IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)</em>,
+		
+      	
+        	2019
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://ieeexplore.ieee.org/document/9049052">On Maintaining Linear Convergence of Distributed Learning and Optimization under Limited Communication</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  <a href="https://sites.google.com/view/sindri-magnusson/home" target="_blank">Magnússon, S.</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Shokri-Ghadikolaei, H.,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and N. Li, 
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        		<em>In Proceedings of the 53rd IEEE Asilomar Conference on Signals, Systems, and Computers</em>,
+		
+      	
+        	2019
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://ieeexplore.ieee.org/document/8387833">Communication Complexity of Dual Decomposition Methods for Distributed Resource Allocation Optimization</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  <a href="https://sites.google.com/view/sindri-magnusson/home" target="_blank">Magnússon, S.</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Enyioha, C.,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Li, N.,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Fischione, C.,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and Tarokh, V.
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        	<em>IEEE Journal of Selected Topics in Signal Processing</em>,
+      	
+      	
+        	2018
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://ieeexplore.ieee.org/document/8015189">Convergence of Limited Communications Gradient Methods</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  <a href="https://sites.google.com/view/sindri-magnusson/home" target="_blank">Magnússon, S.</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Enyioha, C.,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Li, N.,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Fischione, C.,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and Tarokh, V.
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        	<em>IEEE Transactions on Automatic Control</em>,
+      	
+      	
+        	2018
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://ieeexplore.ieee.org/document/7239586">On the Convergence of Alternating Direction Lagrangian Methods for Nonconvex Structured Optimization Problems</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  <a href="https://sites.google.com/view/sindri-magnusson/home" target="_blank">Magnússon, S.</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Weeraddana, P. C.,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Rabbat, M. G.,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and Fischione, C.
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        	<em>IEEE Transactions on Control of Network Systems</em>,
+      	
+      	
+        	2016
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://ieeexplore.ieee.org/document/7798273">Practical Coding Schemes For Bandwidth Limited One-Way Communication Resource Allocation</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  <a href="https://sites.google.com/view/sindri-magnusson/home" target="_blank">Magnússon, S.</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Enyioha, C.,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Fischione, C.,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and Li, N.
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        		<em>In Proceedings of the 56th IEEE Conference on Decision and Control (CDC)</em>,
+		
+      	
+        	2016
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://ieeexplore.ieee.org/document/7525116">Convergence of Limited Communications Gradient Method</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  <a href="https://sites.google.com/view/sindri-magnusson/home" target="_blank">Magnússon, S.</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Enyioha, C.,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Li, N.,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Fischione, C.,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and Tarokh, V.
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        		<em>In Proceedings of the IEEE American Control Conference (ACC)</em>,
+		
+      	
+        	2016
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://ieeexplore.ieee.org/document/7888135">Analysis for an Online Decentralized Descent Power allocation algorithm</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  Enyioha, C.,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  <a href="https://sites.google.com/view/sindri-magnusson/home" target="_blank">Magnússon, S.</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Heal, K.,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Li, N.,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Fischione, C.,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and Tarokh, V.
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        		<em>In Proceedings of the  IEEE Information Theory and Applications Workshop (ITA)</em>,
+		
+      	
+        	2016
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://ieeexplore.ieee.org/document/7094558">On the Convergence of an Alternating Direction Penalty Method for Nonconvex Problems</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  <a href="https://sites.google.com/view/sindri-magnusson/home" target="_blank">Magnússon, S.</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Weeraddana, P. C.,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Rabbat, M. G.,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and Fischione, C.
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        		<em>In Proceedings of the IEEE 48th Asilomar Conference on Signals, Systems and Computers </em>,
+		
+      	
+        	2015
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li></ol>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<p><br /></p>
+
+
+
+<h2> People </h2>
+<section class="people project-people">
+    
+        
+        
+
+
+
+
+
+
+
+    <div class="person person-with-image row">
+        <div class="col-auto">
+            
+
+
+
+
+
+
+
+    <a href="https://sites.google.com/view/sindri-magnusson/home"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile"
+             alt="Sindri Magnússon, Associate Professor"
+             title="Sindri Magnússon, Associate Professor"
+             src="/img/people/sm.jpg" />
+    
+    </a>
+
+
+        </div>
+        <div class="col pl-0">
+            <h6 class="person-name"> 
+        <a href="https://sites.google.com/view/sindri-magnusson/home"> Sindri Magnússon, Associate Professor </a>
+     </h6>
+            
+                <div class="bio">distributed optimization, reinforcement learning, federated learning, IoT/CPS</div>
+            
+        </div>
+    </div>
+
+
+    
+        
+        
+
+
+
+
+
+
+
+    <div class="person person-with-image row">
+        <div class="col-auto">
+            
+
+
+
+
+
+
+
+    <a href="https://www.su.se/english/profiles/albe0724"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile"
+             alt="Ali Beikmohammadi"
+             title="Ali Beikmohammadi"
+             src="/img/people/ali.png" />
+    
+    </a>
+
+
+        </div>
+        <div class="col pl-0">
+            <h6 class="person-name"> 
+        <a href="https://www.su.se/english/profiles/albe0724"> Ali Beikmohammadi </a>
+     </h6>
+            
+                <div class="bio">efficient federated learning in complex networks</div>
+            
+        </div>
+    </div>
+
+
+    
+        
+        
+
+
+
+
+
+
+
+    <div class="person person-with-image row">
+        <div class="col-auto">
+            
+
+
+
+
+
+
+
+    <a href="https://www.su.se/english/profiles/shva2279"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile"
+             alt="Shubham Vaishnav"
+             title="Shubham Vaishnav"
+             src="/img/people/shubham.jpeg" />
+    
+    </a>
+
+
+        </div>
+        <div class="col pl-0">
+            <h6 class="person-name"> 
+        <a href="https://www.su.se/english/profiles/shva2279"> Shubham Vaishnav </a>
+     </h6>
+            
+                <div class="bio">reinforcement learning, federated learning, fog and edge networks optimization</div>
+            
+        </div>
+    </div>
+
+
+    
+        
+        
+
+
+
+
+
+
+
+    <div class="person person-with-image row">
+        <div class="col-auto">
+            
+
+
+
+
+
+
+
+    <a href="https://www.su.se/english/profiles/lesc0230"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile"
+             alt="Lena Mondrejevski"
+             title="Lena Mondrejevski"
+             src="/img/people/lena.jpg" />
+    
+    </a>
+
+
+        </div>
+        <div class="col pl-0">
+            <h6 class="person-name"> 
+        <a href="https://www.su.se/english/profiles/lesc0230"> Lena Mondrejevski </a>
+     </h6>
+            
+                <div class="bio">federated learning (Getinge)</div>
+            
+        </div>
+    </div>
+
+
+    
+        
+        
+
+
+
+
+
+
+
+    <div class="person person-with-image row">
+        <div class="col-auto">
+            
+
+
+
+
+
+
+
+    <a href="https://www.su.se/english/profiles/moam9597-1.672422"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile"
+             alt="Mohsen Amiri"
+             title="Mohsen Amiri"
+             src="/img/people/mohsen.png" />
+    
+    </a>
+
+
+        </div>
+        <div class="col pl-0">
+            <h6 class="person-name"> 
+        <a href="https://www.su.se/english/profiles/moam9597-1.672422"> Mohsen Amiri </a>
+     </h6>
+            
+                <div class="bio">reinforcement learning, federated learning, distributed optimization</div>
+            
+        </div>
+    </div>
+
+
+    
+</section>
+
+            </div>
+
+            <div class="footer container navbar-dark">
+                <span>
+                    <a href="https://dsv.su.se/">Department of Computer and Systems Sciences</a>
+                    of
+                    <a href="https://su.se/">Stockholm University</a>
+                </span>
+            </div>
+
+        </div> <!-- /container -->
+
+        <!-- Support retina images. -->
+        <script type="text/javascript"
+                src="/js/srcset-polyfill.js"></script>
+    </body>
+</html>
