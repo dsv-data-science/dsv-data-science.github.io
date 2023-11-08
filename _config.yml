@@ -62,6 +62,8 @@ navigation:
     link: /research.html
   - title: Projects
     link: /projects.html
+  - title: Data Science Seminars
+    link: /seminars.html
   - title: Publications
     link: /publications.html
   #- title: Code
