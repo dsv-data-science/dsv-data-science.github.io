@@ -37,7 +37,7 @@ notitle: true
 <h2>Welcome!</h2> 
 
 <p>
-    The <b>Data Science Research Group</b> at the <a href="https://dsv.su.se/en/">Department of Computer and Systems Sciences (DSV) at Stockholm University</a> focuses on core data science resarch as well as on application areas where data science can assist in providing useful insights for decision making. The group focuses on the formulation of <strong>novel data science problems</strong> and the development of <strong>algorithmic methods</strong> and <strong>methodological workflows</strong> for achieving scalable solutions in core application areas within <strong>social sciences</strong> and <strong>humanities</strong>.
+    The <b>Data Science Research Group</b> at the <a href="https://dsv.su.se/en/">Department of Computer and Systems Sciences (DSV) at Stockholm University</a> focuses on core data science research as well as on application areas where data science can assist in providing useful insights for decision making. The group focuses on the formulation of <strong>novel data science problems</strong> and the development of <strong>algorithmic methods</strong> and <strong>methodological workflows</strong> for achieving scalable solutions in core application areas within <strong>social sciences</strong> and <strong>humanities</strong>.
 </p>
 
 
