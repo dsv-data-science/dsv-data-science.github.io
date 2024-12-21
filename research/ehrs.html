@@ -1,0 +1,2165 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Data Science Research Group: Learning from Medical Data Sources</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+              integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+              crossorigin="anonymous">
+        <link rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/css/group.css">
+        <link rel="stylesheet" href="/css/custom.css">
+        <link rel="stylesheet" href="/css/event.css">
+        
+        <!-- Compatibility with MathJax -->
+        <!-- LOAD MathJax for LaTeX formulae -->
+<script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function(){
+    document.querySelectorAll("script[type='math/tex']").forEach(function(el){
+        el.outerHTML = "\\(" + el.textContent + "\\)";
+    });
+    document.querySelectorAll("script[type='math/tex; mode=display']").forEach(function(el){
+        el.outerHTML = "\\[" + el.textContent + "\\]";
+    });
+    var script = document.createElement('script');
+    script.src = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js";
+    document.head.appendChild(script);
+    }, false);
+</script>
+
+        <!-- Folder with favicon -->
+        <!-- Generated from favicon-generator.org -->
+<link rel="apple-touch-icon" sizes="57x57" href="/img/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/img/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/img/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+<link rel="manifest" href="/img/favicon/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/img/favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+    </head>
+    <body>
+        <div class="">
+            <!-- This is a bit nasty, but it basically says be a column first, and on larger screens be a spaced out row -->
+            <div class="header">
+                <div class="container">
+                        <div id="frontbar">
+
+                        </div>
+                        <div id="logoline">
+                            <a href="/" class="">
+                                <img src="/img/logo/dsgroup.png"
+                                     srcset="/img/logo/dsgroup.png 2x"
+                                     alt="dsdsv_logo" id="logo">
+                            </a>
+                        </div>
+                        <div id="menuline">
+                            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                                <div class="navbar-collapse" id="navbarNav">
+                                    <ul class="navbar-nav justify-content-end">
+
+                                        
+                                        
+                    
+                                            
+                    
+                                            
+                                            
+                                            
+                                            
+                    
+                                            <li class="nav-item">
+                                                <a class="nav-link "
+                                                href="/">
+                                                    Home
+                                                </a>
+                                            </li>
+                    
+                                        
+                    
+                                            
+                    
+                                            
+                                            
+                                            
+                                            
+                    
+                                            <li class="nav-item">
+                                                <a class="nav-link "
+                                                href="/people.html">
+                                                    People
+                                                </a>
+                                            </li>
+                    
+                                        
+                    
+                                            
+                    
+                                            
+                                            
+                                            
+                                            
+                    
+                                            <li class="nav-item">
+                                                <a class="nav-link active"
+                                                href="/research.html">
+                                                    Research
+                                                </a>
+                                            </li>
+                    
+                                        
+                    
+                                            
+                    
+                                            
+                                            
+                                            
+                                            
+                    
+                                            <li class="nav-item">
+                                                <a class="nav-link "
+                                                href="/projects.html">
+                                                    Projects
+                                                </a>
+                                            </li>
+                    
+                                        
+                    
+                                            
+                    
+                                            
+                                            
+                                            
+                                            
+                    
+                                            <li class="nav-item">
+                                                <a class="nav-link "
+                                                href="/seminars.html">
+                                                    Data Science Seminars
+                                                </a>
+                                            </li>
+                    
+                                        
+                    
+                                            
+                    
+                                            
+                                            
+                                            
+                                            
+                    
+                                            <li class="nav-item">
+                                                <a class="nav-link "
+                                                href="/publications.html">
+                                                    Publications
+                                                </a>
+                                            </li>
+                    
+                                        
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                
+                
+            </div>
+
+            
+            <div class="bannerarea">
+                <div class="gridtile">
+                <p> Learning from Medical Data Sources</p>
+                </div>
+            </div>
+                <!-- <h1></h1> -->
+            
+
+            
+            
+
+            <div class="container">
+            <p><br /></p>
+
+<h2 id="description">Description</h2>
+
+<p>The key aim is to develop and employ machine learning methods for providing efficient and effective decision support for healthcare and pharmaceutical research. The research group is currently focusing on two concrete problems:</p>
+
+<ol>
+  <li>Learning temporal models for predicting and preventing adverse events in healthcare, such as Adverse Drug Events (ADEs)</li>
+  <li>Understanding heart failure and modeling heart failure patient treatment trajectories.</li>
+</ol>
+
+<p>For the purposes of these two projects, our group has established strong collaboration with Stockholm County Council, Karolinska University Hospital, and Karolinska Institute.</p>
+
+<p><br /></p>
+
+<h2 id="latest-publications">Latest publications</h2>
+
+<div class="publications">
+    <table class="table">
+        <tbody>
+        <tr>
+          <ol class="bibliography"><li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://ieeexplore.ieee.org/abstract/document/10178787/">COVID-19 detection from thermal image and tabular medical data utilizing multi-modal machine learning</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  Alam, Mahbub Ul,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  <a href="https://users.ics.aalto.fi/jhollmen/" target="_blank">Hollmén, Jaakko</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and Rahmani, Rahim
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        		<em>In 2023 IEEE 36th International Symposium on Computer-Based Medical Systems (CBMS)</em>,
+		
+      	
+        	2023
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://jmai.amegroups.org/article/view/7728/html">Machine learning models for automated interpretation of 12-lead electrocardiographic signals: a narrative review of techniques, challenges, achievements and clinical relevance</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  Pantelidis, Panteleimon,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  <a href="https://www.linkedin.com/in/maria-bampa/" target="_blank">Bampa, Maria</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Oikonomou, Evangelos,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and <a href="http://people.dsv.su.se/~panagiotis/" target="_blank">Papapetrou, Panagiotis</a>
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        	<em>Journal of Medical Artificial Intelligence</em>,
+      	
+      	
+        	2023
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://www.nature.com/articles/s41598-023-42127-9">Identification of essential genes associated with SARS-CoV-2 infection as potential drug target candidates with machine learning algorithms</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  Taheri, Golnaz,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and Habibi, Mahnaz
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        	<em>Scientific Reports</em>,
+      	
+      	
+        	2023
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://ieeexplore.ieee.org/abstract/document/10178863">Early prediction of the risk of ICU mortality with Deep Federated Learning</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  <a href="https://www.su.se/english/profiles/kora8563-1.646714" target="_blank">Randl, Korbinian</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Armengol, Núria Lladós,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  <a href="https://www.su.se/english/profiles/lesc0230" target="_blank">Mondrejevski, Lena</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and <a href="https://ioannamiliou.blogs.dsv.su.se" target="_blank">Miliou, Ioanna</a>
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        		<em>In 2023 IEEE 36th International Symposium on Computer-Based Medical Systems (CBMS)</em>,
+		
+      	
+        	2023
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://link.springer.com/chapter/10.1007/978-3-031-30047-9_16">AID4HAI: Automatic Idea Detection for Healthcare-Associated Infections from Twitter, a Framework Based on Active Learning and Transfer Learning</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  <a href="https://www.su.se/english/profiles/zakh1874" target="_blank">Kharazian, Zahra</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Rahat, Mahmoud,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Gama, Fábio,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Mashhadi, Peyman Sheikholharam,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Nowaczyk, Sławomir,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  <a href="https://people.dsv.su.se/~tony/" target="_blank">Lindgren, Tony</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and <a href="https://sites.google.com/view/sindri-magnusson/home" target="_blank">Magnússon, Sindri</a>
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        		<em>In Advances in Intelligent Data Analysis XXI: 21st International Symposium on Intelligent Data Analysis, IDA 2023, Louvain-la-Neuve, Belgium, April 12–14, 2023, Proceedings</em>,
+		
+      	
+        	2023
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://link.springer.com/chapter/10.1007/978-3-031-23633-4_19">Predicting Drug Treatment for Hospitalized Patients with Heart Failure</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  Zhou, Linyi,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and <a href="https://ioannamiliou.blogs.dsv.su.se" target="_blank">Miliou, Ioanna</a>
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        		<em>In Machine Learning and Principles and Practice of Knowledge Discovery in Databases: International Workshops of ECML PKDD 2022, Grenoble, France, September 19–23, 2022, Proceedings, Part II</em>,
+		
+      	
+        	2023
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://link.springer.com/chapter/10.1007/978-3-031-23633-4_20">A Workflow for Generating Patient Counterfactuals in Lung Transplant Recipients</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  <a href="https://www.su.se/english/profiles/frru0901-1.616339" target="_blank">Rugolon, Franco</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  <a href="https://www.linkedin.com/in/maria-bampa/" target="_blank">Bampa, Maria</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and <a href="http://people.dsv.su.se/~panagiotis/" target="_blank">Papapetrou, Panagiotis</a>
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        		<em>In Machine Learning and Principles and Practice of Knowledge Discovery in Databases: International Workshops of ECML PKDD 2022, Grenoble, France, September 19–23, 2022, Proceedings, Part II</em>,
+		
+      	
+        	2023
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://academic.oup.com/europace/article/24/Supplement_1/euac053.561/6589295">Optimising and validating deep learning approaches for diagnosing atrial fibrillation from few-lead ambulatory electrocardiogram signals</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  Pantelidis, P,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Oikonomou, E,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Souvaliotis, N,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Spartalis, M,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  <a href="https://www.linkedin.com/in/maria-bampa/" target="_blank">Bampa, Maria</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  <a href="http://people.dsv.su.se/~panagiotis/" target="_blank">Papapetrou, Panagiotis</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Siasos, G,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and Vavuranakis, M
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        	<em>Europace</em>,
+      	
+      	
+        	2022
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://ieeexplore.ieee.org/abstract/document/9866963">FLICU: A Federated Learning Workflow for Intensive Care Unit Mortality Prediction</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  <a href="https://www.su.se/english/profiles/lesc0230" target="_blank">Mondrejevski, Lena</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  <a href="https://ioannamiliou.blogs.dsv.su.se" target="_blank">Miliou, Ioanna</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Montanino, Annaclaudia,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Pitts, David,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  <a href="https://users.ics.aalto.fi/jhollmen/" target="_blank">Hollmén, Jaakko</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and <a href="http://people.dsv.su.se/~panagiotis/" target="_blank">Papapetrou, Panagiotis</a>
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        		<em>In 2022 IEEE 35th International Symposium on Computer-Based Medical Systems (CBMS)</em>,
+		
+      	
+        	2022
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://academic.oup.com/eurheartj/article-abstract/43/Supplement_2/ehac544.2781/6746507">Inside the “brain” of an artificial neural network: an interpretable deep learning approach to paroxysmal atrial fibrillation diagnosis from electrocardiogram signals during sinus rhythm</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  Pantelidis, P,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Oikonomou, E,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Lampsas, S,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Souvaliotis, N,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Spartalis, M,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Vavuranakis, MA,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  <a href="https://www.linkedin.com/in/maria-bampa/" target="_blank">Bampa, M</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  <a href="http://people.dsv.su.se/~panagiotis/" target="_blank">Papapetrou, P</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Siasos, G,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and Vavuranakis, M
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        	<em>European Heart Journal</em>,
+      	
+      	
+        	2022
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://www.nature.com/articles/s41390-021-01460-3">Early oxygen levels contribute to brain injury in extremely preterm infants</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  Rantakari, Krista,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Rinta-Koski, Olli-Pekka,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Metsäranta, Marjo,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  <a href="https://users.ics.aalto.fi/jhollmen/" target="_blank">Hollmén, Jaakko</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Särkkä, Simo,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Rahkonen, Petri,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Lano, Aulikki,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Lauronen, Leena,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Nevalainen, Päivi,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Leskinen, Markus J,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and others, 
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        	<em>Pediatric Research</em>,
+      	
+      	
+        	2021
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://doi.org/10.1007/s10618-021-00767-3">Guest editorial: Special issue on mining for health</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  <a href="http://www.kmd.ovgu.de/Team/Academic+Staff/Myra+Spiliopoulou.html" target="_blank">Spiliopoulou, Myra</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and <a href="http://people.dsv.su.se/~panagiotis/" target="_blank">Papapetrou, Panagiotis</a>
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        	<em>Data Min. Knowl. Discov.</em>,
+      	
+      	
+        	2021
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://ieeexplore.ieee.org/abstract/document/9474699?casa_token=5Qiu3jlR7xkAAAAA:YvIJQXvoa5nYp4a4vvgUibM-ATB6cL_GZKC3I8GK8n-tyiztVRytjMeEZm4kcJ3jzN-uizSJo-s">Assessing the Clinical Validity of Attention-based and SHAP Temporal Explanations for Adverse Drug Event Predictions</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  <a href="https://anch.ai/team/jonathan-rebane/" target="_blank">Rebane, Jonathan</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  <a href="https://people.dsv.su.se/~isak-kar/" target="_blank">Samsten, Isak</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Pantelidis, Panteleimon,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and <a href="http://people.dsv.su.se/~panagiotis/" target="_blank">Papapetrou, Panagiotis</a>
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        		<em>In 2021 IEEE 34th International Symposium on Computer-Based Medical Systems (CBMS)</em>,
+		
+      	
+        	2021
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://aclanthology.org/2020.multilingualbio-1.1/">Detecting Adverse Drug Events from Swedish Electronic Health Records using Text Mining</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  <a href="https://www.linkedin.com/in/maria-bampa/" target="_blank">Bampa, Maria</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and Dalianis, Hercules
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        		<em>In Proceedings of the LREC 2020 Workshop on Multilingual Biomedical Text Processing (MultilingualBIO 2020)</em>,
+		
+      	
+        	2020
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://link.springer.com/chapter/10.1007/978-3-030-61527-7_2">Mitigating discrimination in clinical machine learning decision support using algorithmic processing techniques</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  Briggs, Emma,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and <a href="https://users.ics.aalto.fi/jhollmen/" target="_blank">Hollmén, Jaakko</a>
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        		<em>In International Conference on Discovery Science</em>,
+		
+      	
+        	2020
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://ieeexplore.ieee.org/abstract/document/9131772">Machine learning methods for neonatal mortality and morbidity classification</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  Jaskari, Joel,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Myllärinen, Janne,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Leskinen, Markus,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Rad, Ali Bahrami,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  <a href="https://users.ics.aalto.fi/jhollmen/" target="_blank">Hollmén, Jaakko</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Andersson, Sture,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and Särkkä, Simo
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        	<em>IEEE Access</em>,
+      	
+      	
+        	2020
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://doi.org/10.1109/CBMS49503.2020.00041">A Clustering Framework for Patient Phenotyping with Application to Adverse Drug Events</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  <a href="https://www.linkedin.com/in/maria-bampa/" target="_blank">Bampa, Maria</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  <a href="http://people.dsv.su.se/~panagiotis/" target="_blank">Papapetrou, Panagiotis</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and <a href="https://users.ics.aalto.fi/jhollmen/" target="_blank">Hollmén, Jaakko</a>
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        		<em>In International Symposium on Computer-Based Medical Systems (CBMS)</em>,
+		
+      	
+        	2020
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://doi.org/10.1109/CBMS49503.2020.00061">Mining Disproportional Frequent Arrangements of Event Intervals for
+               Investigating Adverse Drug Events</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  <a href="https://www.su.se/english/profiles/zele5930-1.448861" target="_blank">Lee, Zed</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  <a href="https://anch.ai/team/jonathan-rebane/" target="_blank">Rebane, Jonathan</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and <a href="http://people.dsv.su.se/~panagiotis/" target="_blank">Papapetrou, Panagiotis</a>
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        		<em>In International Symposium on Computer-Based Medical Systems (CBMS)</em>,
+		
+      	
+        	2020
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://doi.org/10.1145/3292500.3332274">Mining and Model Understanding on Medical Data</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  <a href="http://www.kmd.ovgu.de/Team/Academic+Staff/Myra+Spiliopoulou.html" target="_blank">Spiliopoulou, Myra</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and <a href="http://people.dsv.su.se/~panagiotis/" target="_blank">Papapetrou, Panagiotis</a>
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        		<em>In International Conference on Knowledge Discovery &amp; Data Mining (KDD)</em>,
+		
+      	
+        	2019
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://doi.org/10.1007/978-3-030-19823-7_11">FISUL: A Framework for Detecting Adverse Drug Events from Heterogeneous
+               Medical Sources Using Feature Importance</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  Allaart, Corinne G.,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  <a href="https://www.su.se/english/profiles/lesc0230" target="_blank">Mondrejevski, Lena</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and <a href="http://people.dsv.su.se/~panagiotis/" target="_blank">Papapetrou, Panagiotis</a>
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        		<em>In International Conference on Artificial Intelligence Applications and Innovations (AIAI)</em>,
+		
+      	
+        	2019
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://doi.org/10.1007/978-3-030-19823-7_9">Clustering Diagnostic Profiles of Patients</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  <a href="https://users.ics.aalto.fi/jhollmen/" target="_blank">Hollmén, Jaakko</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and <a href="http://people.dsv.su.se/~panagiotis/" target="_blank">Papapetrou, Panagiotis</a>
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        		<em>In International Conference on Artificial Intelligence Applications and Innovations (AIAI)</em>,
+		
+      	
+        	2019
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://doi.org/10.1145/3167132.3167162">Discovering, selecting and exploiting feature sequence records of
+               study participants for the classification of epidemiological data
+               on hepatic steatosis</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  Hielscher, Tommy,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Volzke, Henry,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  <a href="http://people.dsv.su.se/~panagiotis/" target="_blank">Papapetrou, Panagiotis</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and <a href="http://www.kmd.ovgu.de/Team/Academic+Staff/Myra+Spiliopoulou.html" target="_blank">Spiliopoulou, Myra</a>
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        		<em>In Symposium on Applied Computing (SAC)</em>,
+		
+      	
+        	2018
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li></ol>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<p><br /></p>
+
+<h2 id="related-projects">Related Projects</h2>
+
+<ul>
+  <li><a href="/projects/wallenberg.html">Let’s talk about non-verbal communication</a></li>
+  <li><a href="/projects/extremum.html">EXTREMUM</a></li>
+  <li><a href="/projects/DADEL.html">DADEL</a></li>
+  <li><a href="/projects/CorIL.html">CorIL</a></li>
+  <li><a href="/projects/covid.html">Covid-Sim</a></li>
+  <li><a href="/projects/tempominer.html">TEMPOMiner</a></li>
+</ul>
+
+
+
+<h2> People </h2>
+<section class="people project-people">
+    
+        
+        
+
+
+
+
+
+
+
+    <div class="person person-with-image row">
+        <div class="col-auto">
+            
+
+
+
+
+
+
+
+    <a href="http://people.dsv.su.se/~panagiotis/"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile"
+             alt="Panagiotis Papapetrou, Professor"
+             title="Panagiotis Papapetrou, Professor"
+             src="/img/people/panagiotis_papapetrou-266x300.jpg" />
+    
+    </a>
+
+
+        </div>
+        <div class="col pl-0">
+            <h6 class="person-name"> 
+        <a href="http://people.dsv.su.se/~panagiotis/"> Panagiotis Papapetrou, Professor </a>
+     </h6>
+            
+                <div class="bio">sequential and temporal data mining, explainability, healthcare applications</div>
+            
+        </div>
+    </div>
+
+
+    
+        
+        
+
+
+
+
+
+
+
+    <div class="person person-with-image row">
+        <div class="col-auto">
+            
+
+
+
+
+
+
+
+    <a href="https://users.ics.aalto.fi/jhollmen/"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile"
+             alt="Jaakko Hollmén, Senior Lecturer"
+             title="Jaakko Hollmén, Senior Lecturer"
+             src="/img/people/Hollmen.png" />
+    
+    </a>
+
+
+        </div>
+        <div class="col pl-0">
+            <h6 class="person-name"> 
+        <a href="https://users.ics.aalto.fi/jhollmen/"> Jaakko Hollmén, Senior Lecturer </a>
+     </h6>
+            
+                <div class="bio">probabilistic modeling, environmental sustainability, healthcare applications</div>
+            
+        </div>
+    </div>
+
+
+    
+        
+        
+
+
+
+
+
+
+
+    <div class="person person-with-image row">
+        <div class="col-auto">
+            
+
+
+
+
+
+
+
+    <a href="https://ioannamiliou.blogs.dsv.su.se"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile"
+             alt="Ioanna Miliou, Senior Lecturer"
+             title="Ioanna Miliou, Senior Lecturer"
+             src="/img/people/ioanna.jpg" />
+    
+    </a>
+
+
+        </div>
+        <div class="col pl-0">
+            <h6 class="person-name"> 
+        <a href="https://ioannamiliou.blogs.dsv.su.se"> Ioanna Miliou, Senior Lecturer </a>
+     </h6>
+            
+                <div class="bio">nowcasting and forecasting, data science for social good with applications in healthcare, epidemics and peace</div>
+            
+        </div>
+    </div>
+
+
+    
+        
+        
+
+
+
+
+
+
+
+    <div class="person person-with-image row">
+        <div class="col-auto">
+            
+
+
+
+
+
+
+
+    <a href="https://www.su.se/english/profiles/lesc0230"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile"
+             alt="Lena Mondrejevski"
+             title="Lena Mondrejevski"
+             src="/img/people/lena.jpg" />
+    
+    </a>
+
+
+        </div>
+        <div class="col pl-0">
+            <h6 class="person-name"> 
+        <a href="https://www.su.se/english/profiles/lesc0230"> Lena Mondrejevski </a>
+     </h6>
+            
+                <div class="bio">federated learning (Getinge)</div>
+            
+        </div>
+    </div>
+
+
+    
+        
+        
+
+
+
+
+
+
+
+    <div class="person person-with-image row">
+        <div class="col-auto">
+            
+
+
+
+
+
+
+
+    <a href="https://www.su.se/english/profiles/frru0901-1.616339"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile"
+             alt="Franco Rugolon"
+             title="Franco Rugolon"
+             src="/img/people/rugolon.jpg" />
+    
+    </a>
+
+
+        </div>
+        <div class="col pl-0">
+            <h6 class="person-name"> 
+        <a href="https://www.su.se/english/profiles/frru0901-1.616339"> Franco Rugolon </a>
+     </h6>
+            
+                <div class="bio">explainable machine learning for healthcare</div>
+            
+        </div>
+    </div>
+
+
+    
+</section>
+
+            </div>
+
+            <div class="footer container navbar-dark">
+                <span>
+                    <a href="https://dsv.su.se/">Department of Computer and Systems Sciences</a>
+                    of
+                    <a href="https://su.se/">Stockholm University</a>
+                </span>
+            </div>
+
+        </div> <!-- /container -->
+
+        <!-- Support retina images. -->
+        <script type="text/javascript"
+                src="/js/srcset-polyfill.js"></script>
+    </body>
+</html>

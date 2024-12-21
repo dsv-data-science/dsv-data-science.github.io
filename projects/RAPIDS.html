@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Data Science Research Group: RAPIDS</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+              integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+              crossorigin="anonymous">
+        <link rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/css/group.css">
+        <link rel="stylesheet" href="/css/custom.css">
+        <link rel="stylesheet" href="/css/event.css">
+        
+        <!-- Compatibility with MathJax -->
+        <!-- LOAD MathJax for LaTeX formulae -->
+<script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function(){
+    document.querySelectorAll("script[type='math/tex']").forEach(function(el){
+        el.outerHTML = "\\(" + el.textContent + "\\)";
+    });
+    document.querySelectorAll("script[type='math/tex; mode=display']").forEach(function(el){
+        el.outerHTML = "\\[" + el.textContent + "\\]";
+    });
+    var script = document.createElement('script');
+    script.src = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js";
+    document.head.appendChild(script);
+    }, false);
+</script>
+
+        <!-- Folder with favicon -->
+        <!-- Generated from favicon-generator.org -->
+<link rel="apple-touch-icon" sizes="57x57" href="/img/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/img/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/img/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+<link rel="manifest" href="/img/favicon/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/img/favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+    </head>
+    <body>
+        <div class="">
+            <!-- This is a bit nasty, but it basically says be a column first, and on larger screens be a spaced out row -->
+            <div class="header">
+                <div class="container">
+                        <div id="frontbar">
+
+                        </div>
+                        <div id="logoline">
+                            <a href="/" class="">
+                                <img src="/img/logo/dsgroup.png"
+                                     srcset="/img/logo/dsgroup.png 2x"
+                                     alt="dsdsv_logo" id="logo">
+                            </a>
+                        </div>
+                        <div id="menuline">
+                            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                                <div class="navbar-collapse" id="navbarNav">
+                                    <ul class="navbar-nav justify-content-end">
+
+                                        
+                                        
+                    
+                                            
+                    
+                                            
+                                            
+                                            
+                                            
+                    
+                                            <li class="nav-item">
+                                                <a class="nav-link "
+                                                href="/">
+                                                    Home
+                                                </a>
+                                            </li>
+                    
+                                        
+                    
+                                            
+                    
+                                            
+                                            
+                                            
+                                            
+                    
+                                            <li class="nav-item">
+                                                <a class="nav-link "
+                                                href="/people.html">
+                                                    People
+                                                </a>
+                                            </li>
+                    
+                                        
+                    
+                                            
+                    
+                                            
+                                            
+                                            
+                                            
+                    
+                                            <li class="nav-item">
+                                                <a class="nav-link "
+                                                href="/research.html">
+                                                    Research
+                                                </a>
+                                            </li>
+                    
+                                        
+                    
+                                            
+                    
+                                            
+                                            
+                                            
+                                            
+                    
+                                            <li class="nav-item">
+                                                <a class="nav-link active"
+                                                href="/projects.html">
+                                                    Projects
+                                                </a>
+                                            </li>
+                    
+                                        
+                    
+                                            
+                    
+                                            
+                                            
+                                            
+                                            
+                    
+                                            <li class="nav-item">
+                                                <a class="nav-link "
+                                                href="/seminars.html">
+                                                    Data Science Seminars
+                                                </a>
+                                            </li>
+                    
+                                        
+                    
+                                            
+                    
+                                            
+                                            
+                                            
+                                            
+                    
+                                            <li class="nav-item">
+                                                <a class="nav-link "
+                                                href="/publications.html">
+                                                    Publications
+                                                </a>
+                                            </li>
+                    
+                                        
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                
+                
+            </div>
+
+            
+            <div class="bannerarea">
+                <div class="gridtile">
+                <p> RAPIDS</p>
+                </div>
+            </div>
+                <!-- <h1></h1> -->
+            
+
+            
+            
+
+            <div class="container">
+            <h2 id="rapids">RAPIDS</h2>
+
+<p><strong>Project leader</strong>:</p>
+<ul>
+  <li>Tony Lindgren, Associate Professor, DSV, SU</li>
+</ul>
+
+<p><strong>Researchers</strong></p>
+<ul>
+  <li>Zahra Kharazian, PhD student, DSV, SU</li>
+</ul>
+
+<p><strong>Partners</strong></p>
+<ul>
+  <li>Scania Vehicle Service Information</li>
+  <li>Royal institute of Technology, Division of software and computer systems</li>
+  <li>Linköping University, Department of Computer Science and Engineering (ISY)</li>
+</ul>
+
+<p><strong>Project period:</strong> 2022-01-01 to 2024-12-31</p>
+
+<p><strong>Funding:</strong> Vinnova and Scania</p>
+
+<p><strong>Budget:</strong> Approx 19.4M SEK</p>
+
+<p><br /></p>
+
+<h3 id="description">Description</h3>
+
+<p>Customer demands on operational uptime of vehicles have increased in recent years and are expected to be further accentuated with the introduction of autonomous and electrified vehicles. Forecasting, and data analysis in general, is an area where machine learning has a strong industrial potential. In a previous research projects, CODA, funded by FFI and Scania the potential of using data-driven and interpretable methods to plan maintenance was demonstrated.</p>
+
+<p>The project revolves around developing machine learning models based on increased availability of streamed log data from vehicles and integration of these models in the decision-making processes for maintenance. It specifically deals with how uncertainty in predictions can be estimated and weighed in order to make robust individual-based decisions. Central is also how new data can be fed back to the models in order to improve performance and predictive power.</p>
+
+<p>The project will develop theory and generally applicable methods which are then tested and demonstrated on real use cases. The project will help to strengthen the research fields of machine learning and forecasting, specifically in the areas of models for streamed log data, data-driven decision making under uncertainty and efficient model feedback.</p>
+
+<p>The main work packages of the project are:</p>
+
+<ol>
+  <li>Predictive models based on streaming data <br />
+<em>Project manager</em>: Erik Frisk, Linköping University.</li>
+  <li>Data driven decision making under uncertainty <br />
+<em>Project Manager</em>: Anders Vesterberg, Scania.</li>
+  <li>Feedback for data driven models <br />
+<em>Project Manager:</em> Tony Lindgren, Stockholm University.</li>
+</ol>
+
+<p>The main applicant for the project is Scania CV AB (project leader: Olof Steinert) and the other parties are Linköping University, Department of Systems Engineering, Stockholm University, Department of Computer Science, and Royal Institute of Technology, Division of software and computer systems.</p>
+
+
+<h2> People </h2>
+<section class="people project-people">
+    
+        
+        
+
+
+
+
+
+
+
+    <div class="person person-with-image row">
+        <div class="col-auto">
+            
+
+
+
+
+
+
+
+    <a href="https://people.dsv.su.se/~tony/"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile"
+             alt="Tony Lindgren, Associate Professor"
+             title="Tony Lindgren, Associate Professor"
+             src="/img/people/tony.jpg" />
+    
+    </a>
+
+
+        </div>
+        <div class="col pl-0">
+            <h6 class="person-name"> 
+        <a href="https://people.dsv.su.se/~tony/"> Tony Lindgren, Associate Professor </a>
+     </h6>
+            
+                <div class="bio">explainability, predictive maintanance</div>
+            
+        </div>
+    </div>
+
+
+    
+        
+        
+
+
+
+
+
+
+
+    <div class="person person-with-image row">
+        <div class="col-auto">
+            
+
+
+
+
+
+
+
+    <a href="https://www.su.se/english/profiles/zakh1874"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile"
+             alt="Zahra Kharazian"
+             title="Zahra Kharazian"
+             src="/img/people/kharazian.png" />
+    
+    </a>
+
+
+        </div>
+        <div class="col pl-0">
+            <h6 class="person-name"> 
+        <a href="https://www.su.se/english/profiles/zakh1874"> Zahra Kharazian </a>
+     </h6>
+            
+                <div class="bio">data science, predictive maintenance</div>
+            
+        </div>
+    </div>
+
+
+    
+</section>
+
+            </div>
+
+            <div class="footer container navbar-dark">
+                <span>
+                    <a href="https://dsv.su.se/">Department of Computer and Systems Sciences</a>
+                    of
+                    <a href="https://su.se/">Stockholm University</a>
+                </span>
+            </div>
+
+        </div> <!-- /container -->
+
+        <!-- Support retina images. -->
+        <script type="text/javascript"
+                src="/js/srcset-polyfill.js"></script>
+    </body>
+</html>

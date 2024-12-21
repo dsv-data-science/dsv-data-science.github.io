@@ -1,0 +1,1869 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Data Science Research Group: Mining complex sequential patterns</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+              integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+              crossorigin="anonymous">
+        <link rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/css/group.css">
+        <link rel="stylesheet" href="/css/custom.css">
+        <link rel="stylesheet" href="/css/event.css">
+        
+        <!-- Compatibility with MathJax -->
+        <!-- LOAD MathJax for LaTeX formulae -->
+<script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function(){
+    document.querySelectorAll("script[type='math/tex']").forEach(function(el){
+        el.outerHTML = "\\(" + el.textContent + "\\)";
+    });
+    document.querySelectorAll("script[type='math/tex; mode=display']").forEach(function(el){
+        el.outerHTML = "\\[" + el.textContent + "\\]";
+    });
+    var script = document.createElement('script');
+    script.src = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js";
+    document.head.appendChild(script);
+    }, false);
+</script>
+
+        <!-- Folder with favicon -->
+        <!-- Generated from favicon-generator.org -->
+<link rel="apple-touch-icon" sizes="57x57" href="/img/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/img/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/img/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+<link rel="manifest" href="/img/favicon/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/img/favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+    </head>
+    <body>
+        <div class="">
+            <!-- This is a bit nasty, but it basically says be a column first, and on larger screens be a spaced out row -->
+            <div class="header">
+                <div class="container">
+                        <div id="frontbar">
+
+                        </div>
+                        <div id="logoline">
+                            <a href="/" class="">
+                                <img src="/img/logo/dsgroup.png"
+                                     srcset="/img/logo/dsgroup.png 2x"
+                                     alt="dsdsv_logo" id="logo">
+                            </a>
+                        </div>
+                        <div id="menuline">
+                            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                                <div class="navbar-collapse" id="navbarNav">
+                                    <ul class="navbar-nav justify-content-end">
+
+                                        
+                                        
+                    
+                                            
+                    
+                                            
+                                            
+                                            
+                                            
+                    
+                                            <li class="nav-item">
+                                                <a class="nav-link "
+                                                href="/">
+                                                    Home
+                                                </a>
+                                            </li>
+                    
+                                        
+                    
+                                            
+                    
+                                            
+                                            
+                                            
+                                            
+                    
+                                            <li class="nav-item">
+                                                <a class="nav-link "
+                                                href="/people.html">
+                                                    People
+                                                </a>
+                                            </li>
+                    
+                                        
+                    
+                                            
+                    
+                                            
+                                            
+                                            
+                                            
+                    
+                                            <li class="nav-item">
+                                                <a class="nav-link active"
+                                                href="/research.html">
+                                                    Research
+                                                </a>
+                                            </li>
+                    
+                                        
+                    
+                                            
+                    
+                                            
+                                            
+                                            
+                                            
+                    
+                                            <li class="nav-item">
+                                                <a class="nav-link "
+                                                href="/projects.html">
+                                                    Projects
+                                                </a>
+                                            </li>
+                    
+                                        
+                    
+                                            
+                    
+                                            
+                                            
+                                            
+                                            
+                    
+                                            <li class="nav-item">
+                                                <a class="nav-link "
+                                                href="/seminars.html">
+                                                    Data Science Seminars
+                                                </a>
+                                            </li>
+                    
+                                        
+                    
+                                            
+                    
+                                            
+                                            
+                                            
+                                            
+                    
+                                            <li class="nav-item">
+                                                <a class="nav-link "
+                                                href="/publications.html">
+                                                    Publications
+                                                </a>
+                                            </li>
+                    
+                                        
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                
+                
+            </div>
+
+            
+            <div class="bannerarea">
+                <div class="gridtile">
+                <p> Mining complex sequential patterns</p>
+                </div>
+            </div>
+                <!-- <h1></h1> -->
+            
+
+            
+            
+
+            <div class="container">
+            <h2 id="description">Description</h2>
+
+<p>One of our focus areas is mining rich and complex data sources, with emphasis on sequential and temporal data, histogram data, text, and graphs.  In particular, we are interested in (1) learning predictive models, such as ensemble models, for classification of complex temporal data sources, such as univariate and multivariate time series, event sequences, sequences of temporal intervals, and graphs, (2) time series prediction and event burst detection using statistical methods and deep learning, and (3) subgroup and rule discovery in transactional and sequential data.</p>
+
+<p><br /></p>
+
+<h2 id="latest-publications">Latest publications</h2>
+
+<div class="publications">
+    <table class="table">
+        <tbody>
+        <tr>
+          <ol class="bibliography"><li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://link.springer.com/article/10.1007/s10618-023-00969-x">Z-Time: efficient and effective interpretable multivariate time series classification</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  <a href="https://www.su.se/english/profiles/zele5930-1.448861" target="_blank">Lee, Zed</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  <a href="https://people.dsv.su.se/~tony/" target="_blank">Lindgren, Tony</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and <a href="http://people.dsv.su.se/~panagiotis/" target="_blank">Papapetrou, Panagiotis</a>
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        	<em>Data mining and knowledge discovery</em>,
+      	
+      	
+        	2023
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://link.springer.com/chapter/10.1007/978-3-031-26422-1_5">Finding Local Groupings of Time Series</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  <a href="https://www.su.se/english/profiles/zele5930-1.448861" target="_blank">Lee, Zed</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Trincavelli, Marco,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and <a href="http://people.dsv.su.se/~panagiotis/" target="_blank">Papapetrou, Panagiotis</a>
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        		<em>In Machine Learning and Knowledge Discovery in Databases: European Conference, ECML PKDD 2022, Grenoble, France, September 19–23, 2022, Proceedings, Part VI</em>,
+		
+      	
+        	2023
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://doi.org/10.1007/978-3-030-74251-5_30">Z-Hist: A Temporal Abstraction of Multivariate Histogram Snapshots</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  <a href="https://www.su.se/english/profiles/zele5930-1.448861" target="_blank">Lee, Zed</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Anton, Nicholas,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  <a href="http://people.dsv.su.se/~panagiotis/" target="_blank">Papapetrou, Panagiotis</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and <a href="https://people.dsv.su.se/~tony/" target="_blank">Lindgren, Tony</a>
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        		<em>In International Symposium on Intelligent Data Analysis (IDA)</em>,
+		
+      	
+        	2021
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://doi.org/10.1007/s10618-020-00719-3">SMILE: a feature-based temporal abstraction framework for event-interval sequence classification</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  <a href="https://anch.ai/team/jonathan-rebane/" target="_blank">Rebane, Jonathan</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  <a href="https://people.dsv.su.se/~isak-kar/" target="_blank">Karlsson, Isak</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Bornemann, Leon,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and <a href="http://people.dsv.su.se/~panagiotis/" target="_blank">Papapetrou, Panagiotis</a>
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        	<em>Data Mining and Knowledge Discovery</em>,
+      	
+      	
+        	2021
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://dl.acm.org/doi/10.1145/3394486.3403095">Z-Miner: An Efficient Method for Mining Frequent Arrangements of Event
+               Intervals</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  <a href="https://www.su.se/english/profiles/zele5930-1.448861" target="_blank">Lee, Zed</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  <a href="https://people.dsv.su.se/~tony/" target="_blank">Lindgren, Tony</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and <a href="http://people.dsv.su.se/~panagiotis/" target="_blank">Papapetrou, Panagiotis</a>
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        		<em>In International Conference on Knowledge Discovery
+               and Data Mining (SIGKDD)</em>,
+		
+      	
+        	2020
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://doi.org/10.1007/s10115-019-01389-4">Locally and globally explainable time series tweaking</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  <a href="https://people.dsv.su.se/~isak-kar/" target="_blank">Karlsson, Isak</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  <a href="https://anch.ai/team/jonathan-rebane/" target="_blank">Rebane, Jonathan</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  <a href="http://people.dsv.su.se/~panagiotis/" target="_blank">Papapetrou, Panagiotis</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and <a href="https://www.kth.se/profile/argioni" target="_blank">Gionis, Aristides</a>
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        	<em>Knowledge and Information Systems</em>,
+      	
+      	
+        	2020
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://doi.org/10.1016/j.jbi.2019.103352">Corrigendum to ’Learning from heterogeneous temporal data in electronic
+               health records’. [J. Biomed. Inform. 65 (2017) 105-119]</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  <a href="https://www.linkedin.com/in/jing-zhao-b6b03815/" target="_blank">Zhao, Jing</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  <a href="http://people.dsv.su.se/~panagiotis/" target="_blank">Papapetrou, Panagiotis</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Asker, Lars,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and Bostrom, Henrik
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        	<em>J. Biomed. Informatics</em>,
+      	
+      	
+        	2020
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://doi.org/10.1016/j.artmed.2020.101942">Exploiting complex medical data with interpretable deep learning for adverse drug event prediction</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  <a href="https://anch.ai/team/jonathan-rebane/" target="_blank">Rebane, Jonathan</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  <a href="https://people.dsv.su.se/~isak-kar/" target="_blank">Samsten, Isak</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and <a href="http://people.dsv.su.se/~panagiotis/" target="_blank">Papapetrou, Panagiotis</a>
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        	<em>Artificial Intelligence in Medicine</em>,
+      	
+      	
+        	2020
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://doi.org/10.1186/s12911-018-0717-4">A classification framework for exploiting sparse multi-variate temporal
+               features with application to adverse drug event detection in medical
+               records</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  Bagattini, Francesco,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  <a href="https://people.dsv.su.se/~isak-kar/" target="_blank">Karlsson, Isak</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  <a href="https://anch.ai/team/jonathan-rebane/" target="_blank">Rebane, Jonathan</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and <a href="http://people.dsv.su.se/~panagiotis/" target="_blank">Papapetrou, Panagiotis</a>
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        	<em>BMC Medical Informatics Decis. Mak.</em>,
+      	
+      	
+        	2019
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://doi.org/10.1109/CBMS.2019.00075">An Investigation of Interpretable Deep Learning for Adverse Drug Event
+               Prediction</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  <a href="https://anch.ai/team/jonathan-rebane/" target="_blank">Rebane, Jonathan</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  <a href="https://people.dsv.su.se/~isak-kar/" target="_blank">Karlsson, Isak</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and <a href="http://people.dsv.su.se/~panagiotis/" target="_blank">Papapetrou, Panagiotis</a>
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        		<em>In International Symposium on Computer-Based Medical Systems (CBMS)</em>,
+		
+      	
+        	2019
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://doi.org/10.1109/GLOBECOM38437.2019.9014115">User Traffic Prediction for Proactive Resource Management: Learning-Powered
+               Approaches</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  Azari, Amin,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  <a href="http://people.dsv.su.se/~panagiotis/" target="_blank">Papapetrou, Panagiotis</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Denic, Stojan Z.,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and Peters, Gunnar
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        		<em>In Global Communications Conference (GLOBECOM)</em>,
+		
+      	
+        	2019
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://doi.org/10.1109/GLOBECOM38437.2019.9014115">User Traffic Prediction for Proactive Resource Management: Learning-Powered
+               Approaches</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  Azari, Amin,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  <a href="http://people.dsv.su.se/~panagiotis/" target="_blank">Papapetrou, Panagiotis</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Denic, Stojan Z.,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and Peters, Gunnar
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        		<em>In In Global Communications Conference (GLOBECOM)</em>,
+		
+      	
+        	2019
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://doi.org/10.1007/978-3-030-33778-0_11">Cellular Traffic Prediction and Classification: A Comparative Evaluation
+               of LSTM and ARIMA</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  Azari, Amin,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  <a href="http://people.dsv.su.se/~panagiotis/" target="_blank">Papapetrou, Panagiotis</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Denic, Stojan Z.,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and Peters, Gunnar
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        		<em>In In International Conference on Discovery Science (DS)</em>,
+		
+      	
+        	2019
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://doi.org/10.1109/ICDM.2018.00036">Explainable time series tweaking via irreversible and reversible temporal transformations</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  <a href="https://people.dsv.su.se/~isak-kar/" target="_blank">Karlsson, Isak</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  <a href="https://anch.ai/team/jonathan-rebane/" target="_blank">Rebane, Jonathan</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  <a href="http://people.dsv.su.se/~panagiotis/" target="_blank">Papapetrou, Panagiotis</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and <a href="https://www.kth.se/profile/argioni" target="_blank">Gionis, Aristides</a>
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        		<em>In International Conference on Data Mining (ICDM)</em>,
+		
+      	
+        	2018
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://doi.org/10.1007/s10618-016-0489-3">On searching and indexing sequences of temporal intervals</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  Kostakis, Orestis,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and <a href="http://people.dsv.su.se/~panagiotis/" target="_blank">Papapetrou, Panagiotis</a>
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        	<em>Data Min. Knowl. Discov.</em>,
+      	
+      	
+        	2017
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://doi.org/10.1016/j.jbi.2016.11.006">Learning from heterogeneous temporal data in electronic health records</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  <a href="https://www.linkedin.com/in/jing-zhao-b6b03815/" target="_blank">Zhao, Jing</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  <a href="http://people.dsv.su.se/~panagiotis/" target="_blank">Papapetrou, Panagiotis</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Asker, Lars,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and <a href="https://www.kth.se/profile/henbos" target="_blank">Boström, Henrik</a>
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        	<em>J. Biomed. Informatics</em>,
+      	
+      	
+        	2017
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://doi.org/10.1007/978-3-319-68765-0_13">Kapminer: Mining ordered association rules with constraints</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  <a href="https://people.dsv.su.se/~isak-kar/" target="_blank">Karlsson, Isak</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  <a href="http://people.dsv.su.se/~panagiotis/" target="_blank">Papapetrou, Panagiotis</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and Asker, Lars
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        		<em>In International Symposium on Intelligent Data Analysis</em>,
+		
+      	
+        	2017
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://doi.org/10.1007/s10618-016-0473-y">Generalized random shapelet forests</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  <a href="https://people.dsv.su.se/~isak-kar/" target="_blank">Karlsson, Isak</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  <a href="http://people.dsv.su.se/~panagiotis/" target="_blank">Papapetrou, Panagiotis</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and <a href="https://www.kth.se/profile/henbos" target="_blank">Boström, Henrik</a>
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        	<em>Data mining and knowledge discovery</em>,
+      	
+      	
+        	2016
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://doi.org/10.1007/978-3-319-46307-0_17">Early random shapelet forest</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  <a href="https://people.dsv.su.se/~isak-kar/" target="_blank">Karlsson, Isak</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  <a href="http://people.dsv.su.se/~panagiotis/" target="_blank">Papapetrou, Panagiotis</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and <a href="https://www.kth.se/profile/henbos" target="_blank">Boström, Henrik</a>
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        		<em>In International Conference on Discovery Science (DS)</em>,
+		
+      	
+        	2016
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li></ol>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<p><br /></p>
+
+<h2 id="implementations">Implementations</h2>
+
+<ul>
+  <li><a href="https://github.com/isaksamsten/wildboar">wildboar</a> - explainable machine learning library for time series in Python</li>
+</ul>
+
+<p><br /></p>
+
+<h2 id="related-projects">Related Projects</h2>
+
+<ul>
+  <li><a href="/projects/extremum.html">EXTREMUM</a></li>
+  <li><a href="/projects/tempominer.html">TEMPOMiner</a></li>
+  <li><a href="/projects/TROPICAL.html">TROPICAL</a></li>
+</ul>
+
+
+<h2> People </h2>
+<section class="people project-people">
+    
+        
+        
+
+
+
+
+
+
+
+    <div class="person person-with-image row">
+        <div class="col-auto">
+            
+
+
+
+
+
+
+
+    <a href="http://people.dsv.su.se/~panagiotis/"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile"
+             alt="Panagiotis Papapetrou, Professor"
+             title="Panagiotis Papapetrou, Professor"
+             src="/img/people/panagiotis_papapetrou-266x300.jpg" />
+    
+    </a>
+
+
+        </div>
+        <div class="col pl-0">
+            <h6 class="person-name"> 
+        <a href="http://people.dsv.su.se/~panagiotis/"> Panagiotis Papapetrou, Professor </a>
+     </h6>
+            
+                <div class="bio">sequential and temporal data mining, explainability, healthcare applications</div>
+            
+        </div>
+    </div>
+
+
+    
+        
+        
+
+
+
+
+
+
+
+    <div class="person person-with-image row">
+        <div class="col-auto">
+            
+
+
+
+
+
+
+
+    <a href="https://people.dsv.su.se/~isak-kar/"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile"
+             alt="Isak Samsten, Senior Lecturer"
+             title="Isak Samsten, Senior Lecturer"
+             src="/img/people/samsten.jpg" />
+    
+    </a>
+
+
+        </div>
+        <div class="col pl-0">
+            <h6 class="person-name"> 
+        <a href="https://people.dsv.su.se/~isak-kar/"> Isak Samsten, Senior Lecturer </a>
+     </h6>
+            
+                <div class="bio">explainability, temporal data mining, fintech</div>
+            
+        </div>
+    </div>
+
+
+    
+        
+        
+
+
+
+
+
+
+
+    <div class="person person-with-image row">
+        <div class="col-auto">
+            
+
+
+
+
+
+
+
+    <a href="https://users.ics.aalto.fi/jhollmen/"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile"
+             alt="Jaakko Hollmén, Senior Lecturer"
+             title="Jaakko Hollmén, Senior Lecturer"
+             src="/img/people/Hollmen.png" />
+    
+    </a>
+
+
+        </div>
+        <div class="col pl-0">
+            <h6 class="person-name"> 
+        <a href="https://users.ics.aalto.fi/jhollmen/"> Jaakko Hollmén, Senior Lecturer </a>
+     </h6>
+            
+                <div class="bio">probabilistic modeling, environmental sustainability, healthcare applications</div>
+            
+        </div>
+    </div>
+
+
+    
+        
+        
+
+
+
+
+
+
+
+    <div class="person person-with-image row">
+        <div class="col-auto">
+            
+
+
+
+
+
+
+
+    <a href="https://ioannamiliou.blogs.dsv.su.se"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile"
+             alt="Ioanna Miliou, Senior Lecturer"
+             title="Ioanna Miliou, Senior Lecturer"
+             src="/img/people/ioanna.jpg" />
+    
+    </a>
+
+
+        </div>
+        <div class="col pl-0">
+            <h6 class="person-name"> 
+        <a href="https://ioannamiliou.blogs.dsv.su.se"> Ioanna Miliou, Senior Lecturer </a>
+     </h6>
+            
+                <div class="bio">nowcasting and forecasting, data science for social good with applications in healthcare, epidemics and peace</div>
+            
+        </div>
+    </div>
+
+
+    
+        
+        
+
+
+
+
+
+
+
+    <div class="person person-with-image row">
+        <div class="col-auto">
+            
+
+
+
+
+
+
+
+    <a href="https://www.su.se/english/profiles/zele5930-1.448861"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile"
+             alt="Zed Lee, Associate Senior Lecturer"
+             title="Zed Lee, Associate Senior Lecturer"
+             src="/img/people/zed.png" />
+    
+    </a>
+
+
+        </div>
+        <div class="col pl-0">
+            <h6 class="person-name"> 
+        <a href="https://www.su.se/english/profiles/zele5930-1.448861"> Zed Lee, Associate Senior Lecturer </a>
+     </h6>
+            
+                <div class="bio">mining temporal abstractions from complex data sources</div>
+            
+        </div>
+    </div>
+
+
+    
+        
+        
+
+
+
+
+
+
+
+    <div class="person person-with-image row">
+        <div class="col-auto">
+            
+
+
+
+
+
+
+
+    <a href="https://www.su.se/english/profiles/frru0901-1.616339"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile"
+             alt="Franco Rugolon"
+             title="Franco Rugolon"
+             src="/img/people/rugolon.jpg" />
+    
+    </a>
+
+
+        </div>
+        <div class="col pl-0">
+            <h6 class="person-name"> 
+        <a href="https://www.su.se/english/profiles/frru0901-1.616339"> Franco Rugolon </a>
+     </h6>
+            
+                <div class="bio">explainable machine learning for healthcare</div>
+            
+        </div>
+    </div>
+
+
+    
+        
+        
+
+
+
+
+
+
+
+    <div class="person person-with-image row">
+        <div class="col-auto">
+            
+
+
+
+
+
+
+
+    <a href="https://www.su.se/english/profiles/tikr7960"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile"
+             alt="Tim Kreuzer"
+             title="Tim Kreuzer"
+             src="/img/people/tim.jpg" />
+    
+    </a>
+
+
+        </div>
+        <div class="col pl-0">
+            <h6 class="person-name"> 
+        <a href="https://www.su.se/english/profiles/tikr7960"> Tim Kreuzer </a>
+     </h6>
+            
+                <div class="bio">time series analysis for digital twins</div>
+            
+        </div>
+    </div>
+
+
+    
+</section>
+
+            </div>
+
+            <div class="footer container navbar-dark">
+                <span>
+                    <a href="https://dsv.su.se/">Department of Computer and Systems Sciences</a>
+                    of
+                    <a href="https://su.se/">Stockholm University</a>
+                </span>
+            </div>
+
+        </div> <!-- /container -->
+
+        <!-- Support retina images. -->
+        <script type="text/javascript"
+                src="/js/srcset-polyfill.js"></script>
+    </body>
+</html>

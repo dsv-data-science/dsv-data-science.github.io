@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Data Science Research Group: Covid-Sim</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+              integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+              crossorigin="anonymous">
+        <link rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/css/group.css">
+        <link rel="stylesheet" href="/css/custom.css">
+        <link rel="stylesheet" href="/css/event.css">
+        
+        <!-- Compatibility with MathJax -->
+        <!-- LOAD MathJax for LaTeX formulae -->
+<script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function(){
+    document.querySelectorAll("script[type='math/tex']").forEach(function(el){
+        el.outerHTML = "\\(" + el.textContent + "\\)";
+    });
+    document.querySelectorAll("script[type='math/tex; mode=display']").forEach(function(el){
+        el.outerHTML = "\\[" + el.textContent + "\\]";
+    });
+    var script = document.createElement('script');
+    script.src = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js";
+    document.head.appendChild(script);
+    }, false);
+</script>
+
+        <!-- Folder with favicon -->
+        <!-- Generated from favicon-generator.org -->
+<link rel="apple-touch-icon" sizes="57x57" href="/img/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/img/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/img/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+<link rel="manifest" href="/img/favicon/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/img/favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+    </head>
+    <body>
+        <div class="">
+            <!-- This is a bit nasty, but it basically says be a column first, and on larger screens be a spaced out row -->
+            <div class="header">
+                <div class="container">
+                        <div id="frontbar">
+
+                        </div>
+                        <div id="logoline">
+                            <a href="/" class="">
+                                <img src="/img/logo/dsgroup.png"
+                                     srcset="/img/logo/dsgroup.png 2x"
+                                     alt="dsdsv_logo" id="logo">
+                            </a>
+                        </div>
+                        <div id="menuline">
+                            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                                <div class="navbar-collapse" id="navbarNav">
+                                    <ul class="navbar-nav justify-content-end">
+
+                                        
+                                        
+                    
+                                            
+                    
+                                            
+                                            
+                                            
+                                            
+                    
+                                            <li class="nav-item">
+                                                <a class="nav-link "
+                                                href="/">
+                                                    Home
+                                                </a>
+                                            </li>
+                    
+                                        
+                    
+                                            
+                    
+                                            
+                                            
+                                            
+                                            
+                    
+                                            <li class="nav-item">
+                                                <a class="nav-link "
+                                                href="/people.html">
+                                                    People
+                                                </a>
+                                            </li>
+                    
+                                        
+                    
+                                            
+                    
+                                            
+                                            
+                                            
+                                            
+                    
+                                            <li class="nav-item">
+                                                <a class="nav-link "
+                                                href="/research.html">
+                                                    Research
+                                                </a>
+                                            </li>
+                    
+                                        
+                    
+                                            
+                    
+                                            
+                                            
+                                            
+                                            
+                    
+                                            <li class="nav-item">
+                                                <a class="nav-link active"
+                                                href="/projects.html">
+                                                    Projects
+                                                </a>
+                                            </li>
+                    
+                                        
+                    
+                                            
+                    
+                                            
+                                            
+                                            
+                                            
+                    
+                                            <li class="nav-item">
+                                                <a class="nav-link "
+                                                href="/seminars.html">
+                                                    Data Science Seminars
+                                                </a>
+                                            </li>
+                    
+                                        
+                    
+                                            
+                    
+                                            
+                                            
+                                            
+                                            
+                    
+                                            <li class="nav-item">
+                                                <a class="nav-link "
+                                                href="/publications.html">
+                                                    Publications
+                                                </a>
+                                            </li>
+                    
+                                        
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                
+                
+            </div>
+
+            
+            <div class="bannerarea">
+                <div class="gridtile">
+                <p> Covid-Sim</p>
+                </div>
+            </div>
+                <!-- <h1></h1> -->
+            
+
+            
+            
+
+            <div class="container">
+            <h2 id="covid-sim">Covid-Sim</h2>
+
+<p><strong>Project leader - main PI</strong>:</p>
+<ul>
+  <li>Tobias Fasth, Researcher, Swedish Health Agency</li>
+</ul>
+
+<p><strong>Co-PIs</strong></p>
+<ul>
+  <li>Aron Larson, Associate Professor, DSV</li>
+  <li>Panagiotis Papapetrou, Professor, DSV</li>
+</ul>
+
+<p><strong>Researchers</strong></p>
+<ul>
+  <li>Maria Bampa, PhD student, DSV, SU</li>
+</ul>
+
+<p><strong>Project period:</strong> 2020-09-01 to 2021-06-31</p>
+
+<p><strong>Funding source:</strong> Vinnova</p>
+
+<p><strong>Budget:</strong> 1M SEK</p>
+
+<p><br /></p>
+
+<h3 id="description">Description</h3>
+<p>Epidemics of infectious diseases are triggered by factors such as changes in the ecology of the host population, genetic changes in a well-established virus, or a novel pathogen. The result is that host immunity towards the pathogen is reduced below the endemic equilibrium leading to exceeding the transmission threshold of the pathogen. One such example is Covid-19. This project is a collaborative effort between the Public Health Agency of Sweden, Folkhälsomyndigheten (FOHM) and Stockholm University (SU) for formulating new strategies for effective spread prevention and mitigation of pandemics, with emphasis on Covid-19. Our goal is to develop novel methods and tools by coupling epidemic compartmental models with deep reinforcement learning for optimally adaptive epidemic control policies. 
+</p>
+<p><br /></p>
+
+<p><br /></p>
+
+<h2 id="results">Results</h2>
+
+<div class="publications">
+    <table class="table">
+        <tbody>
+        <tr>
+          <ol class="bibliography"><li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://link.springer.com/chapter/10.1007/978-3-031-09342-5_18">EpidRLearn: Learning Intervention Strategies for Epidemics with Reinforcement Learning</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  <a href="https://www.linkedin.com/in/maria-bampa/" target="_blank">Bampa, Maria</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Fasth, Tobias,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  <a href="https://sites.google.com/view/sindri-magnusson/home" target="_blank">Magnússon, Sindri</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and <a href="http://people.dsv.su.se/~panagiotis/" target="_blank">Papapetrou, Panagiotis</a>
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        		<em>In Artificial Intelligence in Medicine</em>,
+		
+      	
+        	2022
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li></ol>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+
+
+<h2> People </h2>
+<section class="people project-people">
+    
+        
+        
+
+
+
+
+
+
+
+    <div class="person person-with-image row">
+        <div class="col-auto">
+            
+
+
+
+
+
+
+
+    <a href="http://people.dsv.su.se/~panagiotis/"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile"
+             alt="Panagiotis Papapetrou, Professor"
+             title="Panagiotis Papapetrou, Professor"
+             src="/img/people/panagiotis_papapetrou-266x300.jpg" />
+    
+    </a>
+
+
+        </div>
+        <div class="col pl-0">
+            <h6 class="person-name"> 
+        <a href="http://people.dsv.su.se/~panagiotis/"> Panagiotis Papapetrou, Professor </a>
+     </h6>
+            
+                <div class="bio">sequential and temporal data mining, explainability, healthcare applications</div>
+            
+        </div>
+    </div>
+
+
+    
+        
+        
+
+
+
+
+
+
+
+    <div class="person person-with-image row">
+        <div class="col-auto">
+            
+
+
+
+
+
+
+
+    <a href="https://www.linkedin.com/in/maria-bampa/"
+       style="text-decoration: none">
+        
+        <svg class="profile noprofile"
+             alt="Maria Bampa"
+             viewBox="0 0 100 100">
+            <title>Maria Bampa</title>
+            <circle r="50" cx="50" cy="50" />
+            <text x="50" y="50"
+                  font-size="70"
+                  text-anchor="middle" dominant-baseline="central" >
+                M
+            </text>
+        </svg>
+    
+    </a>
+
+
+        </div>
+        <div class="col pl-0">
+            <h6 class="person-name"> 
+        <a href="https://www.linkedin.com/in/maria-bampa/"> Maria Bampa </a>
+     </h6>
+            
+                <div class="bio">Ph.D. (2024)- Now at ECDC</div>
+            
+        </div>
+    </div>
+
+
+    
+</section>
+
+            </div>
+
+            <div class="footer container navbar-dark">
+                <span>
+                    <a href="https://dsv.su.se/">Department of Computer and Systems Sciences</a>
+                    of
+                    <a href="https://su.se/">Stockholm University</a>
+                </span>
+            </div>
+
+        </div> <!-- /container -->
+
+        <!-- Support retina images. -->
+        <script type="text/javascript"
+                src="/js/srcset-polyfill.js"></script>
+    </body>
+</html>

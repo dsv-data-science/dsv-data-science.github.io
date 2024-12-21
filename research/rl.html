@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Data Science Research Group: Reinforcement learning</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+              integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+              crossorigin="anonymous">
+        <link rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/css/group.css">
+        <link rel="stylesheet" href="/css/custom.css">
+        <link rel="stylesheet" href="/css/event.css">
+        
+        <!-- Compatibility with MathJax -->
+        <!-- LOAD MathJax for LaTeX formulae -->
+<script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function(){
+    document.querySelectorAll("script[type='math/tex']").forEach(function(el){
+        el.outerHTML = "\\(" + el.textContent + "\\)";
+    });
+    document.querySelectorAll("script[type='math/tex; mode=display']").forEach(function(el){
+        el.outerHTML = "\\[" + el.textContent + "\\]";
+    });
+    var script = document.createElement('script');
+    script.src = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js";
+    document.head.appendChild(script);
+    }, false);
+</script>
+
+        <!-- Folder with favicon -->
+        <!-- Generated from favicon-generator.org -->
+<link rel="apple-touch-icon" sizes="57x57" href="/img/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/img/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/img/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+<link rel="manifest" href="/img/favicon/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/img/favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+    </head>
+    <body>
+        <div class="">
+            <!-- This is a bit nasty, but it basically says be a column first, and on larger screens be a spaced out row -->
+            <div class="header">
+                <div class="container">
+                        <div id="frontbar">
+
+                        </div>
+                        <div id="logoline">
+                            <a href="/" class="">
+                                <img src="/img/logo/dsgroup.png"
+                                     srcset="/img/logo/dsgroup.png 2x"
+                                     alt="dsdsv_logo" id="logo">
+                            </a>
+                        </div>
+                        <div id="menuline">
+                            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                                <div class="navbar-collapse" id="navbarNav">
+                                    <ul class="navbar-nav justify-content-end">
+
+                                        
+                                        
+                    
+                                            
+                    
+                                            
+                                            
+                                            
+                                            
+                    
+                                            <li class="nav-item">
+                                                <a class="nav-link "
+                                                href="/">
+                                                    Home
+                                                </a>
+                                            </li>
+                    
+                                        
+                    
+                                            
+                    
+                                            
+                                            
+                                            
+                                            
+                    
+                                            <li class="nav-item">
+                                                <a class="nav-link "
+                                                href="/people.html">
+                                                    People
+                                                </a>
+                                            </li>
+                    
+                                        
+                    
+                                            
+                    
+                                            
+                                            
+                                            
+                                            
+                    
+                                            <li class="nav-item">
+                                                <a class="nav-link active"
+                                                href="/research.html">
+                                                    Research
+                                                </a>
+                                            </li>
+                    
+                                        
+                    
+                                            
+                    
+                                            
+                                            
+                                            
+                                            
+                    
+                                            <li class="nav-item">
+                                                <a class="nav-link "
+                                                href="/projects.html">
+                                                    Projects
+                                                </a>
+                                            </li>
+                    
+                                        
+                    
+                                            
+                    
+                                            
+                                            
+                                            
+                                            
+                    
+                                            <li class="nav-item">
+                                                <a class="nav-link "
+                                                href="/seminars.html">
+                                                    Data Science Seminars
+                                                </a>
+                                            </li>
+                    
+                                        
+                    
+                                            
+                    
+                                            
+                                            
+                                            
+                                            
+                    
+                                            <li class="nav-item">
+                                                <a class="nav-link "
+                                                href="/publications.html">
+                                                    Publications
+                                                </a>
+                                            </li>
+                    
+                                        
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                
+                
+            </div>
+
+            
+            <div class="bannerarea">
+                <div class="gridtile">
+                <p> Reinforcement learning</p>
+                </div>
+            </div>
+                <!-- <h1></h1> -->
+            
+
+            
+            
+
+            <div class="container">
+            <p><br /></p>
+
+<h2 id="description">Description</h2>
+
+<p>Reinforcement Learning is the sub-field of AI that deals with how an software agent learns optimal decisions from data and by exploration.  Our focus is on algorithm development and theory for advancing reinforcement learning to healthcare and social science. In particular, we focus on:</p>
+<ol>
+  <li>Constrained exploration, e.g., in terms of fairness, safety</li>
+  <li>Reinforcement learning from logged data and off-policy methods</li>
+  <li>Economic and resource efficient reinforcement learning.</li>
+</ol>
+
+<p><br /></p>
+
+<h2 id="latest-publications">Latest publications</h2>
+
+<div class="publications">
+    <table class="table">
+        <tbody>
+        <tr>
+          <ol class="bibliography"><li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://ieeexplore.ieee.org/document/10283692">Intelligent Processing of Data Streams on the Edge Using Reinforcement Learning</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  <a href="https://www.su.se/english/profiles/shva2279" target="_blank">Vaishnav, Shubham</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and <a href="https://sites.google.com/view/sindri-magnusson/home" target="_blank">Magnússon, Sindri</a>
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        		<em>In IEEE ICC 2023 Workshop on Scalable and Trustworthy AI for 6G Wireless Networks (6GSTRAIN)</em>,
+		
+      	
+        	2023
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://link.springer.com/chapter/10.1007/978-3-031-33469-6_3">Comparing NARS and Reinforcement Learning: An Analysis of ONA and Q-Learning Algorithms</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  <a href="https://www.su.se/english/profiles/albe0724" target="_blank">Beikmohammadi, Ali</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and <a href="https://sites.google.com/view/sindri-magnusson/home" target="_blank">Magnússon, Sindri</a>
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        		<em>In International Conference on Artificial General Intelligence</em>,
+		
+      	
+        	2023
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://link.springer.com/chapter/10.1007/978-3-031-30047-9_25">Explaining Black Box Reinforcement Learning Agents Through Counterfactual Policies</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  <a href="" target="_blank">Movin, Maria</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Junior, Guilherme Dinis,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  <a href="https://users.ics.aalto.fi/jhollmen/" target="_blank">Hollmén, Jaakko</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and <a href="http://people.dsv.su.se/~panagiotis/" target="_blank">Papapetrou, Panagiotis</a>
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        		<em>In Advances in Intelligent Data Analysis XXI: 21st International Symposium on Intelligent Data Analysis, IDA 2023, Louvain-la-Neuve, Belgium, April 12–14, 2023, Proceedings</em>,
+		
+      	
+        	2023
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://link.springer.com/chapter/10.1007/978-3-031-18840-4_9">Policy Evaluation with Delayed, Aggregated Anonymous Feedback</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  <a href="https://www.su.se/english/profiles/guch4839" target="_blank">Dinis Jr, Guilherme</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  <a href="https://sites.google.com/view/sindri-magnusson/home" target="_blank">Magnússon, Sindri</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and <a href="https://users.ics.aalto.fi/jhollmen/" target="_blank">Hollmén, Jaakko</a>
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        		<em>In International Conference on Discovery Science</em>,
+		
+      	
+        	2022
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://link.springer.com/chapter/10.1007/978-3-031-09342-5_18">EpidRLearn: Learning Intervention Strategies for Epidemics with Reinforcement Learning</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  <a href="https://www.linkedin.com/in/maria-bampa/" target="_blank">Bampa, Maria</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Fasth, Tobias,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  <a href="https://sites.google.com/view/sindri-magnusson/home" target="_blank">Magnússon, Sindri</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and <a href="http://people.dsv.su.se/~panagiotis/" target="_blank">Papapetrou, Panagiotis</a>
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        		<em>In Artificial Intelligence in Medicine</em>,
+		
+      	
+        	2022
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li></ol>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<p><br /></p>
+<h2 id="related-projects">Related Projects</h2>
+
+<ul>
+  <li><a href="/projects/covid.html">Covid-Sim</a></li>
+</ul>
+
+
+<h2> People </h2>
+<section class="people project-people">
+    
+        
+        
+
+
+
+
+
+
+
+    <div class="person person-with-image row">
+        <div class="col-auto">
+            
+
+
+
+
+
+
+
+    <a href="https://sites.google.com/view/sindri-magnusson/home"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile"
+             alt="Sindri Magnússon, Associate Professor"
+             title="Sindri Magnússon, Associate Professor"
+             src="/img/people/sm.jpg" />
+    
+    </a>
+
+
+        </div>
+        <div class="col pl-0">
+            <h6 class="person-name"> 
+        <a href="https://sites.google.com/view/sindri-magnusson/home"> Sindri Magnússon, Associate Professor </a>
+     </h6>
+            
+                <div class="bio">distributed optimization, reinforcement learning, federated learning, IoT/CPS</div>
+            
+        </div>
+    </div>
+
+
+    
+        
+        
+
+
+
+
+
+
+
+    <div class="person person-with-image row">
+        <div class="col-auto">
+            
+
+
+
+
+
+
+
+    <a href="https://www.su.se/english/profiles/guch4839"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile"
+             alt="Guilherme Dinis Chaliane Jr"
+             title="Guilherme Dinis Chaliane Jr"
+             src="/img/people/guilherme.jpg" />
+    
+    </a>
+
+
+        </div>
+        <div class="col pl-0">
+            <h6 class="person-name"> 
+        <a href="https://www.su.se/english/profiles/guch4839"> Guilherme Dinis Chaliane Jr </a>
+     </h6>
+            
+                <div class="bio">learning dynamic multi-agent environments (Spotify)</div>
+            
+        </div>
+    </div>
+
+
+    
+        
+        
+
+
+
+
+
+
+
+    <div class="person person-with-image row">
+        <div class="col-auto">
+            
+
+
+
+
+
+
+
+    <a href=""
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile"
+             alt="Jonathan Piller"
+             title="Jonathan Piller"
+             src="/img/people/piller.jpeg" />
+    
+    </a>
+
+
+        </div>
+        <div class="col pl-0">
+            <h6 class="person-name"> 
+        <a href=""> Jonathan Piller </a>
+     </h6>
+            
+                <div class="bio">dynamic complex digital networks (Spotify)</div>
+            
+        </div>
+    </div>
+
+
+    
+        
+        
+
+
+
+
+
+
+
+    <div class="person person-with-image row">
+        <div class="col-auto">
+            
+
+
+
+
+
+
+
+    <a href="https://www.su.se/english/profiles/albe0724"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile"
+             alt="Ali Beikmohammadi"
+             title="Ali Beikmohammadi"
+             src="/img/people/ali.png" />
+    
+    </a>
+
+
+        </div>
+        <div class="col pl-0">
+            <h6 class="person-name"> 
+        <a href="https://www.su.se/english/profiles/albe0724"> Ali Beikmohammadi </a>
+     </h6>
+            
+                <div class="bio">efficient federated learning in complex networks</div>
+            
+        </div>
+    </div>
+
+
+    
+        
+        
+
+
+
+
+
+
+
+    <div class="person person-with-image row">
+        <div class="col-auto">
+            
+
+
+
+
+
+
+
+    <a href="https://www.su.se/english/profiles/shva2279"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile"
+             alt="Shubham Vaishnav"
+             title="Shubham Vaishnav"
+             src="/img/people/shubham.jpeg" />
+    
+    </a>
+
+
+        </div>
+        <div class="col pl-0">
+            <h6 class="person-name"> 
+        <a href="https://www.su.se/english/profiles/shva2279"> Shubham Vaishnav </a>
+     </h6>
+            
+                <div class="bio">reinforcement learning, federated learning, fog and edge networks optimization</div>
+            
+        </div>
+    </div>
+
+
+    
+        
+        
+
+
+
+
+
+
+
+    <div class="person person-with-image row">
+        <div class="col-auto">
+            
+
+
+
+
+
+
+
+    <a href="https://www.su.se/english/profiles/moam9597-1.672422"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile"
+             alt="Mohsen Amiri"
+             title="Mohsen Amiri"
+             src="/img/people/mohsen.png" />
+    
+    </a>
+
+
+        </div>
+        <div class="col pl-0">
+            <h6 class="person-name"> 
+        <a href="https://www.su.se/english/profiles/moam9597-1.672422"> Mohsen Amiri </a>
+     </h6>
+            
+                <div class="bio">reinforcement learning, federated learning, distributed optimization</div>
+            
+        </div>
+    </div>
+
+
+    
+</section>
+
+            </div>
+
+            <div class="footer container navbar-dark">
+                <span>
+                    <a href="https://dsv.su.se/">Department of Computer and Systems Sciences</a>
+                    of
+                    <a href="https://su.se/">Stockholm University</a>
+                </span>
+            </div>
+
+        </div> <!-- /container -->
+
+        <!-- Support retina images. -->
+        <script type="text/javascript"
+                src="/js/srcset-polyfill.js"></script>
+    </body>
+</html>

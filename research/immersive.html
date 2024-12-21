@@ -1,0 +1,1126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Data Science Research Group: Time series analysis for behavioral modeling</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+              integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+              crossorigin="anonymous">
+        <link rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/css/group.css">
+        <link rel="stylesheet" href="/css/custom.css">
+        <link rel="stylesheet" href="/css/event.css">
+        
+        <!-- Compatibility with MathJax -->
+        <!-- LOAD MathJax for LaTeX formulae -->
+<script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function(){
+    document.querySelectorAll("script[type='math/tex']").forEach(function(el){
+        el.outerHTML = "\\(" + el.textContent + "\\)";
+    });
+    document.querySelectorAll("script[type='math/tex; mode=display']").forEach(function(el){
+        el.outerHTML = "\\[" + el.textContent + "\\]";
+    });
+    var script = document.createElement('script');
+    script.src = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js";
+    document.head.appendChild(script);
+    }, false);
+</script>
+
+        <!-- Folder with favicon -->
+        <!-- Generated from favicon-generator.org -->
+<link rel="apple-touch-icon" sizes="57x57" href="/img/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/img/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/img/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+<link rel="manifest" href="/img/favicon/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/img/favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+    </head>
+    <body>
+        <div class="">
+            <!-- This is a bit nasty, but it basically says be a column first, and on larger screens be a spaced out row -->
+            <div class="header">
+                <div class="container">
+                        <div id="frontbar">
+
+                        </div>
+                        <div id="logoline">
+                            <a href="/" class="">
+                                <img src="/img/logo/dsgroup.png"
+                                     srcset="/img/logo/dsgroup.png 2x"
+                                     alt="dsdsv_logo" id="logo">
+                            </a>
+                        </div>
+                        <div id="menuline">
+                            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                                <div class="navbar-collapse" id="navbarNav">
+                                    <ul class="navbar-nav justify-content-end">
+
+                                        
+                                        
+                    
+                                            
+                    
+                                            
+                                            
+                                            
+                                            
+                    
+                                            <li class="nav-item">
+                                                <a class="nav-link "
+                                                href="/">
+                                                    Home
+                                                </a>
+                                            </li>
+                    
+                                        
+                    
+                                            
+                    
+                                            
+                                            
+                                            
+                                            
+                    
+                                            <li class="nav-item">
+                                                <a class="nav-link "
+                                                href="/people.html">
+                                                    People
+                                                </a>
+                                            </li>
+                    
+                                        
+                    
+                                            
+                    
+                                            
+                                            
+                                            
+                                            
+                    
+                                            <li class="nav-item">
+                                                <a class="nav-link active"
+                                                href="/research.html">
+                                                    Research
+                                                </a>
+                                            </li>
+                    
+                                        
+                    
+                                            
+                    
+                                            
+                                            
+                                            
+                                            
+                    
+                                            <li class="nav-item">
+                                                <a class="nav-link "
+                                                href="/projects.html">
+                                                    Projects
+                                                </a>
+                                            </li>
+                    
+                                        
+                    
+                                            
+                    
+                                            
+                                            
+                                            
+                                            
+                    
+                                            <li class="nav-item">
+                                                <a class="nav-link "
+                                                href="/seminars.html">
+                                                    Data Science Seminars
+                                                </a>
+                                            </li>
+                    
+                                        
+                    
+                                            
+                    
+                                            
+                                            
+                                            
+                                            
+                    
+                                            <li class="nav-item">
+                                                <a class="nav-link "
+                                                href="/publications.html">
+                                                    Publications
+                                                </a>
+                                            </li>
+                    
+                                        
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                
+                
+            </div>
+
+            
+            <div class="bannerarea">
+                <div class="gridtile">
+                <p> Time series analysis for behavioral modeling</p>
+                </div>
+            </div>
+                <!-- <h1></h1> -->
+            
+
+            
+            
+
+            <div class="container">
+            <p><br /></p>
+
+<h2 id="description">Description</h2>
+
+<p>This research area focuses on the design, application and evaluation of machine learning methods to create behavioral models of users in digital environments.</p>
+
+<p>Our emphasis is the analysis of physiological time-series, motion trajectories, and game-play interactions within virtual reality (VR) and mixed reality (MR) systems, aiming to build models that perform real-time clustering and classification of subjective treats like user skill level, emotional states, or mental workload. We focus on XR technologies as a visualization mediums that provide 3D interactive immersive experience with prospective applications on healthcare (physical and mental rehab), professional training, education, or marketing.</p>
+
+<ul>
+  <li>How do immersive technologies enable new pathways for understanding the context in which a user interacts with a system?</li>
+  <li>Can the user’s behavioral and physiological data improve the accuracy of ML models estimating human factors?</li>
+  <li>What are the challenges and risks of designing personalized systems that transcend current setups with a 2D-based display, touchscreen, keyboard, and mouse?</li>
+</ul>
+
+<p><img src="/img/areas/immersive/loop-vr.png" alt="immersive" /></p>
+
+<h2 id="frameworks">Frameworks</h2>
+
+<ul>
+  <li>
+    <p>Luis Quintero’s PhD thesis in the topic is <a href="https://urn.kb.se/resolve?urn=urn:nbn:se:su:diva-222210">available online in this link</a></p>
+  </li>
+  <li>
+    <p><a href="https://github.com/luiqtr/exciteometer" target="_blank">Excite-O-Meter</a> - Easy Integration of behavioral time-series in digital environments. See <a href="https://doi.org/10.1109/ISMAR52148.2021.00052">paper here</a></p>
+  </li>
+</ul>
+
+<p><img src="/img/areas/immersive/eom.png" alt="general" width="50%" /></p>
+
+<ul>
+  <li><a href="https://github.com/luisqtr/kinemats" target="_blank">Kinematic</a> - Python library to analyze and classify head movement trajectories. See <a href="https://doi.org/10.1109/AIVR52153.2021.00015">paper here</a></li>
+</ul>
+
+<p><img src="/img/areas/immersive/head-mov.jpg" alt="general" width="50%" /></p>
+
+<p><br /></p>
+
+<p><br /></p>
+
+<h2 id="latest-publications">Latest publications</h2>
+
+<div class="publications">
+    <table class="table">
+        <tbody>
+        <tr>
+          <ol class="bibliography"><li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://ieeexplore.ieee.org/abstract/document/10086610?casa_token=tmrj92KrlmkAAAAA:B1Q10x33A34LQ4XXsMyEztf23hZMG6D7rXICS1d_g71VOBxOAV4v6I51bLf36VlYgYW9SB1S2B0y">Personalized Feature Importance Ranking for Affect Recognition From Behavioral and Physiological Data</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  <a href="https://luisqtr.com/" target="_blank">Quintero, Luis</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Fors, Uno,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and <a href="http://people.dsv.su.se/~panagiotis/" target="_blank">Papapetrou, Panagiotis</a>
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        	<em>IEEE Transactions on Games</em>,
+      	
+      	
+        	2023
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://ieeexplore.ieee.org/abstract/document/9757515">Excite-O-Meter: an Open-Source Unity Plugin to Analyze Heart Activity and Movement Trajectories in Custom VR Environments</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  <a href="https://luisqtr.com/" target="_blank">Quintero, Luis</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  <a href="http://people.dsv.su.se/~panagiotis/" target="_blank">Papapetrou, Panagiotis</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Muñoz, John E.,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Mooij, Jeroen,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and Gaebler, Michael
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        		<em>In 2022 IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW)</em>,
+		
+      	
+        	2022
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://doi.org/10.1145/3505284.3532971">CS:NO – an Extended Reality Experience for Cyber Security Education</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  Bernsland, Melina,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Moshfegh, Arvin,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Lindén, Kevin,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Bajin, Stefan,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  <a href="https://luisqtr.com/" target="_blank">Quintero, Luis</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Solsona Belenguer, Jordi,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and Rostami, Asreen
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        		<em>In ACM International Conference on Interactive Media Experiences</em>,
+		
+      	
+        	2022
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://doi.org/10.1109/AIVR52153.2021.00015">Effective Classification of Head Motion Trajectories in Virtual Reality using Time-Series Methods</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  <a href="https://luisqtr.com/" target="_blank">Quintero, Luis</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  <a href="http://people.dsv.su.se/~panagiotis/" target="_blank">Papapetrou, Panagiotis</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  <a href="https://users.ics.aalto.fi/jhollmen/" target="_blank">Hollmén, Jaakko</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and Fors, Uno
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        		<em>In IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR)</em>,
+		
+      	
+        	2021
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://doi.org/10.1109/ISMAR52148.2021.00052">Excite-O-Meter: Software Framework to Integrate Heart Activity in Virtual Reality</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  <a href="https://luisqtr.com/" target="_blank">Quintero, Luis</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Muñoz, John E,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Mooji, Jeroen,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and Gaebler, Michael
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        		<em>In IEEE International Symposium on Mixed and Augmented Reality (ISMAR)</em>,
+		
+      	
+        	2021
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://doi.org/10.3389/fpsyg.2020.00683">A Psychophysiological Model of Firearms Training in Police Officers : A Virtual Reality Experiment for Biocybernetic Adaptation</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  Muñoz, John E,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  <a href="https://luisqtr.com/" target="_blank">Quintero, Luis</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Stephens, Chad L,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and Pope, Alan T
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        	<em>Frontiers in Psychology</em>,
+      	
+      	
+        	2020
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://doi.org/10.1145/3389189.3394093">Understanding Research Methodologies when Combining Virtual Reality Technology with Machine Learning Techniques</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  Quintero, Luis
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        		<em>In International Conference on PErvasive Technologies Related to Assistive Environments (PETRA)</em>,
+		
+      	
+        	2020
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://doi.org/10.1109/ICDMW.2019.00123">Implementation of Mobile-Based Real-Time Heart Rate Variability Detection for Personalized Healthcare</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  <a href="https://luisqtr.com/" target="_blank">Quintero, Luis</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  <a href="http://people.dsv.su.se/~panagiotis/" target="_blank">Papapetrou, Panagiotis</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Muñoz, John E.,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and Fors, Uno
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        		<em>In International Conference on Data Mining Workshops (ICDMW)</em>,
+		
+      	
+        	2019
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://doi.org/10.1007/978-3-030-27950-9_12">Integrating Biocybernetic Adaptation in Virtual Reality Training Concentration and Calmness in Target Shooting</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  Muñoz, John E,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  Pope, Alan T,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and <a href="https://luisqtr.com/" target="_blank">Quintero, Luis</a>
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        	<em>Physiological Computing Systems</em>,
+      	
+      	
+        	2019
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li>
+<li><tr>
+	<td>
+		<!-- Empty first column, where the year of publication is put -->
+	</td>
+
+	<td class="publication">
+		<span class="pubtitle">
+			
+			<a href="https://doi.org/10.1109/aivr46125.2019.00027">Open-Source Physiological Computing Framework using Heart Rate Variability in Mobile Virtual Reality Applications</a>
+			
+		</span>
+		<br />
+		<span class="authors" style="font-size:90%">
+			
+			  
+				
+				  
+					
+					  <a href="https://luisqtr.com/" target="_blank">Quintero, Luis</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  <a href="http://people.dsv.su.se/~panagiotis/" target="_blank">Papapetrou, Panagiotis</a>,
+					
+				  
+				
+			  
+			
+			  
+				
+				  
+					
+					  and Muñoz, John E
+					
+				  
+				
+			  
+			
+		</span>
+		<br />
+		<span style="font-size:90%">
+		
+        		<em>In International Conference on Artificial Intelligence and Virtual Reality (AIVR)</em>,
+		
+      	
+        	2019
+		
+		</span>
+
+		
+		<span class="links">
+			
+		</span>
+		
+	</td>
+
+</tr>
+</li></ol>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<p><br /></p>
+
+<p><!-- THE PROJECT BELOW IS A COMMENT, IT IS NOT INCLUDED!! --></p>
+
+<h2 id="projects">Projects</h2>
+
+<ul>
+  <li><a href="/projects/wallenberg.html">WALLENBERG</a></li>
+  <li><a href="/projects/extremum.html">EXTREMUM</a></li>
+</ul>
+
+<p><br /></p>
+
+
+<h2> People </h2>
+<section class="people project-people">
+    
+        
+        
+
+
+
+
+
+
+
+    <div class="person person-with-image row">
+        <div class="col-auto">
+            
+
+
+
+
+
+
+
+    <a href="https://luisqtr.com/"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile"
+             alt="Luis Quintero, Associate Senior Lecturer"
+             title="Luis Quintero, Associate Senior Lecturer"
+             src="/img/people/lq.jpg" />
+    
+    </a>
+
+
+        </div>
+        <div class="col pl-0">
+            <h6 class="person-name"> 
+        <a href="https://luisqtr.com/"> Luis Quintero, Associate Senior Lecturer </a>
+     </h6>
+            
+                <div class="bio">user modelling from time series in digital environments</div>
+            
+        </div>
+    </div>
+
+
+    
+        
+        
+
+
+
+
+
+
+
+    <div class="person person-with-image row">
+        <div class="col-auto">
+            
+
+
+
+
+
+
+
+    <a href="http://people.dsv.su.se/~panagiotis/"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile"
+             alt="Panagiotis Papapetrou, Professor"
+             title="Panagiotis Papapetrou, Professor"
+             src="/img/people/panagiotis_papapetrou-266x300.jpg" />
+    
+    </a>
+
+
+        </div>
+        <div class="col pl-0">
+            <h6 class="person-name"> 
+        <a href="http://people.dsv.su.se/~panagiotis/"> Panagiotis Papapetrou, Professor </a>
+     </h6>
+            
+                <div class="bio">sequential and temporal data mining, explainability, healthcare applications</div>
+            
+        </div>
+    </div>
+
+
+    
+        
+        
+
+
+
+
+
+
+
+    <div class="person person-with-image row">
+        <div class="col-auto">
+            
+
+
+
+
+
+
+
+    <a href="https://users.ics.aalto.fi/jhollmen/"
+       style="text-decoration: none">
+        
+        <img class="rounded-circle profile"
+             alt="Jaakko Hollmén, Senior Lecturer"
+             title="Jaakko Hollmén, Senior Lecturer"
+             src="/img/people/Hollmen.png" />
+    
+    </a>
+
+
+        </div>
+        <div class="col pl-0">
+            <h6 class="person-name"> 
+        <a href="https://users.ics.aalto.fi/jhollmen/"> Jaakko Hollmén, Senior Lecturer </a>
+     </h6>
+            
+                <div class="bio">probabilistic modeling, environmental sustainability, healthcare applications</div>
+            
+        </div>
+    </div>
+
+
+    
+</section>
+
+            </div>
+
+            <div class="footer container navbar-dark">
+                <span>
+                    <a href="https://dsv.su.se/">Department of Computer and Systems Sciences</a>
+                    of
+                    <a href="https://su.se/">Stockholm University</a>
+                </span>
+            </div>
+
+        </div> <!-- /container -->
+
+        <!-- Support retina images. -->
+        <script type="text/javascript"
+                src="/js/srcset-polyfill.js"></script>
+    </body>
+</html>
