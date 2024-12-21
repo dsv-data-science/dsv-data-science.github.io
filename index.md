@@ -62,22 +62,7 @@ notitle: true
    </div>
 </div>
 
-<h2>Projects</h2>  
-    <p>  Our group is involved in several national and international projects. A selection of our ongoing projects can be found below. For a comprehensive list of our projects please visit our <a href="projects.html">projects page</a>.
-    </p>
-   
-<div class="card-columns">
-        {% comment %}
-        Sort the projects by date, putting those without dates last
-        {% endcomment %}
-        {% assign projects_by_date = site.projects | sort: 'last-updated', 'first' %}
-        {% assign projects_by_date = projects_by_date | reverse %}
-        {% for p in projects_by_date %}
-            {% if p.highlight == "priority" %}
-                {% include project-card.html project=p %}
-            {% endif %}
-        {% endfor %}
-    </div>
+
 
 </div>
 
@@ -99,18 +84,18 @@ notitle: true
     </div>
     <div id="collaborators">
     <h2>Collaborators</h2>
-    <p><img src="img/logo/folkhalsomyndigheten-share.png" width ="100%"></p>
-    <br>
-    <p><img src="img/logo/AF-logga1.png" width="100%"  style="horizontal-align:middle"></p>
-    <br>
-    <p><img src="img/logo/HM-group.jpg" width ="100%" style="horizontal-align:middle"></p>
-    <p><img src="https://www.coop.se/contentassets/a2726990fdc948efbb5fb5e917bb2dec/coop_topbild_700x260.png" width ="100%" style="horizontal-align:middle"></p>    
-    <br>
     <p><img src="https://www.scania.com/content/dam/scanianoe/market/master/homepage/scania-wordmark.svg" width ="100%" style="horizontal-align:middle"></p>    
     <br>
     <p><img src="img/logo/sp_logo.png" width ="100%" style="horizontal-align:middle"></p>
     <br>
-    <p>SPV (Swedish Pensions Agency)</p>
+    <p><img src="img/logo/getinge.jpg" width ="100%" style="horizontal-align:middle"></p>
+    <br>
+    <p><img src="img/logo/Hitachi.jpg" width ="100%" style="horizontal-align:middle"></p>
+    <br>    
+    <p><img src="img/logo/karolinska.jpeg" width ="100%" style="horizontal-align:middle"></p>
+    <br>
+    <p><img src="img/logo/region_Stockholm.jpeg" width ="100%" style="horizontal-align:middle"></p>
+    <br>
     </div>
 </div>
 

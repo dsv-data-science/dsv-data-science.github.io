@@ -7,12 +7,8 @@ description: |
 
 people:
   - Papapetrou
-  - Asker
   - Hollmén
   - Miliou
-  - Taheri
-  - Bampa
-  - Wang
   - Mondrejevski
   - Rugolon
 

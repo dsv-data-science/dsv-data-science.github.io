@@ -10,7 +10,6 @@ people:
   - Hollmén
   - Miliou
   - Lee
-  - Wang
   - Rugolon
   - Kreuzer
 

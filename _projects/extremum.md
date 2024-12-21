@@ -1,6 +1,7 @@
 ---
 title: EXTREMUM
-highlight: priority
+status: inactive
+#highlight: priority
 description: |
   Explainable and Ethical Machine Learning for Knowledge Discovery from Medical Data Sources<br>
   <b>Digital Futures: 2020-2024</b>
@@ -14,7 +15,7 @@ people:
 
 layout: project
 image: "/img/projects/extremum/extremum.png"
-last-updated: 2022-10-28
+last-updated: 2024-12-06
 ---
 
 ## Ethical Machine Learning for Knowledge Discovery from Medical Data Sources (EXTREMUM)

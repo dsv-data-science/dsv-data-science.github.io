@@ -15,7 +15,7 @@ title: Data Science Seminars
 ![picture]{:style="width:220px; float:left; margin-right:7px; margin-top:7px;"}
 
 <!-- Edit link to image below -->
-[picture]: https://media.licdn.com/dms/image/C5603AQFRVQjygEbscw/profile-displayphoto-shrink_800_800/0/1516824054195?e=1704931200&v=beta&t=tW7xUf4HkK8BPSxfHJQn3xbSJ9LWgOW50RBlB_Z6CgM
+[picture]: /img/seminars/Toon-Calders.jpeg
 
 <br><br><br>
 

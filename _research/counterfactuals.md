@@ -11,7 +11,6 @@ people:
   - Samsten
   - Miliou
   - Kuratomi
-  - Wang
 
 layout: area
 image: /img/areas/counterfactual.png

@@ -7,13 +7,6 @@ Papapetrou:
     image: /img/people/panagiotis_papapetrou-266x300.jpg
     bio: sequential and temporal data mining, explainability, healthcare applications
 
-Asker:
-    display_name: "Lars Asker, Associate Professor"
-    webpage: "http://people.dsv.su.se/~asker/"
-    image: /img/people/lars.asker.jpg
-    role: faculty
-    bio: representation learning, healthcare applications
-
 Lindgren:
     display_name: "Tony Lindgren, Associate Professor"
     webpage: "https://people.dsv.su.se/~tony/"
@@ -27,13 +20,6 @@ Magnússon:
     role: faculty
     image: /img/people/sm.jpg
     bio: distributed optimization, reinforcement learning, federated learning, IoT/CPS
-
-Taheri:
-    display_name: "Golnaz Taheri, Senior Lecturer"
-    webpage: ""
-    image: /img/people/golnaz.jpg
-    role: faculty
-    bio: probabilistic and multimodal machine learning, machine learning for complex biological data
 
 Miliou:
     display_name: "Ioanna Miliou, Senior Lecturer"
@@ -60,19 +46,36 @@ Hollmén:
     role: faculty
     bio: probabilistic modeling, environmental sustainability, healthcare applications
 
+Quintero:
+    display_name: "Luis Quintero, Associate Senior Lecturer"
+    webpage: "https://luisqtr.com/"
+    image: /img/people/lq.jpg
+    role: faculty
+    bio: user modelling from time series in digital environments
+
+Lee:
+    display_name: "Zed Lee, Associate Senior Lecturer"
+    bio: mining temporal abstractions from complex data sources
+    image: /img/people/zed.png
+    role: faculty
+    webpage: "https://www.su.se/english/profiles/zele5930-1.448861"
+
 
 # Senior Researchers (senior)
 
-#...
+# ....
 
-# PhD Students (phd)
+# Staff (staff)
 
 Kuratomi:
-    display_name: "Alejandro Kuratomi"
+    display_name: "Alejandro Kuratomi, Teaching Assistant"
     webpage: "https://alku.blogs.dsv.su.se/"
     image: /img/people/alku.jpg
-    role: phd
+    role: staff
     bio: interpretable models with statistical guarantees
+
+
+# PhD Students (phd)
 
 Beikmohammadi:
     display_name: "Ali Beikmohammadi"
@@ -116,20 +119,6 @@ Mondrejevski:
     bio: federated learning (Getinge)
     webpage: https://www.su.se/english/profiles/lesc0230
 
-Quintero:
-    display_name: "Luis Quintero"
-    role: phd
-    webpage: "https://luisqtr.com/"
-    image: /img/people/lq.jpg
-    bio: user modelling from time series in digital environments
-
-Bampa:
-    display_name: "Maria Bampa"
-    role: phd
-    bio: learning from complex medical data sources
-    image: /img/people/mariabampa.jpg
-    webpage: "https://mariabampa.blogs.dsv.su.se"
-
 Movin:
     display_name: "Maria Movin"
     role: phd
@@ -143,6 +132,14 @@ Amiri:
     image: /img/people/mohsen.png
     bio: reinforcement learning, federated learning, distributed optimization
     webpage: "https://www.su.se/english/profiles/moam9597-1.672422" 
+
+Sobhani:
+    display_name: "Sayeh Sobhani"
+    role: phd
+    #image: /img/people/shubham.jpeg
+    bio: machine learning fairness
+    #webpage: https://www.su.se/english/profiles/shva2279
+
 
 Vaishnav:
     display_name: "Shubham Vaishnav"
@@ -164,20 +161,6 @@ Kharazian:
     image: /img/people/kharazian.png
     bio: data science, predictive maintenance
     webpage: https://www.su.se/english/profiles/zakh1874
-
-Lee:
-    display_name: "Zed Lee"
-    role: phd
-    bio: mining temporal abstractions from complex data sources
-    image: /img/people/zed.png
-    webpage: "https://www.su.se/english/profiles/zele5930-1.448861"
-
-Wang:
-    display_name: "Zhendong Wang"
-    role: phd
-    image: /img/people/zhendong.png
-    bio: explainable sequential models
-    webpage: "https://zhendong3wang.blogs.dsv.su.se"
 
 
 # RESEARCH ASSISTANTS (researcher)
@@ -222,12 +205,6 @@ Gionis:
     bio: Professor, KTH
     webpage: "https://www.kth.se/profile/argioni"
 
-Rojas:
-    display_name: "Cristian Rojas"
-    role: collab
-    bio: Assoc. Professor, KTH
-    webpage: "https://www.kth.se/profile/crro"
-
 Boström:
     display_name: "Henrik Boström"
     role: collab
@@ -244,14 +221,7 @@ Spiliopoulou:
     display_name: "Myra Spiliopoulou"
     role: collab
     bio: Professor, Univ. Magdeburg
-    webpage: "http://www.kmd.ovgu.de/Team/Academic+Staff/Myra+Spiliopoulou.html"
-
-Mochaourab:
-    display_name: "Rami Mochaourab"
-    role: collab
-    bio: Researcher, RISE
-    webpage: "https://www.ri.se/en/rami-mochaourab"
-    
+    webpage: "http://www.kmd.ovgu.de/Team/Academic+Staff/Myra+Spiliopoulou.html" 
     
 Greenstein:
     display_name: "Stanley Greenstein"
@@ -265,20 +235,20 @@ JohanssonUlf:
     role: collab
     bio: Professor, Jönköping Univ.
     webpage: "https://ju.se/personinfo.html?sign=johulf"
-
-#Kougia:
-#    display_name: "Vasiliki Kougia"
-#    role: collab
-#    bio: PhD Student, Univ. of Vienna
-#    webpage: "https://vasilikikou.github.io/"
-
-#Farazouli:
-#    display_name: "Alexandra Farazouli"
-#    role: collab
-#    bio: PhD Student, Dept. of Education, SU
-#    webpage: "https://www.su.se/profiles/alfa7899-1.543489"
     
 # ALUMNI (alumni)
+
+Wang:
+    display_name: "Zhendong Wang"
+    role: alumni
+    bio: "Ph.D. (2024)- Now at KTH"
+    webpage: "https://www.linkedin.com/in/zhendong3wang/"
+
+Bampa:
+    display_name: "Maria Bampa"
+    role: alumni
+    bio: "Ph.D. (2024)- Now at ECDC"
+    webpage: "https://www.linkedin.com/in/maria-bampa/"
 
 Rebane:
     display_name: "Jonathan Rebane"
@@ -325,5 +295,5 @@ Dudas:
 Karunaratne:
     display_name: "Thashmee Karunaratne"
     role: alumni
-    bio: "Ph.D. (2014)- Now at Stockholm Univ."
-    webpage: "https://www.su.se/profiles/tkaru-1.190260"
+    bio: "Ph.D. (2014)- Now at KTH"
+    webpage: "https://www.kth.se/profile/thashmee?l=sv"
