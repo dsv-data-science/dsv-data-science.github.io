@@ -21,13 +21,6 @@ Magnússon:
     image: /img/people/sm.jpg
     bio: distributed optimization, reinforcement learning, federated learning, IoT/CPS
 
-Miliou:
-    display_name: "Ioanna Miliou, Senior Lecturer"
-    webpage: "https://ioannamiliou.blogs.dsv.su.se"
-    image: /img/people/ioanna.jpg
-    role: faculty
-    bio: nowcasting and forecasting, data science for social good with applications in healthcare, epidemics and peace
-
 Samsten:
     display_name: "Isak Samsten, Senior Lecturer"
     webpage: "https://people.dsv.su.se/~isak-kar/"
@@ -39,12 +32,33 @@ Samsten:
 Karlsson: # This to link Isak's publications using previous name with his profile.
     webpage: "https://people.dsv.su.se/~isak-kar/"
 
-Hollmén:
-    display_name: "Jaakko Hollmén, Senior Lecturer"
-    webpage: "https://users.ics.aalto.fi/jhollmen/"
-    image: /img/people/Hollmen.png
+Miliou:
+    display_name: "Ioanna Miliou, Senior Lecturer"
+    webpage: "https://ioannamiliou.blogs.dsv.su.se"
+    image: /img/people/ioanna.jpg
     role: faculty
-    bio: probabilistic modeling, environmental sustainability, healthcare applications
+    bio: nowcasting and forecasting, data science for social good with applications in healthcare, epidemics and peace
+
+Kuratomi:
+    display_name: "Alejandro Kuratomi, Associate Senior Lecturer"
+    webpage: "https://alku.blogs.dsv.su.se/"
+    image: /img/people/alku.jpg
+    role: faculty
+    bio: interpretable models with statistical guarantees
+
+Matakos:
+    display_name: "Antonis Matakos, Associate Senior Lecturer"
+    webpage: "https://www.su.se/english/profiles/anma8515"
+    image: /img/people/antonism.jpg
+    role: faculty
+    bio: theoretically grounded machine learning, interpretability
+
+Uribarri:
+    display_name: "Gonzalo Urribari, Associate Senior Lecturer"
+    webpage: "https://www.su.se/english/profiles/gour8957"
+    image: /img/people/gonzalou.jpg
+    role: faculty
+    bio: time series modeling, healthcare applications
 
 Quintero:
     display_name: "Luis Quintero, Associate Senior Lecturer"
@@ -53,12 +67,19 @@ Quintero:
     role: faculty
     bio: user modelling from time series in digital environments
 
-Lee:
-    display_name: "Zed Lee, Associate Senior Lecturer"
-    bio: mining temporal abstractions from complex data sources
-    image: /img/people/zed.png
+Viswanathan:
+    display_name: "Venktesh Viswanathan, Associate Senior Lecturer"
+    webpage: "https://www.su.se/english/profiles/vevi4591"
+    image: /img/people/venkteshv.jpg
     role: faculty
-    webpage: "https://www.su.se/english/profiles/zele5930-1.448861"
+    bio: information retrieval, natural language processing
+
+Shi:
+    display_name: "Xiaodan Shi, Associate Senior Lecturer"
+    webpage: "https://www.su.se/english/profiles/xish2804"
+    image: /img/people/xiaodans.png
+    role: faculty
+    bio: deep learning, time series forecasting
 
 
 # Senior Researchers (senior)
@@ -66,14 +87,6 @@ Lee:
 # ....
 
 # Staff (staff)
-
-Kuratomi:
-    display_name: "Alejandro Kuratomi, Teaching Assistant"
-    webpage: "https://alku.blogs.dsv.su.se/"
-    image: /img/people/alku.jpg
-    role: staff
-    bio: interpretable models with statistical guarantees
-
 
 # PhD Students (phd)
 
@@ -83,6 +96,14 @@ Beikmohammadi:
     image: /img/people/ali.png
     bio: efficient federated learning in complex networks
     webpage: https://www.su.se/english/profiles/albe0724
+
+Heshmati:
+    display_name: "Alireza Heshmati"
+    role: phd
+    image: /img/people/alirezah.jpg
+    bio: deep learning, federated learning
+    webpage: https://www.su.se/english/profiles/alhe4164
+
 
 Rugolon:
     display_name: "Franco Rugolon"
@@ -98,12 +119,12 @@ Dinis Jr:
     bio: learning dynamic multi-agent environments (Spotify)
     webpage: https://www.su.se/english/profiles/guch4839
 
-Piller:
-    display_name: "Jonathan Piller"
-    role: phd
-    image: /img/people/piller.jpeg
-    bio: dynamic complex digital networks (Spotify)
-    webpage: ""
+# Piller:
+#     display_name: "Jonathan Piller"
+#     role: phd
+#     image: /img/people/piller.jpeg
+#     bio: dynamic complex digital networks (Spotify)
+#     webpage: ""
 
 Randl:
     display_name: "Korbinian Randl"
@@ -162,33 +183,30 @@ Kharazian:
     bio: data science, predictive maintenance
     webpage: https://www.su.se/english/profiles/zakh1874
 
-
 # RESEARCH ASSISTANTS (researcher)
 
-
-#Mahamud:
-#    display_name: "Mosleh Mahamud"
-#    role: researcher
+Lakes:
+   display_name: "Thanos Lakes"
+   role: researcher
 #    image: /img/people/mosh.jpeg
-#    bio: natural language processing, deep learning
+   bio: machine learning, explainability
 #    webpage: https://github.com/mosh98
 
-#Törnqvist:
-#    display_name: "Maximilian Törnqvist"
-#    role: researcher
-#    image: /img/people/tornqvist.jpeg
-#    bio: natural language processing
-#    webpage: https://www.su.se/profiles/mata7372
-
+Raikote:
+   display_name: "Pranav Raikote"
+   role: researcher
+#    image: /img/people/mosh.jpeg
+   bio: natural language processing, deep learning
+#    webpage: https://github.com/mosh98
 
 # AFFILIATED RESEARCHERS (affiliated)
 
-Pavlopoulos:
-    display_name: "John Pavlopoulos"
-    webpage: "https://www.su.se/english/profiles/iopa3492-1.453830"
-    image: /img/people/pavlopoulos.jpg
-    role: affiliated
-    bio: machine learning for natural language processing, applications to healthcare and education
+# Pavlopoulos:
+#     display_name: "John Pavlopoulos"
+#     webpage: "https://www.su.se/english/profiles/iopa3492-1.453830"
+#     image: /img/people/pavlopoulos.jpg
+#     role: affiliated
+#     bio: machine learning for natural language processing, applications to healthcare and education
 
 
 # EXTERNAL COLLABORATORS (collab)
@@ -247,8 +265,14 @@ Wang:
 Bampa:
     display_name: "Maria Bampa"
     role: alumni
-    bio: "Ph.D. (2024)- Now at ECDC"
+    bio: "Ph.D. (2024)- Now at ECDC/Technopolis"
     webpage: "https://www.linkedin.com/in/maria-bampa/"
+
+Lee:
+    display_name: "Zed Lee"
+    bio: "Ph.D. (2023) - Now at Hyundai Research"
+    role: alumni
+    webpage: ""
 
 Rebane:
     display_name: "Jonathan Rebane"

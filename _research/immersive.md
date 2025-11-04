@@ -1,5 +1,5 @@
 ---
-title:  Time series analysis for behavioral modeling
+title:  Time series analysis in interactive systems
 topic: applications
 
 description: |
@@ -7,7 +7,6 @@ description: |
 people:
   - Quintero
   - Papapetrou
-  - Hollmén
 
 layout: area
 image: /img/areas/immersive/loop-vr.png
